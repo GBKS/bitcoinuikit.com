@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+ _     _ _            _             _           _             
+| |__ (_) |_ ___ ___ (_)_ __     __| | ___  ___(_) __ _ _ __  
+| '_ \| | __/ __/ _ \| | '_ \   / _` |/ _ \/ __| |/ _` | '_ \ 
+| |_) | | || (_| (_) | | | | | | (_| |  __/\__ \ | (_| | | | |
+|_.__/|_|\__\___\___/|_|_| |_|  \__,_|\___||___/_|\__, |_| |_|
+                                                  |___/                                     
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
+    <link rel="canonical" href="<%= htmlWebpackPlugin.options.canonical %>" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="<%= htmlWebpackPlugin.options.description %>" />
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="<%= htmlWebpackPlugin.options.title %>" />
+    <meta property="og:locale" content="<%= htmlWebpackPlugin.options.locale %>" />
+    <meta property="og:description" content="<%= htmlWebpackPlugin.options.description %>" />
+    <meta property="og:url" content="<%= htmlWebpackPlugin.options.canonical %>" />
+    <meta property="og:site_name" content="<%= htmlWebpackPlugin.options.title %>" />
+    <meta property="og:image" content="<%= htmlWebpackPlugin.options.preview %>" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="<%= htmlWebpackPlugin.options.title %>" />
+    <meta property="twitter:description" content="<%= htmlWebpackPlugin.options.description %>" />
+    <meta property="twitter:image" content="<%= htmlWebpackPlugin.options.preview %>" />
+    <meta property="twitter:image:alt" content="Grid of interface icons" />
+    <meta name="twitter:site" content="@bitcoin_design" />
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue. Alternatively, you can visit <a href="https://www.figma.com/community/file/948545404023677970/Bitcoin-icon-set" target="_blank" rel="noreferrer noopener">Figma</a> and <a href="https://github.com/BitcoinDesign/Bitcoin-Icons" target="_blank" rel="noreferrer noopener">Github</a> for the icon source and implementation-ready assets.</strong>
+    </noscript>
+    <div id="app"></div>
+  </body>
+</html>
