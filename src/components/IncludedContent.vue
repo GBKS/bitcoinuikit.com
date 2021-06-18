@@ -28,7 +28,7 @@ export default {
       content: [
         {
           title: 'Elements',
-          description: 'Colors, icons, text styles and other details make up the smallest parts the UI kit. Customize them and the changes are automatically applied to all the other components.',
+          description: 'Colors, icons, text styles and other details make up the smallest parts the UI kit. Customize them and the changes are automatically applied to all the other components. Icons are from the <a href="https://bitcoinicons.com/" target="_blank" rel="nofollow noreferrer notarget">Bitcoin Icon Set</a>.',
           image: {
             url: '/assets/elements.png',
             retina: '/assets/elements@2x.png',

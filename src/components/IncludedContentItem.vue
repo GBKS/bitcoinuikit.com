@@ -2,7 +2,7 @@
   <div class="included-content-item">
     <div class="copy">
       <h3>{{ content.title }}</h3>
-      <p>{{ content.description }}</p>
+      <p v-html="content.description" />
     </div>
     <div class="image" :style="styleObject">
       <picture>

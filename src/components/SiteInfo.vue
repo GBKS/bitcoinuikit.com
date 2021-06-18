@@ -23,8 +23,8 @@
       <li>The foundation for a new Bitcoin wallet project</li>
       <li>A reference for how to solve a specific user flow or interface execution</li>
       <li>Create mockups and prototypes to include in the <a href="https://bitcoin.design/guide/" target="_blank" rel="nofollow noreferrer notarget">Bitcoin Design Guide</a></li>
-      <li>Developers can pick certain elements from the UI kit to include in their application</li>
-      <li>What else...?</li>
+      <li>Quick design concept explorations</li>
+      <li>Developers can pick elements from the UI kit to include in their applications</li>
     </ul>
 
     <p>Also check out the <a href="https://github.com/reez/WalletUI" target="_blank" rel="nofollow noreferrer notarget">WalletUI project</a>. reez is turning this kit into an iOS library.</p>
