@@ -1,7 +1,14 @@
 <template>
   <div class="site-header">
     <h1>Bitcoin UI Kit</h1>
-    <p>A design system and UI kit for Bitcoin wallet applications.</p>
+    <p>This design system and UI kit provides a design foundation for prototypes, concept explorations and open-source projects to kickstart the design process. So you can focus on what makes your Bitcoin product&nbsp;unique.</p>
+    <div class="links">
+      <a
+        v-for="(item, index) in links"
+        :key="index"
+        :href="item.url"
+      >{{ item.name }}</a>
+    </div>
     <a
       class="button"
       :href="figmaLink.url"
@@ -15,13 +22,6 @@
         alt="Arrow right"
       >
     </a>
-    <div class="links">
-      <a
-        v-for="(item, index) in links"
-        :key="index"
-        :href="item.url"
-      >{{ item.name }}</a>
-    </div>
   </div>
 </template>
 
@@ -45,8 +45,6 @@ export default {
 .site-header {
   @include r('padding-top', 50, 100);
   @include r('padding-bottom', 25, 50);
-  padding-left: 20px;
-  padding-right: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,14 +62,16 @@ export default {
 
   p {
     margin: 5px 0 0 0;
+    max-width: 800px;
   }
 
   > a {
-    margin: 15px 0 0 0;
+    margin: 0;
+    @include r('margin-top', 25, 30);
   }
 
   .links {
-    @include r('margin-top', 15, 30);
+    @include r('margin-top', 15, 20);
 
     a {
       display: inline-block;

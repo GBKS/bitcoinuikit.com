@@ -28,7 +28,7 @@ export default {
       content: [
         {
           title: 'Elements',
-          description: 'Colors, icons, text styles and other details make up the smallest parts the UI kit. Customize them and the changes are automatically applied to all the other components. Icons are from the <a href="https://bitcoinicons.com/" target="_blank" rel="nofollow noreferrer notarget">Bitcoin Icon Set</a>.',
+          description: 'Colors, icons, text styles and other details make up the smallest parts the UI kit. Customize them and the changes are automatically applied to all the other components. Icons are from the <a href="https://bitcoinicons.com/" target="_blank" rel="nofollow noreferrer notarget">Bitcoin&nbsp;Icon&nbsp;Set</a>.',
           image: {
             url: '/assets/elements.png',
             retina: '/assets/elements@2x.png',
@@ -41,7 +41,7 @@ export default {
         },
         {
           title: 'Components',
-          description: 'The kit includes plenty of building blocks, from general UI components like buttons and inputs, to Bitcoin-specific ones like balance display and address input.',
+          description: 'The kit includes plenty of building blocks, from general UI components like buttons and inputs, to Bitcoin-specific ones like balance display and address&nbsp;input.',
           image: {
             url: '/assets/components.png',
             retina: '/assets/components@2x.png',
@@ -54,7 +54,7 @@ export default {
         },
         {
           title: 'Screens',
-          description: 'Common UI screens are included for both mobile and desktop applications. Home, settings, transactions, security center, and a lot more.',
+          description: 'Common UI screens are included for both mobile and desktop applications. Home, settings, transactions, security center, and a lot&nbsp;more.',
           image: {
             url: '/assets/screens.png',
             retina: '/assets/screens@2x.png',
@@ -67,7 +67,7 @@ export default {
         },
         {
           title: 'User flows',
-          description: 'Onboarding, wallet creation, sending, receiving and other common user flows are laid out with explanations and can be easily customized.',
+          description: 'Onboarding, wallet creation, sending, receiving and other common user flows are laid out with explanations and can be easily&nbsp;customized.',
           image: {
             url: '/assets/user-flow.png',
             retina: '/assets/user-flow@2x.png',

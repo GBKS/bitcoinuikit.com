@@ -9,12 +9,11 @@
           src="/assets/themes.png"
           srcset="/assets/themes.png 1x, /assets/themes@2x.png 2x"
           alt="" 
-          width="1480" 
-          height="602"
+          width="1280" 
+          height="642"
           loading="lazy"
         >
     </picture>
-    <p>This UI kit provides a foundation for prototypes, concept explorations and real projects to kickstart their design processes. Don’t worry about the basics, focus on what makes your product unique.</p>
     <h2 id="whats-included">See what's included</h2>
     <img
       src="/assets/caret-down.svg"
@@ -46,7 +45,8 @@ export default {
   align-items: center;
 
   h2 {
-    margin: 15px 0 0 0;
+    margin: 0;
+    @include r('margin-top', 40, 50);
     font-weight: 300;
   }
 
@@ -67,6 +67,7 @@ export default {
       overflow-x: hidden;
       margin-left: -20px;
       margin-right: -20px;
+      padding-right: 10px;
 
       img {
         display: block;

@@ -124,6 +124,11 @@ export default {
 
       a {
         color: rgba(var(--frontRGB), 1);
+        transition: all 100ms $ease;
+
+        &:hover {
+          color: $primary;
+        }
       }
     }
   }

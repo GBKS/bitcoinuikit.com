@@ -6,6 +6,7 @@
     <div class="copy">
       <h2>Created by the<br/><b>Bitcoin Design Community</b></h2>
       <a
+        class="button"
         href="https://bitcoin.design"
         target="_blank"
         rel="noreferrer noopener"
@@ -70,30 +71,6 @@ export default {
 
     a {
       margin: 15px 0 0 0;
-      display: inline-block;
-      background-color: var(--front);
-      color: var(--back);
-      text-decoration: none;
-      line-height: 44px;
-      padding: 0 20px;
-      font-weight: 600;
-      transition: all 100ms $ease;
-
-      img {
-        filter: invert(100%);
-        vertical-align: middle;
-        display: inline-block;
-        margin-left: 10px;
-        transition: all 150ms $ease;
-      }
-
-      &:hover {
-        background-color: $primary;
-
-        img {
-          transform: translateX(5px);
-        }
-      }
     }
   }
 
