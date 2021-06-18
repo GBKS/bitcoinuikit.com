@@ -36,7 +36,7 @@ export default {
       screenSize: null,
       figmaLink: {
         name: 'Duplicate on Figma',
-        url: 'https://www.figma.com/community/file/948545404023677970/Bitcoin-icon-set'
+        url: 'https://www.figma.com/community/file/916680391812923706/Bitcoin-Wallet-UI-Kit-(work-in-progress)'
       },
       links: [
         {
