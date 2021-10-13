@@ -24,19 +24,11 @@
 
 <script>
 export default {
-  name: 'SiteFooter',
-
-  props: {
-
-  }
+  name: 'SiteFooter'
 }
 </script>
 
 <style lang="scss" scoped>
-
-@import "../scss/variables.scss";
-@import "../scss/mixins.scss";
-@import "../scss/animations.scss";
 
 .site-footer {
   display: flex;

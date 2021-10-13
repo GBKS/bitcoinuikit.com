@@ -3,18 +3,27 @@
     <h1>Bitcoin UI Kit</h1>
     <p>This design system and UI kit provides a design foundation for prototypes, concept explorations and open-source projects to kickstart the design process. So you can focus on what makes your Bitcoin product&nbsp;unique.</p>
     <div class="links">
-      <a
+      <template
         v-for="(item, index) in links"
+      >
+      <a
+        v-if="item.url"
         :key="index"
         :href="item.url"
       >{{ item.name }}</a>
+      <router-link
+        v-if="item.to"
+        :key="index"
+        :to="item.to"
+      >{{ item.label }}</router-link>
+      </template>
     </div>
     <a
       class="button"
       :href="figmaLink.url"
       target="_blank"
       rel="noreferrer noopener"
-    >{{ figmaLink.name }}
+    >{{ figmaLink.label }}
       <img
         src="/assets/arrow-right.svg"
         width="24"
@@ -37,10 +46,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-@import "../scss/variables.scss";
-@import "../scss/mixins.scss";
-@import "../scss/animations.scss";
 
 .site-header {
   @include r('padding-top', 50, 100);

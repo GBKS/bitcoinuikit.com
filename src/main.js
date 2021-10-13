@@ -1,8 +1,33 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
+import { createRouter, createWebHistory } from 'vue-router'
+
 import App from './App.vue'
+import HomePage from './pages/Home.vue'
+import InfoPage from './pages/Info.vue'
+import FoundationPage from './pages/Foundation.vue'
+import ScreensPage from './pages/Screens.vue'
+import HelperPage from './pages/Helper.vue'
 
-Vue.config.productionTip = false
+// 2. Define some routes
+// Each route should map to a component.
+// We'll talk about nested routes later.
+const routes = [
+  { path: '/', component: HomePage },
+  { path: '/info', component: InfoPage },
+  { path: '/foundation', component: FoundationPage },
+  { path: '/screens', component: ScreensPage },
+  { path: '/screens/flow/:flowId', component: ScreensPage },
+  { path: '/screens/flow/:flowId/:screenId', component: ScreensPage },
+  { path: '/screens/screen/:screenId', component: ScreensPage },
+  { path: '/screens/search/:search', component: ScreensPage },
+  { path: '/helper', component: HelperPage }
+]
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+})
+
+const appInstance = createApp(App);
+appInstance.use(router);
+appInstance.mount('#app')
