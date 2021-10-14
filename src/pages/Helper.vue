@@ -104,7 +104,6 @@ export default {
 
 .helper-page {
   display: flex;
-  align-items: center;
   gap: 40px;
   padding: 50px;
 

@@ -1,4 +1,5 @@
 <template>
+  <SiteNav />
   <PageTitle />
   <router-view
     :screenSize="screenSize"
@@ -7,6 +8,7 @@
 </template>
 
 <script>
+import SiteNav from '@/components/SiteNav.vue'
 import PageTitle from '@/components/PageTitle.vue'
 import SiteFooter from '@/components/SiteFooter.vue'
 
@@ -14,6 +16,7 @@ export default {
   name: 'App',
   
   components: {
+    SiteNav,
     PageTitle,
     SiteFooter
   },

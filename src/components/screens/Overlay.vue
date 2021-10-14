@@ -1,12 +1,36 @@
 <template>
-  <div class="screens-overlay" v-if="screenData">
-    <div class="wrap">
+  <transition name="fade">
+  <div
+    ref="overlay"
+    class="screens-overlay" 
+    v-if="screenData" 
+    @click="clickBack"
+  >
+    <div class="wrap" ref="wrap">
       <div class="content">
         <div class="copy">
           <router-link :to="closeLink">Close</router-link>
           <h3>{{ screenData.title }}</h3>
           <p v-if="screenData.description">{{ screenData.description }}</p>
-          <p class="-flow" v-if="flowText">Flow:  <router-link :to="flowLink">{{ screenData.flow }}</router-link>, screen {{ flowText }}</p>
+          <p 
+            v-if="flowText"
+            class="-flow" 
+          >
+            <b>Flow</b><br/>
+            <router-link :to="flowLink">{{ screenData.flow }}</router-link>, screen {{ flowText }}
+          </p>
+          <p 
+            v-if="screenData.links"
+            class="-links" 
+          >
+            <b>Links</b><br/>
+            <a
+              v-for="(item, index) in screenData.links"
+              :key="index"
+              :href="item.url"
+              target="_blank"
+            >{{ item.title }}</a>
+        </p>
         </div>
         <img
           :src="imageFile"
@@ -18,6 +42,7 @@
       </div>
     </div>  
   </div>
+</transition>
 </template>
 
 <script>
@@ -102,6 +127,14 @@ export default {
           .replace(/\s+/g, '-') // collapse whitespace and replace by -
           .replace(/-+/g, '-'); // collapse dashes
       return str;
+    },
+
+    clickBack(event) {
+      // console.log('clickBack', event.target)
+
+      if(event.target == this.$refs.wrap || event.target == this.$refs.overlay) {
+        this.$router.push(this.closeLink)
+      }
     }
   }
 }
@@ -147,9 +180,18 @@ export default {
         p {
           margin: 10px 0 0 0;
           @include r('font-size', 15, 18);
+          line-height: 1.4;
           color: #606060;
 
-          &.-flow {
+          &.-flow,
+          &.-links {
+            line-height: 1.4;
+
+            b {
+              color: var(--neutral-6);
+              font-weight: 400;
+            }
+
             a {
               color: var(--front);
               text-decoration: none;
@@ -238,6 +280,13 @@ export default {
       }
     }
   }
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 
 </style>

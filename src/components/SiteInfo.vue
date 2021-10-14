@@ -92,7 +92,7 @@ export default {
 
   p,
   ul li {
-    @include r('font-size', 16, 22);
+    @include r('font-size', 15, 21);
     color: rgba(var(--frontRGB), 0.55);
     line-height: 1.6;
 

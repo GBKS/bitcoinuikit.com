@@ -12,8 +12,8 @@
       />
     </div>
     <ScreenList
-      v-if="visibleScreens.length > 0"
-      :screenData="visibleScreens"
+      v-if="sortedScreens.length > 0"
+      :screenData="sortedScreens"
       :activeScreenId="activeScreenId"
       :activeFlowId="activeFlowId"
       :searchTerm="searchTerm" 
@@ -53,6 +53,10 @@ export default {
   props: [
     'screenSize'
   ],
+
+  beforeMount() {
+    this.updateTitle()
+  },
 
   data() {
     const screenData = ScreenData
@@ -110,6 +114,8 @@ export default {
       } else {
         this.activeScreenData = null
       }
+
+      this.updateTitle()
     }
   },
 
@@ -151,8 +157,10 @@ export default {
 
     visibleScreens() {
       let result = null
+      let ids = []
 
       if(this.searchTerm) {
+        // Search.
         result = []
 
         const lowerSearchTerm = this.searchTerm.toLowerCase()
@@ -161,12 +169,15 @@ export default {
           item = this.screenData[i]
 
           if(item.title && item.title.toLowerCase().indexOf(lowerSearchTerm) !== -1) {
+            ids.push(item.id)
             result.push(item)
           } else if(item.description && item.description.toLowerCase().indexOf(lowerSearchTerm) !== -1) {
+            ids.push(item.id)
             result.push(item)
           } else if(item.text && item.text.length > 0) {
             for(k=0; k<item.text.length; k++) {
               if(item.text[k].toLowerCase().indexOf(lowerSearchTerm) !== -1) {
+                ids.push(item.id)
                 result.push(item)
                 break;
               }
@@ -174,18 +185,38 @@ export default {
           }
         }
       } else if(this.activeFlowId == 'all') {
+        // No filters applied.
         result = this.screenData
       } else {
+        // A specific flow.
         result = []
 
         for(let i=0; i<this.screenData.length; i++) {
           if(this.screenData[i].flowSlug == this.activeFlowId) {
+            ids.push(this.screenData[i].id)
             result.push(this.screenData[i])
           }
         }
       }
 
+      console.log('ids', ids)
+
       return result
+    },
+
+    sortedScreens() {
+      const result = this.visibleScreens.slice()
+      return result.sort((a, b) => {
+        if(a.flow == b.flow) {
+          if(a.page < b.page) return -1
+          if(a.page > b.page) return 1
+          return 0
+        } else {
+          if(a.flow < b.flow) return -1
+          if(a.flow > b.flow) return 1
+          return 0
+        }
+      })
     },
 
     noResultsMessage() {
@@ -219,6 +250,7 @@ export default {
     },
 
     hideOverlay() {
+      console.log('hideOverlay')
       this.activeScreenId = null
       this.activeScreenData = null
     },
@@ -236,6 +268,20 @@ export default {
           .replace(/\s+/g, '-') // collapse whitespace and replace by -
           .replace(/-+/g, '-'); // collapse dashes
       return str;
+    },
+
+    updateTitle() {
+      let result = 'Screens | Bitcoin UI Kit'
+
+      if(this.activeScreenId && this.activeScreenData) {
+        result =  this.activeScreenData.title + ' screen | Bitcoin UI Kit'
+      } else if(this.activeFlowId) {
+        result = this.flowSlugs[this.activeFlowId] + ' flow | Bitcoin UI Kit'
+      } else if(this.searchTerm && this.searchTerm.length > 0) {
+        result =  'Screen search | Bitcoin UI Kit'
+      }
+
+      document.title = result
     }
   }
 }

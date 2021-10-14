@@ -29,6 +29,10 @@ export default {
     'screenSize'
   ],
 
+  beforeMount() {
+    document.title = 'Bitcoin UI Kit'
+  },
+
   data() {
     return {
       title: 'Bitcoin UI Kit',

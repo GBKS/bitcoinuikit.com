@@ -1,8 +1,8 @@
 <template>
   <div class="screen-list">
     <ScreenItem
-      v-for="(item, index) in screenData"
-      :key="index"
+      v-for="item in screenData"
+      :key="item.id"
       :screenData="item"
       :activeFlowId="activeFlowId"
       :activeScreenId="activeScreenId"
@@ -37,7 +37,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 .screen-list {
   display: flex;

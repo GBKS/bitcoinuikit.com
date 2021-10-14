@@ -35,6 +35,10 @@ export default {
     'screenSize'
   ],
 
+  beforeMount() {
+    document.title = 'Foundation | Bitcoin UI Kit'
+  },
+
   data() {
     const swatchesLight = Content.swatches.light
     const swatchesDark = Content.swatches.dark

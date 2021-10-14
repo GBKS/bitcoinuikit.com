@@ -42,14 +42,19 @@ export default {
 
 .site-nav {
   width: 100%;
-  padding: 20px 30px;
+  @include r('padding-left', 15, 30);
+  @include r('padding-right', 15, 30);
+  @include r('padding-top', 15, 20);
+  // @include r('padding-bottom', 15, 20);
   box-sizing: border-box;
 
   h1 {
     margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    @include r('font-size', 14, 22);
 
     a {
-      @include r('font-size', 14, 22);
       color: var(--front);
       text-decoration: none;
       font-weight: 400;
@@ -66,6 +71,7 @@ export default {
 
     a {
       @include r('font-size', 14, 22);
+      line-height: 1.4;
       color: var(--front);
       text-decoration: none;
 
@@ -74,6 +80,12 @@ export default {
         color: var(--primary);
       }
     }
+  }
+  
+  @include media-query(small) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   @include media-query(medium-up) {

@@ -7,6 +7,7 @@
         :width="screenData.width"
         :height="screenData.height"
         :alt="screenData.title"
+        @load="imageLoaded"
       >
     </router-link>
     <h3><router-link :to="link">{{ screenData.title }}</router-link></h3>
@@ -28,12 +29,22 @@ export default {
     'searchTerm'
   ],
 
+  data() {
+    return {
+      imageLoading: true
+    }
+  },
+
   computed: {
     className() {
       const c = ['screen-item']
 
       if(this.screenData.id == this.activeScreenId) {
         c.push('-active')
+      }
+
+      if(this.imageLoading) {
+        c.push('-loading')
       }
 
       return c.join(' ')
@@ -96,6 +107,10 @@ export default {
           .replace(/\s+/g, '-') // collapse whitespace and replace by -
           .replace(/-+/g, '-'); // collapse dashes
       return str;
+    },
+
+    imageLoaded() {
+      this.imageLoading = false
     }
   }
 }
@@ -115,6 +130,7 @@ export default {
     height: auto;
     box-shadow: 0px 10px 30px 0px #0000000D;
     border-radius: 16px;
+    transition: opacity 250ms $ease;
   }
 
   h3 {
@@ -156,6 +172,12 @@ export default {
 
     &.-flow {
       @include r('margin-top', 5, 5);
+    }
+  }
+
+  &.-loading {
+    img {
+      opacity: 0;
     }
   }
 

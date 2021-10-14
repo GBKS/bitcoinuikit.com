@@ -18,6 +18,10 @@ export default {
     'screenSize'
   ],
 
+  beforeMount() {
+    document.title = 'Info | Bitcoin UI Kit'
+  },
+
   data() {
     return {
       figmaLink: {

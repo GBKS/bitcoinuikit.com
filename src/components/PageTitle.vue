@@ -1,8 +1,8 @@
 <template>
   <div class="page-title">
-    <router-link class="logo" to="/">Bitcoin UI Kit</router-link>
+    <router-link v-if="false" class="logo" to="/">Bitcoin UI Kit</router-link>
     <h1>{{ title }}</h1>
-    <nav>
+    <nav v-if="false">
       <router-link
         :class="item.to == activeLinkBase ? '-active' : null"
         v-for="(item, index) in links"
@@ -124,9 +124,9 @@ export default {
   h1 {
     margin: 0;
     @include r('margin-top', 15, 20);
-    @include r('font-size', 48, 80);
+    @include r('font-size', 36, 80);
+    @include r('letter-spacing', -1.5, -3);
     line-height: 1.2;
-    letter-spacing: -3px;
     font-weight: 300;
     color: var(--front);
     transition: color 250ms $ease;
@@ -138,7 +138,7 @@ export default {
     @include r('margin-top', 10, 15);
     @include r('padding-left', 10, 20);
     @include r('padding-right', 10, 20);
-    @include r('font-size', 16, 20);
+    @include r('font-size', 15, 21);
     color: var(--neutral-7);
     line-height: 1.6;
 
