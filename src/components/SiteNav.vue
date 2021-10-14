@@ -76,7 +76,7 @@ export default {
       text-decoration: none;
 
       &:hover,
-      &.router-link-exact-active {
+      &.router-link-active {
         color: var(--primary);
       }
     }

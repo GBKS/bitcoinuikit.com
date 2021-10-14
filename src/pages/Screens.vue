@@ -199,8 +199,6 @@ export default {
         }
       }
 
-      console.log('ids', ids)
-
       return result
     },
 
