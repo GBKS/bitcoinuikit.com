@@ -1,7 +1,10 @@
 <template>
   <div class="included-content-item">
     <div class="copy">
-      <h3>{{ content.title }}</h3>
+      <h3 v-if="content.to">
+        <router-link :to="content.to">{{ content.title }}</router-link>
+      </h3>
+      <h3 v-if="!content.to">{{ content.title }}</h3>
       <p v-html="content.description" />
     </div>
     <div class="image" :style="styleObject">
@@ -39,18 +42,11 @@ export default {
         // paddingBottom: this.isDesktop ? (this.content.image.height / this.content.image.width * 100 + '%') : null
       }
     }
-  },
-
-  methods: {
-
   }
 }
 </script>
 
 <style lang="scss" scoped>
-
-@import "@/scss/variables.scss";
-@import "@/scss/mixins.scss";
 
 .included-content-item {
   display: flex;
@@ -62,6 +58,15 @@ export default {
       font-weight: 300;
       @include r('font-size', 40, 64);
       @include r('letter-spacing', -2, -3);
+
+      a {
+        color: var(--primary);
+        text-decoration: none;
+
+        &:hover {
+          border-bottom: 1px dashed var(--primary);
+        }
+      }
     }
     
     p {

@@ -26,18 +26,11 @@
 
 <script>
 export default {
-  name: 'Intro',
-
-  props: {
-
-  }
+  name: 'Intro'
 }
 </script>
 
 <style lang="scss" scoped>
-
-@import "../scss/variables.scss";
-@import "../scss/mixins.scss";
 
 .intro {
   display: flex;

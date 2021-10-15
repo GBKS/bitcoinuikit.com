@@ -21,16 +21,40 @@ $borderWidth: 4px;
 
 	--back: #ffffff;
 	--front: #000000;
+	--primary: #F7931A;
 
 	--borderOpacity: 0.07;
+
+	--neutral-1: #f8f8f8;
+	--neutral-2: #f4f4f4;
+	--neutral-3: #ededed;
+	--neutral-4: #dedede;
+	--neutral-5: #bbbbbb;
+	--neutral-6: #999999;
+	--neutral-7: #777777;
+	--neutral-8: #404040;
+
+	--backDimmed: #F4F4F4;
 }
 
 .--theme-dark {
 	--back: #000000;
 	--front: #ffffff;
+	--primary: #F7931A;
 	
 	--backRGB: 0, 0, 0;
 	--frontRGB: 255, 255, 255;
 
 	--borderOpacity: 0.14;
+
+	--neutral-1: #1A1A1A;
+	--neutral-2: #2D2D2D;
+	--neutral-3: #444444;
+	--neutral-4: #5C5C5C;
+	--neutral-5: #787878;
+	--neutral-6: #949494;
+	--neutral-7: #B0B0B0;
+	--neutral-8: #CCCCCC;
+
+	--backDimmed: #080808;
 }

@@ -63,10 +63,6 @@ export default {
 
 <style lang="scss" scoped>
 
-@import "../scss/variables.scss";
-@import "../scss/mixins.scss";
-@import "../scss/animations.scss";
-
 .site-info {
   max-width: 900px;
   margin-left: auto;
@@ -78,8 +74,8 @@ export default {
   h2 {
     margin: 0;
     font-weight: 300;
-    @include r('font-size', 40, 64);
-    @include r('letter-spacing', -2, -3);
+    @include r('font-size', 24, 48);
+    @include r('letter-spacing', -0.5, -3);
   }
 
   a.button {
@@ -96,7 +92,7 @@ export default {
 
   p,
   ul li {
-    @include r('font-size', 16, 22);
+    @include r('font-size', 15, 21);
     color: rgba(var(--frontRGB), 0.55);
     line-height: 1.6;
 

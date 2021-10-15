@@ -28,6 +28,7 @@ export default {
       content: [
         {
           title: 'Elements',
+          to: '/foundation',
           description: 'Colors, icons, text styles and other details make up the smallest parts the UI kit. Customize them and the changes are automatically applied to all the other components. Icons and illustrations via <a href="https://bitcoinicons.com/" target="_blank" rel="nofollow noreferrer notarget">Bitcoin&nbsp;Icons</a> and <a href="https://github.com/GBKS/bitcoin-hardware-illustrations" target="_blank" rel="nofollow noreferrer notarget">Bitcoin&nbsp;hardware&nbsp;illustrations</a>.',
           image: {
             url: '/assets/elements.png',
@@ -54,6 +55,7 @@ export default {
         },
         {
           title: 'Screens',
+          to: '/screens',
           description: 'Common UI screens are included for both mobile and desktop applications. Home, settings, transactions, security center, and a lot&nbsp;more.',
           image: {
             url: '/assets/screens.png',
@@ -67,6 +69,7 @@ export default {
         },
         {
           title: 'User flows',
+          to: '/screens',
           description: 'Onboarding, wallet creation, sending, receiving and other common user flows are laid out with explanations and can be easily&nbsp;customized.',
           image: {
             url: '/assets/user-flow.png',
@@ -80,22 +83,11 @@ export default {
         }
       ]
     }
-  },
-
-  computed: {
-
-  },
-
-  methods: {
-
   }
 }
 </script>
 
 <style lang="scss" scoped>
-
-@import "@/scss/variables.scss";
-@import "@/scss/mixins.scss";
 
 .included-content {
   display: flex;

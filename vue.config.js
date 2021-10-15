@@ -1,4 +1,19 @@
 module.exports = {
+    css: {
+        loaderOptions: {
+            sass: {
+                additionalData: `
+                    @import "@/scss/variables.scss";
+                    @import "@/scss/animations.scss";
+                    @import "@/scss/mixins.scss";
+                    @import "@/scss/normalize.scss";
+                    @import "@/scss/button.scss";
+                    @import "@/scss/fonts.scss";
+                    @import "@/scss/main.scss";
+                `
+            }
+        }
+    },
     chainWebpack: config => {
         config
             .plugin('html')

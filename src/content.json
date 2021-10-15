@@ -1,0 +1,168 @@
+{
+	"home": {
+		"title": "Bitcoin UI Kit",
+		"description": "This design system and UI kit provides a design foundation for prototypes, concept explorations and open-source projects to kickstart the design process. So you can focus on what makes your Bitcoin product&nbsp;unique."
+	},
+	"info": {
+		"title": "Info",
+		"description": "Design often starts with establishing foundations. The goal of this project is to provide a ready-to-use foundation for Bitcoin applications."
+	},
+	"foundation": {
+		"title": "Foundation",
+		"description": "These are the colors and type styles used in the kit. Icons and illustrations are from <a href=\"https://bitcoinicons.com/\" target=\"_blank\" rel=\"nofollow noreferrer notarget\">Bitcoin&nbsp;Icons</a> and <a href=\"https://github.com/GBKS/bitcoin-hardware-illustrations\" target=\"_blank\" rel=\"nofollow noreferrer notarget\">Bitcoin&nbsp;hardware&nbsp;illustrations</a>."
+	},
+	"screens": {
+		"title": "Screens",
+		"description": "These are some of the screens and user flows included in the kit."
+	},
+	"figma": {
+		"button": "Duplicate on Figma",
+		"url": "https://www.figma.com/community/file/916680391812923706/Bitcoin-Wallet-UI-Kit-(work-in-progress)"
+	},
+	"nav": [
+    {
+      "label": "Home",
+      "to": "/"
+    },
+    {
+      "label": "Info",
+      "to": "/info"
+    },
+    {
+      "label": "Foundation",
+      "to": "/foundation"
+    },
+    {
+      "label": "Screens",
+      "to": "/screens"
+    }
+  ],
+  "swatches": {
+  	"header": "A Peer-to-Peer Electronic Cash System",
+  	"body": "A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending.",
+  	"light": [
+      {
+        "label": "Orange",
+        "hex": "#F89B2A"
+      },
+      {
+        "label": "Red",
+        "hex": "#EB5757"
+      },
+      {
+        "label": "Green",
+        "hex": "#27AE60"
+      },
+      {
+        "label": "Blue",
+        "hex": "#2D9CDB"
+      },
+      {
+        "label": "Purple",
+        "hex": "#BB6BD9"
+      },
+      {
+        "label": "Foreground",
+        "hex": "#000000"
+      },
+      {
+        "label": "Neutral 8",
+        "hex": "#404040"
+      },
+      {
+        "label": "Neutral 7",
+        "hex": "#777777"
+      },
+      {
+        "label": "Neutral 6",
+        "hex": "#999999"
+      },
+      {
+        "label": "Neutral 5",
+        "hex": "#BBBBBB"
+      },
+      {
+        "label": "Neutral 4",
+        "hex": "#DEDEDE"
+      },
+      {
+        "label": "Neutral 3",
+        "hex": "#EDEDED"
+      },
+      {
+        "label": "Neutral 2",
+        "hex": "#F4F4F4"
+      },
+      {
+        "label": "Neutral 1",
+        "hex": "#F8F8F8"
+      },
+      {
+        "label": "Background",
+        "hex": "#FFFFFF"
+      }
+    ],
+  	"dark": [
+      {
+        "label": "Orange",
+        "hex": "#F89B2A"
+      },
+      {
+        "label": "Red",
+        "hex": "#EB5757"
+      },
+      {
+        "label": "Green",
+        "hex": "#27AE60"
+      },
+      {
+        "label": "Blue",
+        "hex": "#2D9CDB"
+      },
+      {
+        "label": "Purple",
+        "hex": "#BB6BD9"
+      },
+      {
+        "label": "Foreground",
+        "hex": "#FFFFFF"
+      },
+      {
+        "label": "Neutral 8",
+        "hex": "#CCCCCC"
+      },
+      {
+        "label": "Neutral 7",
+        "hex": "#B0B0B0"
+      },
+      {
+        "label": "Neutral 6",
+        "hex": "#949494"
+      },
+      {
+        "label": "Neutral 5",
+        "hex": "#787878"
+      },
+      {
+        "label": "Neutral 4",
+        "hex": "#5C5C5C"
+      },
+      {
+        "label": "Neutral 3",
+        "hex": "#444444"
+      },
+      {
+        "label": "Neutral 2",
+        "hex": "#2D2D2D"
+      },
+      {
+        "label": "Neutral 1",
+        "hex": "#1A1A1A"
+      },
+      {
+        "label": "Background",
+        "hex": "#000000"
+      }
+    ]
+  }
+}
