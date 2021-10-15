@@ -76,9 +76,9 @@ export default {
 .helper-screen-item {
   display: flex;
   flex-grow: 1;
-  flex-basis: 40%;
+  flex-basis: 26%;
   align-items: center;
-  @include r('padding-bottom', 15, 30);
+  @include r('padding-bottom', 10, 10);
   gap: 20px;
 
   img {

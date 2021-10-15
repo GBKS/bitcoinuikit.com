@@ -111,12 +111,11 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    flex-basis: 40%;
+    flex-basis: 20%;
     flex-grow: 1;
 
     textarea {
-      flex-grow: 1;    
-      min-height: 400px;
+      min-height: 200px;
     }
   }
 }

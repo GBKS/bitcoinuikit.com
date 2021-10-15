@@ -35,7 +35,7 @@ const routes = [
       { path: 'flow/:flowId', component: ScreensPage },
       { path: 'flow/:flowId/:screenId', component: ScreensPage },
       { path: 'screen/:screenId', component: ScreensPage },
-      { path: 'search/:search', component: ScreensPage },
+      { path: 'search/:search', component: ScreensPage }
     ]
   },
   { path: '/helper', component: HelperPage }
