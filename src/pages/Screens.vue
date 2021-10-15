@@ -70,6 +70,10 @@ export default {
         screenData[i].flowSlug = slug
         flowSlugs[slug] = flow
       }
+
+      if(screenData[i].page) {
+        screenData[i].page = parseInt(screenData[i].page)
+      }
     }
 
     let activeFlowId = 'all'
