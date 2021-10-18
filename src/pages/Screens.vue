@@ -82,9 +82,16 @@ export default {
       activeFlowId = this.$route.params.flowId
     }
 
-    let activeScreenId;
+    let activeScreenId, activeScreenData;
     if(this.$route.params.screenId) {
       activeScreenId = this.$route.params.screenId
+
+      for(let i=0; i<screenData.length; i++) {
+        if(screenData[i].id == activeScreenId) {
+          activeScreenData = screenData[i]
+          break;
+        }
+      }
     }
 
     let searchTerm;
@@ -93,7 +100,7 @@ export default {
     }
 
     return {
-      activeScreenData: null,
+      activeScreenData,
       searchTerm,
       screenData,
       activeScreenId,
