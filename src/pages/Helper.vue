@@ -32,7 +32,7 @@ export default {
   },
 
   data() {
-    const content = Screens
+    const content = Screens.reverse()
 
     // Remove duplicates
     const ids = []
