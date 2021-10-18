@@ -1,1 +1,835 @@
-[{"id":"cover-new-user","title":"New user","links":[{"title":"Creating a new wallet","url":"https://bitcoin.design/guide/onboarding/creating-a-new-wallet/"}],"flow":"Cover","description":"Default landing screen when a new user launches the app.","page":"0","pagemax":"3","width":375,"height":812,"text":["Bitcoin wallet","A simple bitcoin wallet for your enjoyment.","Create a new wallet","Restore existing wallet","Your wallet, your coins\n100% open-source & open-design"]},{"id":"onboarding-product-benefits","title":"Product benefits","links":[{"title":"Creating a new wallet","url":"https://bitcoin.design/guide/onboarding/creating-a-new-wallet/"}],"flow":"Onboarding","description":"Explain the main purpose of the application.","page":"0","pagemax":"3","width":375,"height":812,"text":["Skip","Manage your Bitcoin","Take full control with this completely self-custodied wallet.\n\nYour keys, your coins."]},{"id":"onboarding-unique-features","title":"Unique features","links":[{"title":"Creating a new wallet","url":"https://bitcoin.design/guide/onboarding/creating-a-new-wallet/"}],"flow":"Onboarding","description":"Highlight unique features that users should know about.","page":"2","pagemax":"3","width":375,"height":812,"text":["Skip","Convenient backups with cloud storage","Your recovery phrase will be encrypted and backed up to your cloud provider, only you will be able to access it."]},{"id":"onboarding-user-actions","title":"User actions","links":[{"title":"Creating a new wallet","url":"https://bitcoin.design/guide/onboarding/creating-a-new-wallet/"}],"flow":"Onboarding","description":"Let users know what they should do next in order to get the most our of the application.","page":"3","pagemax":"3","width":375,"height":812,"text":["Skip","Keep your wallet and bitcoin secure","Enable face detection or set a \npin for extra security."]},{"id":"cover-existing-user-pin-entry","title":"Existing user, PIN entry","flow":"Cover","description":"If the app is protected by a PIN, it can also navigate there directly for existing users.","page":"3","pagemax":"3","width":375,"height":812,"text":["Enter your PIN to log in","Log in","Forgot PIN?","PQRS","WXYZ"]},{"id":"cover-existing-user","title":"Existing user","flow":"Cover","description":"The user already has an account and has the option to log in or reset the wallet.","page":"2","pagemax":"3","width":375,"height":812,"text":["Bitcoin wallet","Welcome back.","Log in","Reset wallet","Your wallet, your coins\n100% open-source & open-design"]},{"id":"cloud-backup-confirmation","title":"Confirmation","links":[{"title":"Automatic cloud backup","url":"https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"}],"flow":"Cloud backup","description":"Final confirmation that the backup was successful.","page":"5","pagemax":"0","width":375,"height":812,"text":["Your wallet is backed up","If you lose this device, you can recover your encrypted wallet backup from iCloud.","Continue"]},{"id":"cloud-backup-cloud-service-provider-login","title":"Cloud service provider login","links":[{"title":"Automatic cloud backup","url":"https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"}],"flow":"Cloud backup","description":"Cloud storage often have custom login and permission flows to allow the app to read and store data.","page":"4","pagemax":"0","width":375,"height":812,"text":["Cloud provider UI for accepting required permissions."]},{"id":"cloud-backup-service","title":"Service","links":[{"title":"Automatic cloud backup","url":"https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"}],"flow":"Cloud backup","description":"Platform-specific options for cloud storage.","page":"3","pagemax":"0","width":375,"height":812,"text":["Which service do you want to use for a cloud backup?","This will back up your seed phrase with your preferred cloud storage provider.","Apple iCloud","Google Drive","No, thanks"]},{"id":"cloud-backup-pin-entry","title":"PIN entry","links":[{"title":"Automatic cloud backup","url":"https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"}],"flow":"Cloud backup","description":"A PIN is required for encrypting the stored data to prevent third-party access.","page":"2","pagemax":"0","width":375,"height":812,"text":["Choose a 4-digit PIN","Use a PIN you will remember.\nIt cannot be recovered.","Enter password","Confirm password","Continue","This is used to encrypt your wallet, which prevents your cloud service provider from accessing it.","PQRS","WXYZ"]},{"id":"cloud-backup-intro","title":"Intro","links":[{"title":"Automatic cloud backup","url":"https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"}],"flow":"Cloud backup","description":"Explains the purpose and benefit of cloud backups.","page":"0","pagemax":"0","width":375,"height":812,"text":["Back up your wallet to iCloud or Google Drive","Don’t lose your wallet. Save an encrypted copy to your cloud service.","Continue"]},{"id":"recovery-phrase-backup-intro","title":"Intro","links":[{"title":"Manual backup","url":"https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/manual-backup/"}],"flow":"Recovery phrase backup","description":"Explains the purpose and benefit of cloud backups.","page":"1","pagemax":"6","width":375,"height":812,"text":["First, let's create your recovery phrase","A recovery phrase is a series of 12 words in a specific order. This word combination is unique to your wallet. Make sure to have pen and paper ready so you can write it down.","Continue"]},{"id":"recovery-phrase-backup-copy","title":"Copy","links":[{"title":"Manual backup","url":"https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/manual-backup/"}],"flow":"Recovery phrase backup","description":"Explains the purpose and benefit of cloud backups.","page":"2","pagemax":"6","width":375,"height":812,"text":["This is your recovery phrase","Make sure to write it down as shown here. You have to verify this later.","gloom","month","viable","hospital","alcohol","ocean","police","stamp","claim","heart","ghost","Backup to iCloud","Download as PDF","Copy to clipboard","Download","Print","Verify"]},{"id":"recovery-phrase-backup-validation-intro","title":"Validation intro","links":[{"title":"Manual backup","url":"https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/manual-backup/"}],"flow":"Recovery phrase backup","description":"Explains the purpose and benefit of cloud backups.","page":"3","pagemax":"6","width":375,"height":812,"text":["Let's double-check","Well done. Now let’s verify that you've written down your recovery phrase correctly. Yes, it’s that important.","Continue"]},{"id":"recovery-phrase-backup-validation-start","title":"Validation, start","links":[{"title":"Manual backup","url":"https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/manual-backup/"}],"flow":"Recovery phrase backup","description":"Explains the purpose and benefit of cloud backups.","page":"4","pagemax":"6","width":375,"height":812,"text":["Tap the words in the \ncorrect order.","viable","alcohol","ocean","hospital","police","stamp","claim","gloom","heart","ghost","Continue"]},{"id":"recovery-phrase-backup-validation-progress","title":"Validation, progress","links":[{"title":"Manual backup","url":"https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/manual-backup/"}],"flow":"Recovery phrase backup","description":"Explains the purpose and benefit of cloud backups.","page":"5","pagemax":"6","width":375,"height":812,"text":["Sorry, that’s not the correct third word. Give it another try.","viable","alcohol","ocean","hospital","police","stamp","claim","gloom","heart","ghost","Continue"]},{"id":"recovery-phrase-backup-validation-complete","title":"Validation, complete","links":[{"title":"Manual backup","url":"https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/manual-backup/"}],"flow":"Recovery phrase backup","description":"Explains the purpose and benefit of cloud backups.","page":"6","pagemax":"6","width":375,"height":812,"text":["Perfect. Make sure to securely store your recovery phrase.","viable","alcohol","ocean","hospital","police","stamp","claim","gloom","heart","ghost","month","Continue"]},{"id":"home-empty-wallet","title":"Empty wallet","flow":"Home","description":"If the user has no funds, a custom message can inform them how to get started.","page":"0","pagemax":"7","width":375,"height":812,"text":["Send","Receive","You are all set \nto receive Bitcoin","Ask others to send you Bitcoin, \nor top up the wallet yourself.","View address"]},{"id":"home-funded-wallet","title":"Funded wallet","flow":"Home","description":"Minimal home screen focusing on balance display. Swiping up or tapping the button at the bottom reveals transactions.","page":"2","pagemax":"7","width":375,"height":812,"text":["Savings","1.6240 2785","$ 41,328.91","Send","Receive","1 transaction today"]},{"id":"home-hidden-balance","title":"Hidden balance","flow":"Home","description":"Tapping the balance switches between bitcoin, satoshi, and hidden display (*****).","page":"3","pagemax":"7","width":375,"height":812,"text":["Savings","*****","Send","Receive","1 transaction today"]},{"id":"home-security-reminder","title":"Security reminder","flow":"Home","description":"Important messages around security, privacy or errors can be easily seen with a minimal design.","page":"4","pagemax":"7","width":375,"height":812,"text":["Savings","52 376 sats","$ 18.33","Send","Receive","Set a recovery email for \neasier wallet recovery.","Receiving ₿0.00500000"]},{"id":"transactions-receive-transaction","title":"Receive transaction","flow":"Transactions","description":"The transaction screen should focus on highlighting the most relevant information and options to the user. Adding Contact info, notes and tags are easily accessible.","page":"3","pagemax":"7","width":375,"height":812,"text":["Money bag","1.6240 2785","$ 41,328.91","You received","+5 651 816 sats","Contact","Note","Tags","From address","3LaQ ... NfkY","Amount","+2 987 sats","When","Aug 12, 2021 at 4:35pm","Details","Wallet","Send","Receive","Settings"]},{"id":"transactions-transaction-list","title":"Transaction list","flow":"Transactions","description":"Users should be able to enrich transactions with userful information like sender/receiver, purpose and categories/tags.","page":"1","pagemax":"7","width":375,"height":812,"text":["Money bag","1.6240 2785","$ 41,328.91","Transactions","Luigi’s pizza","2 minutes ago","-21,763 sat","€ -12.75"," +0.00001000","4 hours ago","Sent to","Timothy Miller","Yum\nYum","Yum Yum Foods","Yesterday","-128,021 sat","€ -75.00","Groceries","Exchange","Invoice","Priya Lee","April 12, 2021","+1,706,950 sat","€ +1000.00","Web design work for ACME Inc.\nInvoice BDC01","Business","Winston Park","April 9, 2021","+73,398 sat","€ +43,00","Reimbursement for party expenses.","Motor City","April 4, 2021","-139,969 sat","€ -82,00","Tire rotation and oil change.","Wallet","Send","Receive","Settings"]},{"id":"transactions-transaction-list-grouped","title":"Transaction list, grouped","flow":"Transactions","description":"Micropayments can be grouped together to clean up the list. ","page":"2","pagemax":"7","width":375,"height":812,"text":["Money bag","1.6240 2785","$ 41,328.91","Transactions","Sending...","2 minutes ago","-100 sats","€1,27","Sent","September 21, 2021","-1 000 sats","€12,75","41 small transactions","September 19, 2021","-57 sats","€0,63"," +0.00001000","4 hours ago","Sent to","Timothy Miller","Lightning fun games","April 4, 2021","-57 sat"," -0,63 €","17 transactions","Business","Exchange","Invoice","Priya Lee","April 12, 2021","+1 706 950 sat","€2 000","Web design work for ACME Inc.\nInvoice BDC01","Design","Wallet","Send","Receive","Settings"]},{"id":"transactions-send-transaction","title":"Send transaction","flow":"Transactions","description":"Variation of the transaction screen showing a Lightning payment.","page":"6","pagemax":"7","width":375,"height":812,"text":["Money bag","1.6240 2785","$ 41,328.91","You sent","-50 sats","Contact","Note","Tags","To node","0356 ... 3cab","Amount","-1 sat","When","2 minutes ago","Details","Wallet","Send","Receive","Settings"]},{"id":"transactions-receive-transaction-expanded","title":"Receive transaction, expanded","flow":"Transactions","description":"Details can be expanded for extra information. Also shown here is a status display.","page":"4","pagemax":"7","width":375,"height":812,"text":["Money bag","1.6240 2785","$ 41,328.91","You received","+5 651 816 sats","Contact","Note","Tags","Payment pending","12 minutes","From address","3LaQ ... NfkY","Amount","+2 987 sats","When","Aug 12, 2021 at 4:35pm","Confirmations","Received in address","bc1k ... dz73","Transaction ID","4367 ... 846a","Details","Wallet","Send","Receive","Settings"]},{"id":"transactions-send-transaction-expanded","title":"Send transaction, expanded","flow":"Transactions","description":"The same Lightning payment with expanded details.","page":"7","pagemax":"7","width":375,"height":812,"text":["Money bag","1.6240 2785","$ 41,328.91","You sent","-50 sats","Contact","Note","Tags","To node","0356 ... 3cab","Amount","-1 sat","When","2 minutes ago","Lightning invoice","lnbc ... 7d56","Payment preimage","76fg ... 9r37","Details","Wallet","Send","Receive","Settings"]},{"id":"transactions-receive-transaction-id-details","title":"Receive transaction, ID details","flow":"Transactions","description":"Even more details and options to interact with each piece of information can be accessed by tapping each row.","page":"5","pagemax":"7","width":375,"height":812,"text":["Money bag","1.6240 2785","$ 41,328.91","You received","+5 651 816 sats","Contact","Note","Tags","From address","3LaQ ... NfkY","Amount","5 651 816 sats","2 987 sats","When","Aug 12, 2021 at 4:35pm","Confirmations","Received in address","bc1k ... dz73","Transaction ID","4367 ... 846a","Details","ba6f fe4f ac2b 9651 6738 73ef ab13 04cb 74d3 7ed8 851d e49b d974 ce1e 02a1 4ec7","Copy to clipboard","View in explorer","Wallet","Send","Receive","Settings"]},{"id":"home-account-switcher","title":"Account switcher","flow":"Home","description":"Wallet switching and adding happens in an overlay accessed by tapping the wallet name.","page":"5","pagemax":"7","width":375,"height":812,"text":["Savings","1.6240 2785","$ 41,328.91","Send","Receive","1 transaction today","Accounts","Spending","₿ 0.0352","₿ 1.3567","Add wallet"]},{"id":"home-unit-display-options","title":"Unit display options","flow":"Home","description":"Tap and hold the balance to see unit options.","page":"6","pagemax":"7","width":375,"height":812,"text":["Savings","1.62 402 785","$ 41,328.91","Send","Receive","1 transaction today","Bitcoin unit","Automatic","Bitcoin (BTC, ₿)","Label","Bit (μBTC, μ₿)","Millibit (mBTC, m₿)","Satoshi (SAT)","Hide balance"]},{"id":"home-clipboard","title":"Clipboard","flow":"Home","description":"If the user has no funds, a custom message can inform them how to get started.","page":"7","pagemax":"7","width":375,"height":812,"text":["Savings","1.62 402 785","$ 41,328.91","Send","Receive","1 transaction today","You have a Lightning invoice on your clipboard.","Would you like to use this invoice for a transaction?"]},{"id":"contacts-list","title":"List","flow":"Contacts","description":"Well-organized contact lists provide useful overviews and simplify sending and receiving flows.","page":"1","pagemax":"3","width":375,"height":812,"text":["New contact","Contacts","Filter","Search...","Beatrice Phillips","Family · 3 transactions","Thomas Ray","Friend · 1 transaction","ACME Pizza Parlor","Business · 563 transactions","Mount Socks","12 transactions","SuperExchange","Exchange · 1 transaction","Home","Send","Receive","Settings"]},{"id":"contacts-personal-contact","title":"Personal contact","flow":"Contacts","description":"Personal contacts can gather transaction and address information.","page":"2","pagemax":"3","width":375,"height":812,"text":["Contacts","Beatrice Phillips","Note","Friend","Add category","Email","beatrice.phillips@bitcoin.design","Lightning address","bp@bitcoin.design","12 Transactions","Last one 3 days ago","2 Scheduled payments","Next in 6 days","3 Addresses","Home","Send","Receive","Settings"]},{"id":"contacts-company-contact","title":"Company contact","flow":"Contacts","description":"Company contacts can be emphasize options like scheduled payments and invoice generation.","page":"3","pagemax":"3","width":375,"height":812,"text":["Contacts","Mount Socks","Note","Tags","Website","mtgox.com","12 Transactions","3d ago","Add a scheduled payment...","4 Addresses","Home","Send","Receive","Settings"]},{"id":"checklists-security-checklist","title":"Security checklist","flow":"Checklists","description":"A quick, actionable summary of how well the wallet is secured. Covers app security, key scheme, and backup.","page":"1","pagemax":"2","width":375,"height":812,"text":["Security checklist","App settings","You enabled PIN entry to access the app.","Security mode","You are using a 2-2 multi-key configuration for storing medium amounts of bitcoin.","Key backup","Last backup on Jan 31, 2021.","Learn more"]},{"id":"settings-face-id","title":"Face ID","links":[{"title":"Protecting a wallet","url":"https://bitcoin.design/guide/onboarding/protecting-a-wallet/"}],"flow":"Settings","description":"Enabling face detection could be offered during onboarding, and accessed later in settings.","page":"10","pagemax":"10"},{"id":"settings-settings","title":"Settings","flow":"Settings","description":"Settings are logically grouped to provide easy entry points.","page":"1","pagemax":"10","width":375,"height":812,"text":["Settings","General","Privacy & security","Wallet backup","Help & support","Advanced"]},{"id":"settings-general","title":"General","flow":"Settings","description":"Basic settings for localization and notifications.","page":"2","pagemax":"10","width":375,"height":812,"text":["General","Language","English","Local currency","Bitcoin unit","Notifications","Incoming transactions"]},{"id":"settings-privacy-security","title":"Privacy & security","links":[{"title":"Protecting a wallet","url":"https://bitcoin.design/guide/onboarding/protecting-a-wallet/"}],"flow":"Settings","description":"PIN, FaceID, an option to hide sensitive data from display, and wallet limits.","page":"3","pagemax":"10","width":375,"height":812,"text":["Privacy & security","Choose a PIN to access the app and protect your data.","FaceID","Use FaceID to perform spending actions securely.","Hide sensitive data","Hides balance and transaction amounts from display.","Wallet limits","Enable wallet limits","Transaction limit","The maximum size of a single transaction.","45,000 sats","Daily spending limit","The total amount that can be spent per day.","1,000,000 sats"]},{"id":"settings-wallet-backup","title":"Wallet backup","links":[{"title":"Backing up a recovery phrase","url":"https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/"}],"flow":"Settings","description":"Automatic and manual backup options.","page":"4","pagemax":"10","width":375,"height":812,"text":["Wallet backup","Automatic cloud backup","Store backup data in","Apple iCloud","Encrypt cloud backup","Backup channels","Backup transactions","Manual backup","View recovery phrase"]},{"id":"settings-local-currency","title":"Local currency","flow":"Settings","description":"The local currency should be automatically identified, with an option to change it.","page":"7","pagemax":"10","width":375,"height":812,"text":["Local currency","Commonly used","Eurozone Euro (EUR, €)","US Dollar (USD, $)","None","All options","Alabian Lek (ALL, L) ","Argentine Peso, (ARS, $)","Australian Dollar (AUD, $)","Arubian Florin (AWG, ƒ)","Brasilian Real (BRL, R$)","Canadian Dollar (CAD, $)","Swiss Franc (CHF)","Chilean Peso (LP, $)","COP ($)","CZK (Kč)","CNY (¥)"]},{"id":"settings-help-support","title":"Help & support","flow":"Settings","description":"Various ways for users to learn about the application and find support information.","page":"5","pagemax":"10","width":375,"height":812,"text":["Help & support","About","FAQs","Feature requests","Community","License","App information"]},{"id":"settings-bitcoin-unit","title":"Bitcoin unit","links":[{"title":"Units and symbols","url":"https://bitcoin.design/guide/payments/units-and-symbols/"}],"flow":"Settings","description":"Unit settings are kept to the two most common options, bitcoin and satoshis.","page":"8","pagemax":"10","width":375,"height":812,"text":["Bitcoin unit","Automatic","Bitcoin (BTC, ₿)","Satoshi (SAT)","Toggle between units on the home screen by tapping your balance."]},{"id":"settings-advanced","title":"Advanced","flow":"Settings","description":"Connection settings for both the Bitcoin and Network settings, as well as overall data exchange.","page":"6","pagemax":"10","width":375,"height":812,"text":["Advanced","Bitcoin network","Lightning network"]},{"id":"settings-bitcoin-network","title":"Bitcoin network","flow":"Settings","description":"Configuration options to connect via a personal node.","page":"9","pagemax":"10","width":375,"height":812,"text":["Bitcoin network","Node","My Raspberry pi","Pruning","Sync when not on WiFi","Network","Mainnet"]},{"id":"checklists-privacy-checklist","title":"Privacy checklist","flow":"Checklists","description":"A quick, actionable summary of how the wallet privacy. Covers app privacy, data privacy","page":"2","pagemax":"2","width":375,"height":812,"text":["Privacy checklist","Change mode","App settings","Balances and transactions are visible by default.","Validation","Transactions are validated with your own Bitcoin node.","Connection","Data is anonymized via Tor.","Learn more"]},{"id":"sending-send","title":"Send","links":[{"title":"Sending bitcoin","url":"https://bitcoin.design/guide/payments/send/"}],"flow":"Sending","description":"The default send form is empty. The user has the option to share a zero amount invoice.","page":"1","pagemax":"7","width":375,"height":812,"text":["Send bitcoin","Recipient","Enter address...","Amount","Enter amount...","Description","What is this transaction for...","Label","Share invoice"]},{"id":"errors-routing-error","title":"Routing error","flow":"Errors","description":"To prevent user concerns, error messages should clearly state the problem, provide assurance, and suggest solutions.","page":"1","pagemax":"3","width":375,"height":812,"text":["Skip","The transaction could \nnot be completed.","A connection to the receiver could \nnot be made. The funds remain in \nyour wallet.\n\nThis can be addressed by opening a direct payment channel, which incurs a minimum fee of 2 000 sats. ","View error details","Cancel transaction","Retry","Open channel & retry"]},{"id":"errors-general-error","title":"General error","flow":"Errors","description":"When no solutions can be identified, error messages should provide alternative means for users to get help.","page":"2","pagemax":"3","width":375,"height":812,"text":["Skip","The transaction could \nnot be completed.","Sorry, the problem could not be identified. Your funds remain \nsecurely in your wallet.\n\nA few things to try","Wait 5 minutes and try again","Ensure your Internet connection is stable","Ask for support in our Telegram channel","If this problem persists, opening additional payment channels may help. Learn more","View error details"]},{"id":"errors-technical-details","title":"Technical details","flow":"Errors","description":"Error codes and other output should be easily shareable to faciliate finding solutions.","page":"3","pagemax":"3","width":375,"height":812,"text":["Done","Error details","If you are stuck with this error, the information below is safe to share \nin our Telegram channel.","Error code","ErrNoRouteFound","{ \"code\" : 205, \"message\" : \"Could not find a route\", \"data\" : {\"getroute_tries\": 1, \"sendpay_tries\": 0, \"failures\": []} }","Download","Copy","Share"]},{"id":"sending-send-node","title":"Send, node","links":[{"title":"Sending bitcoin","url":"https://bitcoin.design/guide/payments/send/"}],"flow":"Sending","description":"The user has entered a Lightning node ID. In this case, a new channel needs to be opened for a higher fee.","page":"3","pagemax":"7","width":375,"height":812,"text":["Send bitcoin","Recipient","02a6f31cc788036bd5f6e93dab24fd79127d99e0edf29d7f82a4e22bc9f18cec2f@tljpfqnx33h2ucq4anmq5hdzhcnplvkonm2fflb6wfdgt37j2mjmg6ad.onion:9735","Amount","19 800 sats","Description","What is this transaction for...","Label","~2 000  sats","A payment channel will be opened for this transaction, for a minimum fee of 2 000 sats.","Send payment"]},{"id":"sending-review","title":"Review","links":[{"title":"Sending bitcoin","url":"https://bitcoin.design/guide/payments/send/"}],"flow":"Sending","description":"Explain the main purpose of the application.","page":"5","pagemax":"7","width":375,"height":812,"text":["Ready to send?","3LaQ yFGJ 82tf XNdm jL23 \n7J6X dvhx RrNf kY","Amount","₿0.35651816","₿0.00000987","Time","Aug 12, 2021 at 4:35pm","Send"]},{"id":"sending-send-lightning-address","title":"Send, Lightning address","links":[{"title":"Sending bitcoin","url":"https://bitcoin.design/guide/payments/send/"}],"flow":"Sending","description":"The user has entered a Lightning address.","page":"2","pagemax":"7","width":375,"height":812,"text":["Send bitcoin","Recipient","bob@lightning.address","Amount","200 sats","Description","What is this transaction for...","Label","~1  sat","Send payment"]},{"id":"sending-send-bitcoin-address","title":"Send, Bitcoin address","links":[{"title":"Sending bitcoin","url":"https://bitcoin.design/guide/payments/send/"}],"flow":"Sending","description":"The user has entered an on-chain address.","page":"4","pagemax":"7","width":375,"height":812,"text":["Send bitcoin","Recipient","14svUvG3emDZLc2L65iRwPYy1hw74SRQzi","Label","Amount","21 700 sats","Description","What is this transaction for...","On-chain fee","~2 000  sats","Send payment"]},{"id":"sending-confirmation","title":"Confirmation","links":[{"title":"Sending bitcoin","url":"https://bitcoin.design/guide/payments/send/"}],"flow":"Sending","description":"An on-chain transaction has been sent.","page":"6","pagemax":"7","width":375,"height":812,"text":["Transaction sent","It usually takes about 30 minutes for a transaction to be finalized.","View transaction","Done"]},{"id":"sending-share-invoice","title":"Share invoice","links":[{"title":"Sending bitcoin","url":"https://bitcoin.design/guide/payments/send/"}],"flow":"Sending","description":"QR codes are efffective for sharing payment information in-person. Copy and other native share options are also available.","page":"7","pagemax":"7","width":375,"height":812,"text":["Done","Share invoice","View as text","Share","Copy","Details & settings"]},{"id":"receiving-recipient","title":"Recipient","links":[{"title":"Receiving bitcoin","url":"https://bitcoin.design/guide/payments/receive/"}],"flow":"Receiving","description":"Organizing payment requests by recipient helps users stay organized and allows the app to make intelligent recommendations.","page":"3","pagemax":"5","width":375,"height":812,"text":["Done","Who is this payment \nrequest for?","Filter","Search...","New contact","Beatrice Phillips","Family · 3 transactions","Thomas Ray","Friend · 1 transaction","ACME Pizza Parlor","Business · 563 transactions","Mount Socks","Exchange · 1 transaction","SuperExchange","Home","Send","Receive","Settings"]},{"id":"receiving-purpose","title":"Purpose","links":[{"title":"Receiving bitcoin","url":"https://bitcoin.design/guide/payments/receive/"}],"flow":"Receiving","description":"Notes and tags helps both the recipient and the user understand the purpose of the payment in the future.","page":"4","pagemax":"5","width":375,"height":812,"text":["Done","What is this payment for?","Enter description...","Home","Business","Good life","Allowance","Lunch","New tag","Send","Receive","Settings"]},{"id":"receiving-amount","title":"Amount","links":[{"title":"Receiving bitcoin","url":"https://bitcoin.design/guide/payments/receive/"}],"flow":"Receiving","description":"Basic amount input with the option of entering via the local currency. This requires the application to know the current exchange rate.","page":"1","pagemax":"5","width":375,"height":812,"text":["Skip","What is the amount?","Bitcoin","0.00","Euro","PQRS","WXYZ","Continue","Home","Send","Receive","Settings"]},{"id":"receiving-share","title":"Share","links":[{"title":"Receiving bitcoin","url":"https://bitcoin.design/guide/payments/receive/"}],"flow":"Receiving","description":"A series of options to share the payment request. Technical details to review and verify are collapsed, but easily accessible.","page":"2","pagemax":"5","width":375,"height":812,"text":["Done","Share payment request","Share","Copy","Contact","Note & tags","Details and settings"]},{"id":"receiving-invoice-details","title":"Invoice details","links":[{"title":"Receiving bitcoin","url":"https://bitcoin.design/guide/payments/receive/"}],"flow":"Receiving","description":"Quick access to verify details and access infrequently used options.","page":"5","pagemax":"5","width":375,"height":812,"text":["Done","Share payment request","Share","Copy","Share link","Copy link","Copy QR code","Download QR Code","Details and settings","Address","bc1Q yFGJ 82tf XNdm jL23 \n7J6X dvhx RrNf kY","Amount","0.01020884","Description","50 pounds of horse meat.","Use legacy address","Notify when confirmed"]}]
+[
+{
+    "id": "cover-new-user",
+    "title": "New user",
+    "links": [
+    {
+        "title": "Creating a new wallet",
+        "url": "https://bitcoin.design/guide/onboarding/creating-a-new-wallet/"
+    }],
+    "flow": "Cover",
+    "description": "Default landing screen when a new user launches the app.",
+    "page": "1",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Bitcoin wallet", "A simple bitcoin wallet for your enjoyment.", "Create a new wallet", "Restore existing wallet", "Your wallet, your coins\n100% open-source & open-design"]
+},
+{
+    "id": "onboarding-product-benefits",
+    "title": "Product benefits",
+    "links": [
+    {
+        "title": "Creating a new wallet",
+        "url": "https://bitcoin.design/guide/onboarding/creating-a-new-wallet/"
+    }],
+    "flow": "Onboarding",
+    "description": "Explain the main purpose of the application.",
+    "page": "1",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Skip", "Manage your Bitcoin", "Take full control with this completely self-custodied wallet.\n\nYour keys, your coins."]
+},
+{
+    "id": "onboarding-unique-features",
+    "title": "Unique features",
+    "links": [
+    {
+        "title": "Creating a new wallet",
+        "url": "https://bitcoin.design/guide/onboarding/creating-a-new-wallet/"
+    }],
+    "flow": "Onboarding",
+    "description": "Highlight unique features that users should know about.",
+    "page": "2",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Skip", "Convenient backups with cloud storage", "Your recovery phrase will be encrypted and backed up to your cloud provider, only you will be able to access it."]
+},
+{
+    "id": "onboarding-user-actions",
+    "title": "User actions",
+    "links": [
+    {
+        "title": "Creating a new wallet",
+        "url": "https://bitcoin.design/guide/onboarding/creating-a-new-wallet/"
+    }],
+    "flow": "Onboarding",
+    "description": "Let users know what they should do next in order to get the most our of the application.",
+    "page": "3",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Skip", "Keep your wallet and bitcoin secure", "Enable face detection or set a \npin for extra security."]
+},
+{
+    "id": "cover-existing-user-pin-entry",
+    "title": "Existing user, PIN entry",
+    "flow": "Cover",
+    "description": "If the app is protected by a PIN, it can also navigate there directly for existing users.",
+    "page": "3",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Enter your PIN to log in", "Log in", "Forgot PIN?", "PQRS", "WXYZ"]
+},
+{
+    "id": "cover-existing-user",
+    "title": "Existing user",
+    "flow": "Cover",
+    "description": "The user already has an account and has the option to log in or reset the wallet.",
+    "page": "2",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Bitcoin wallet", "Welcome back.", "Log in", "Reset wallet", "Your wallet, your coins\n100% open-source & open-design"]
+},
+{
+    "id": "cloud-backup-confirmation",
+    "title": "Confirmation",
+    "links": [
+    {
+        "title": "Automatic cloud backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
+    }],
+    "flow": "Cloud backup",
+    "description": "Final confirmation that the backup was successful.",
+    "page": "5",
+    "pagemax": "5",
+    "width": 375,
+    "height": 812,
+    "text": ["Your wallet is backed up", "If you lose this device, you can recover your encrypted wallet backup from iCloud.", "Continue"]
+},
+{
+    "id": "cloud-backup-cloud-service-provider-login",
+    "title": "Cloud service provider login",
+    "links": [
+    {
+        "title": "Automatic cloud backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
+    }],
+    "flow": "Cloud backup",
+    "description": "Cloud storage often have custom login and permission flows to allow the app to read and store data.",
+    "page": "4",
+    "pagemax": "5",
+    "width": 375,
+    "height": 812,
+    "text": ["Cloud provider UI for accepting required permissions."]
+},
+{
+    "id": "cloud-backup-service",
+    "title": "Service",
+    "links": [
+    {
+        "title": "Automatic cloud backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
+    }],
+    "flow": "Cloud backup",
+    "description": "Platform-specific options for cloud storage.",
+    "page": "3",
+    "pagemax": "5",
+    "width": 375,
+    "height": 812,
+    "text": ["Which service do you want to use for a cloud backup?", "This will back up your seed phrase with your preferred cloud storage provider.", "Apple iCloud", "Google Drive", "No, thanks"]
+},
+{
+    "id": "cloud-backup-pin-entry",
+    "title": "PIN entry",
+    "links": [
+    {
+        "title": "Automatic cloud backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
+    }],
+    "flow": "Cloud backup",
+    "description": "A PIN is required for encrypting the stored data to prevent third-party access.",
+    "page": "2",
+    "pagemax": "5",
+    "width": 375,
+    "height": 812,
+    "text": ["Choose a 4-digit PIN", "Use a PIN you will remember.\nIt cannot be recovered.", "Enter password", "Confirm password", "Continue", "This is used to encrypt your wallet, which prevents your cloud service provider from accessing it.", "PQRS", "WXYZ"]
+},
+{
+    "id": "cloud-backup-intro",
+    "title": "Intro",
+    "links": [
+    {
+        "title": "Automatic cloud backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
+    }],
+    "flow": "Cloud backup",
+    "description": "Explains the purpose and benefit of cloud backups.",
+    "page": "1",
+    "pagemax": "5",
+    "width": 375,
+    "height": 812,
+    "text": ["Back up your wallet to iCloud or Google Drive", "Don’t lose your wallet. Save an encrypted copy to your cloud service.", "Continue"]
+},
+{
+    "id": "recovery-phrase-backup-intro",
+    "title": "Intro",
+    "links": [
+    {
+        "title": "Manual backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/manual-backup/"
+    }],
+    "flow": "Recovery phrase backup",
+    "description": "Explains the purpose and benefit of cloud backups.",
+    "page": "1",
+    "pagemax": "6",
+    "width": 375,
+    "height": 812,
+    "text": ["First, let's create your recovery phrase", "A recovery phrase is a series of 12 words in a specific order. This word combination is unique to your wallet. Make sure to have pen and paper ready so you can write it down.", "Continue"]
+},
+{
+    "id": "recovery-phrase-backup-copy",
+    "title": "Copy",
+    "links": [
+    {
+        "title": "Manual backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/manual-backup/"
+    }],
+    "flow": "Recovery phrase backup",
+    "description": "Explains the purpose and benefit of cloud backups.",
+    "page": "2",
+    "pagemax": "6",
+    "width": 375,
+    "height": 812,
+    "text": ["This is your recovery phrase", "Make sure to write it down as shown here. You have to verify this later.", "gloom", "month", "viable", "hospital", "alcohol", "ocean", "police", "stamp", "claim", "heart", "ghost", "Backup to iCloud", "Download as PDF", "Copy to clipboard", "Download", "Print", "Verify"]
+},
+{
+    "id": "recovery-phrase-backup-validation-intro",
+    "title": "Validation intro",
+    "links": [
+    {
+        "title": "Manual backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/manual-backup/"
+    }],
+    "flow": "Recovery phrase backup",
+    "description": "Explains the purpose and benefit of cloud backups.",
+    "page": "3",
+    "pagemax": "6",
+    "width": 375,
+    "height": 812,
+    "text": ["Let's double-check", "Well done. Now let’s verify that you've written down your recovery phrase correctly. Yes, it’s that important.", "Continue"]
+},
+{
+    "id": "recovery-phrase-backup-validation-start",
+    "title": "Validation, start",
+    "links": [
+    {
+        "title": "Manual backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/manual-backup/"
+    }],
+    "flow": "Recovery phrase backup",
+    "description": "Explains the purpose and benefit of cloud backups.",
+    "page": "4",
+    "pagemax": "6",
+    "width": 375,
+    "height": 812,
+    "text": ["Tap the words in the \ncorrect order.", "viable", "alcohol", "ocean", "hospital", "police", "stamp", "claim", "gloom", "heart", "ghost", "Continue"]
+},
+{
+    "id": "recovery-phrase-backup-validation-progress",
+    "title": "Validation, progress",
+    "links": [
+    {
+        "title": "Manual backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/manual-backup/"
+    }],
+    "flow": "Recovery phrase backup",
+    "description": "Explains the purpose and benefit of cloud backups.",
+    "page": "5",
+    "pagemax": "6",
+    "width": 375,
+    "height": 812,
+    "text": ["Sorry, that’s not the correct third word. Give it another try.", "viable", "alcohol", "ocean", "hospital", "police", "stamp", "claim", "gloom", "heart", "ghost", "Continue"]
+},
+{
+    "id": "recovery-phrase-backup-validation-complete",
+    "title": "Validation, complete",
+    "links": [
+    {
+        "title": "Manual backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/manual-backup/"
+    }],
+    "flow": "Recovery phrase backup",
+    "description": "Explains the purpose and benefit of cloud backups.",
+    "page": "6",
+    "pagemax": "6",
+    "width": 375,
+    "height": 812,
+    "text": ["Perfect. Make sure to securely store your recovery phrase.", "viable", "alcohol", "ocean", "hospital", "police", "stamp", "claim", "gloom", "heart", "ghost", "month", "Continue"]
+},
+{
+    "id": "home-empty-wallet",
+    "title": "Empty wallet",
+    "flow": "Home",
+    "description": "If the user has no funds, a custom message can inform them how to get started.",
+    "page": "1",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Send", "Receive", "You are all set \nto receive Bitcoin", "Ask others to send you Bitcoin, \nor top up the wallet yourself.", "View address"]
+},
+{
+    "id": "home-funded-wallet",
+    "title": "Funded wallet",
+    "flow": "Home",
+    "description": "Minimal home screen focusing on balance display. Swiping up or tapping the button at the bottom reveals transactions.",
+    "page": "2",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Savings", "1.6240 2785", "$ 41,328.91", "Send", "Receive", "1 transaction today"]
+},
+{
+    "id": "home-hidden-balance",
+    "title": "Hidden balance",
+    "flow": "Home",
+    "description": "Tapping the balance switches between bitcoin, satoshi, and hidden display (*****).",
+    "page": "3",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Savings", "*****", "Send", "Receive", "1 transaction today"]
+},
+{
+    "id": "home-security-reminder",
+    "title": "Security reminder",
+    "flow": "Home",
+    "description": "Important messages around security, privacy or errors can be easily seen with a minimal design.",
+    "page": "4",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Savings", "52 376 sats", "$ 18.33", "Send", "Receive", "Set a recovery email for \neasier wallet recovery.", "Receiving ₿0.00500000"]
+},
+{
+    "id": "transactions-receive-transaction",
+    "title": "Receive transaction",
+    "flow": "Transactions",
+    "description": "The transaction screen should focus on highlighting the most relevant information and options to the user. Adding Contact info, notes and tags are easily accessible.",
+    "page": "3",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Money bag", "1.6240 2785", "$ 41,328.91", "You received", "+5 651 816 sats", "Contact", "Note", "Tags", "From address", "3LaQ ... NfkY", "Amount", "+2 987 sats", "When", "Aug 12, 2021 at 4:35pm", "Details", "Wallet", "Send", "Receive", "Settings"]
+},
+{
+    "id": "transactions-transaction-list",
+    "title": "Transaction list",
+    "flow": "Transactions",
+    "description": "Users should be able to enrich transactions with userful information like sender/receiver, purpose and categories/tags.",
+    "page": "1",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Money bag", "1.6240 2785", "$ 41,328.91", "Transactions", "Luigi’s pizza", "2 minutes ago", "-21,763 sat", "€ -12.75", " +0.00001000", "4 hours ago", "Sent to", "Timothy Miller", "Yum\nYum", "Yum Yum Foods", "Yesterday", "-128,021 sat", "€ -75.00", "Groceries", "Exchange", "Invoice", "Priya Lee", "April 12, 2021", "+1,706,950 sat", "€ +1000.00", "Web design work for ACME Inc.\nInvoice BDC01", "Business", "Winston Park", "April 9, 2021", "+73,398 sat", "€ +43,00", "Reimbursement for party expenses.", "Motor City", "April 4, 2021", "-139,969 sat", "€ -82,00", "Tire rotation and oil change.", "Wallet", "Send", "Receive", "Settings"]
+},
+{
+    "id": "transactions-transaction-list-grouped",
+    "title": "Transaction list, grouped",
+    "flow": "Transactions",
+    "description": "Micropayments can be grouped together to clean up the list. ",
+    "page": "2",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Money bag", "1.6240 2785", "$ 41,328.91", "Transactions", "Sending...", "2 minutes ago", "-100 sats", "€1,27", "Sent", "September 21, 2021", "-1 000 sats", "€12,75", "41 small transactions", "September 19, 2021", "-57 sats", "€0,63", " +0.00001000", "4 hours ago", "Sent to", "Timothy Miller", "Lightning fun games", "April 4, 2021", "-57 sat", " -0,63 €", "17 transactions", "Business", "Exchange", "Invoice", "Priya Lee", "April 12, 2021", "+1 706 950 sat", "€2 000", "Web design work for ACME Inc.\nInvoice BDC01", "Design", "Wallet", "Send", "Receive", "Settings"]
+},
+{
+    "id": "transactions-send-transaction",
+    "title": "Send transaction",
+    "flow": "Transactions",
+    "description": "Variation of the transaction screen showing a Lightning payment.",
+    "page": "6",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Money bag", "1.6240 2785", "$ 41,328.91", "You sent", "-50 sats", "Contact", "Note", "Tags", "To node", "0356 ... 3cab", "Amount", "-1 sat", "When", "2 minutes ago", "Details", "Wallet", "Send", "Receive", "Settings"]
+},
+{
+    "id": "transactions-receive-transaction-expanded",
+    "title": "Receive transaction, expanded",
+    "flow": "Transactions",
+    "description": "Details can be expanded for extra information. Also shown here is a status display.",
+    "page": "4",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Money bag", "1.6240 2785", "$ 41,328.91", "You received", "+5 651 816 sats", "Contact", "Note", "Tags", "Payment pending", "12 minutes", "From address", "3LaQ ... NfkY", "Amount", "+2 987 sats", "When", "Aug 12, 2021 at 4:35pm", "Confirmations", "Received in address", "bc1k ... dz73", "Transaction ID", "4367 ... 846a", "Details", "Wallet", "Send", "Receive", "Settings"]
+},
+{
+    "id": "transactions-send-transaction-expanded",
+    "title": "Send transaction, expanded",
+    "flow": "Transactions",
+    "description": "The same Lightning payment with expanded details.",
+    "page": "7",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Money bag", "1.6240 2785", "$ 41,328.91", "You sent", "-50 sats", "Contact", "Note", "Tags", "To node", "0356 ... 3cab", "Amount", "-1 sat", "When", "2 minutes ago", "Lightning invoice", "lnbc ... 7d56", "Payment preimage", "76fg ... 9r37", "Details", "Wallet", "Send", "Receive", "Settings"]
+},
+{
+    "id": "transactions-receive-transaction-id-details",
+    "title": "Receive transaction, ID details",
+    "flow": "Transactions",
+    "description": "Even more details and options to interact with each piece of information can be accessed by tapping each row.",
+    "page": "5",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Money bag", "1.6240 2785", "$ 41,328.91", "You received", "+5 651 816 sats", "Contact", "Note", "Tags", "From address", "3LaQ ... NfkY", "Amount", "5 651 816 sats", "2 987 sats", "When", "Aug 12, 2021 at 4:35pm", "Confirmations", "Received in address", "bc1k ... dz73", "Transaction ID", "4367 ... 846a", "Details", "ba6f fe4f ac2b 9651 6738 73ef ab13 04cb 74d3 7ed8 851d e49b d974 ce1e 02a1 4ec7", "Copy to clipboard", "View in explorer", "Wallet", "Send", "Receive", "Settings"]
+},
+{
+    "id": "home-account-switcher",
+    "title": "Account switcher",
+    "flow": "Home",
+    "description": "Wallet switching and adding happens in an overlay accessed by tapping the wallet name.",
+    "page": "5",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Savings", "1.6240 2785", "$ 41,328.91", "Send", "Receive", "1 transaction today", "Accounts", "Spending", "₿ 0.0352", "₿ 1.3567", "Add wallet"]
+},
+{
+    "id": "home-unit-display-options",
+    "title": "Unit display options",
+    "flow": "Home",
+    "description": "Tap and hold the balance to see unit options.",
+    "page": "6",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Savings", "1.62 402 785", "$ 41,328.91", "Send", "Receive", "1 transaction today", "Bitcoin unit", "Automatic", "Bitcoin (BTC, ₿)", "Label", "Bit (μBTC, μ₿)", "Millibit (mBTC, m₿)", "Satoshi (SAT)", "Hide balance"]
+},
+{
+    "id": "home-clipboard",
+    "title": "Clipboard",
+    "flow": "Home",
+    "description": "If the user has no funds, a custom message can inform them how to get started.",
+    "page": "7",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Savings", "1.62 402 785", "$ 41,328.91", "Send", "Receive", "1 transaction today", "You have a Lightning invoice on your clipboard.", "Would you like to use this invoice for a transaction?"]
+},
+{
+    "id": "contacts-list",
+    "title": "List",
+    "flow": "Contacts",
+    "description": "Well-organized contact lists provide useful overviews and simplify sending and receiving flows.",
+    "page": "1",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["New contact", "Contacts", "Filter", "Search...", "Beatrice Phillips", "Family · 3 transactions", "Thomas Ray", "Friend · 1 transaction", "ACME Pizza Parlor", "Business · 563 transactions", "Mount Socks", "12 transactions", "SuperExchange", "Exchange · 1 transaction", "Home", "Send", "Receive", "Settings"]
+},
+{
+    "id": "contacts-personal-contact",
+    "title": "Personal contact",
+    "flow": "Contacts",
+    "description": "Personal contacts can gather transaction and address information.",
+    "page": "2",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Contacts", "Beatrice Phillips", "Note", "Friend", "Add category", "Email", "beatrice.phillips@bitcoin.design", "Lightning address", "bp@bitcoin.design", "12 Transactions", "Last one 3 days ago", "2 Scheduled payments", "Next in 6 days", "3 Addresses", "Home", "Send", "Receive", "Settings"]
+},
+{
+    "id": "contacts-company-contact",
+    "title": "Company contact",
+    "flow": "Contacts",
+    "description": "Company contacts can be emphasize options like scheduled payments and invoice generation.",
+    "page": "3",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Contacts", "Mount Socks", "Note", "Tags", "Website", "mtgox.com", "12 Transactions", "3d ago", "Add a scheduled payment...", "4 Addresses", "Home", "Send", "Receive", "Settings"]
+},
+{
+    "id": "checklists-security-checklist",
+    "title": "Security checklist",
+    "flow": "Checklists",
+    "description": "A quick, actionable summary of how well the wallet is secured. Covers app security, key scheme, and backup.",
+    "page": "1",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Security checklist", "App settings", "You enabled PIN entry to access the app.", "Security mode", "You are using a 2-2 multi-key configuration for storing medium amounts of bitcoin.", "Key backup", "Last backup on Jan 31, 2021.", "Learn more"]
+},
+{
+    "id": "settings-face-id",
+    "title": "Face ID",
+    "links": [
+    {
+        "title": "Protecting a wallet",
+        "url": "https://bitcoin.design/guide/onboarding/protecting-a-wallet/"
+    }],
+    "flow": "Settings",
+    "description": "Enabling face detection could be offered during onboarding, and accessed later in settings.",
+    "page": "10",
+    "pagemax": "10"
+},
+{
+    "id": "settings-settings",
+    "title": "Settings",
+    "flow": "Settings",
+    "description": "Settings are logically grouped to provide easy entry points.",
+    "page": "1",
+    "pagemax": "10",
+    "width": 375,
+    "height": 812,
+    "text": ["Settings", "General", "Privacy & security", "Wallet backup", "Help & support", "Advanced"]
+},
+{
+    "id": "settings-general",
+    "title": "General",
+    "flow": "Settings",
+    "description": "Basic settings for localization and notifications.",
+    "page": "2",
+    "pagemax": "10",
+    "width": 375,
+    "height": 812,
+    "text": ["General", "Language", "English", "Local currency", "Bitcoin unit", "Notifications", "Incoming transactions"]
+},
+{
+    "id": "settings-privacy-security",
+    "title": "Privacy & security",
+    "links": [
+    {
+        "title": "Protecting a wallet",
+        "url": "https://bitcoin.design/guide/onboarding/protecting-a-wallet/"
+    }],
+    "flow": "Settings",
+    "description": "PIN, FaceID, an option to hide sensitive data from display, and wallet limits.",
+    "page": "3",
+    "pagemax": "10",
+    "width": 375,
+    "height": 812,
+    "text": ["Privacy & security", "Choose a PIN to access the app and protect your data.", "FaceID", "Use FaceID to perform spending actions securely.", "Hide sensitive data", "Hides balance and transaction amounts from display.", "Wallet limits", "Enable wallet limits", "Transaction limit", "The maximum size of a single transaction.", "45,000 sats", "Daily spending limit", "The total amount that can be spent per day.", "1,000,000 sats"]
+},
+{
+    "id": "settings-wallet-backup",
+    "title": "Wallet backup",
+    "links": [
+    {
+        "title": "Backing up a recovery phrase",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/"
+    }],
+    "flow": "Settings",
+    "description": "Automatic and manual backup options.",
+    "page": "4",
+    "pagemax": "10",
+    "width": 375,
+    "height": 812,
+    "text": ["Wallet backup", "Automatic cloud backup", "Store backup data in", "Apple iCloud", "Encrypt cloud backup", "Backup channels", "Backup transactions", "Manual backup", "View recovery phrase"]
+},
+{
+    "id": "settings-local-currency",
+    "title": "Local currency",
+    "flow": "Settings",
+    "description": "The local currency should be automatically identified, with an option to change it.",
+    "page": "7",
+    "pagemax": "10",
+    "width": 375,
+    "height": 812,
+    "text": ["Local currency", "Commonly used", "Eurozone Euro (EUR, €)", "US Dollar (USD, $)", "None", "All options", "Alabian Lek (ALL, L) ", "Argentine Peso, (ARS, $)", "Australian Dollar (AUD, $)", "Arubian Florin (AWG, ƒ)", "Brasilian Real (BRL, R$)", "Canadian Dollar (CAD, $)", "Swiss Franc (CHF)", "Chilean Peso (LP, $)", "COP ($)", "CZK (Kč)", "CNY (¥)"]
+},
+{
+    "id": "settings-help-support",
+    "title": "Help & support",
+    "flow": "Settings",
+    "description": "Various ways for users to learn about the application and find support information.",
+    "page": "5",
+    "pagemax": "10",
+    "width": 375,
+    "height": 812,
+    "text": ["Help & support", "About", "FAQs", "Feature requests", "Community", "License", "App information"]
+},
+{
+    "id": "settings-bitcoin-unit",
+    "title": "Bitcoin unit",
+    "links": [
+    {
+        "title": "Units and symbols",
+        "url": "https://bitcoin.design/guide/payments/units-and-symbols/"
+    }],
+    "flow": "Settings",
+    "description": "Unit settings are kept to the two most common options, bitcoin and satoshis.",
+    "page": "8",
+    "pagemax": "10",
+    "width": 375,
+    "height": 812,
+    "text": ["Bitcoin unit", "Automatic", "Bitcoin (BTC, ₿)", "Satoshi (SAT)", "Toggle between units on the home screen by tapping your balance."]
+},
+{
+    "id": "settings-advanced",
+    "title": "Advanced",
+    "flow": "Settings",
+    "description": "Connection settings for both the Bitcoin and Network settings, as well as overall data exchange.",
+    "page": "6",
+    "pagemax": "10",
+    "width": 375,
+    "height": 812,
+    "text": ["Advanced", "Bitcoin network", "Lightning network"]
+},
+{
+    "id": "settings-bitcoin-network",
+    "title": "Bitcoin network",
+    "flow": "Settings",
+    "description": "Configuration options to connect via a personal node.",
+    "page": "9",
+    "pagemax": "10",
+    "width": 375,
+    "height": 812,
+    "text": ["Bitcoin network", "Node", "My Raspberry pi", "Pruning", "Sync when not on WiFi", "Network", "Mainnet"]
+},
+{
+    "id": "checklists-privacy-checklist",
+    "title": "Privacy checklist",
+    "flow": "Checklists",
+    "description": "A quick, actionable summary of how the wallet privacy. Covers app privacy, data privacy",
+    "page": "3",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Privacy checklist", "Change mode", "App settings", "Balances and transactions are visible by default.", "Validation", "Transactions are validated with your own Bitcoin node.", "Connection", "Data is anonymized via Tor.", "Learn more"]
+},
+{
+    "id": "sending-send",
+    "title": "Send",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "The default send form is empty. The user has the option to share a zero amount invoice.",
+    "page": "1",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Send bitcoin", "Recipient", "Enter address...", "Amount", "Enter amount...", "Description", "What is this transaction for...", "Label", "Share invoice"]
+},
+{
+    "id": "errors-routing-error",
+    "title": "Routing error",
+    "flow": "Errors",
+    "description": "To prevent user concerns, error messages should clearly state the problem, provide assurance, and suggest solutions.",
+    "page": "1",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Skip", "The transaction could \nnot be completed.", "A connection to the receiver could \nnot be made. The funds remain in \nyour wallet.\n\nThis can be addressed by opening a direct payment channel, which incurs a minimum fee of 2 000 sats. ", "View error details", "Cancel transaction", "Retry", "Open channel & retry"]
+},
+{
+    "id": "errors-general-error",
+    "title": "General error",
+    "flow": "Errors",
+    "description": "When no solutions can be identified, error messages should provide alternative means for users to get help.",
+    "page": "2",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Skip", "The transaction could \nnot be completed.", "Sorry, the problem could not be identified. Your funds remain \nsecurely in your wallet.\n\nA few things to try", "Wait 5 minutes and try again", "Ensure your Internet connection is stable", "Ask for support in our Telegram channel", "If this problem persists, opening additional payment channels may help. Learn more", "View error details"]
+},
+{
+    "id": "errors-technical-details",
+    "title": "Technical details",
+    "flow": "Errors",
+    "description": "Error codes and other output should be easily shareable to faciliate finding solutions.",
+    "page": "3",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "Error details", "If you are stuck with this error, the information below is safe to share \nin our Telegram channel.", "Error code", "ErrNoRouteFound", "{ \"code\" : 205, \"message\" : \"Could not find a route\", \"data\" : {\"getroute_tries\": 1, \"sendpay_tries\": 0, \"failures\": []} }", "Download", "Copy", "Share"]
+},
+{
+    "id": "sending-send-node",
+    "title": "Send, node",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "The user has entered a Lightning node ID. In this case, a new channel needs to be opened for a higher fee.",
+    "page": "3",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Send bitcoin", "Recipient", "02a6f31cc788036bd5f6e93dab24fd79127d99e0edf29d7f82a4e22bc9f18cec2f@tljpfqnx33h2ucq4anmq5hdzhcnplvkonm2fflb6wfdgt37j2mjmg6ad.onion:9735", "Amount", "19 800 sats", "Description", "What is this transaction for...", "Label", "~2 000  sats", "A payment channel will be opened for this transaction, for a minimum fee of 2 000 sats.", "Send payment"]
+},
+{
+    "id": "sending-review",
+    "title": "Review",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "Explain the main purpose of the application.",
+    "page": "5",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Ready to send?", "3LaQ yFGJ 82tf XNdm jL23 \n7J6X dvhx RrNf kY", "Amount", "₿0.35651816", "₿0.00000987", "Time", "Aug 12, 2021 at 4:35pm", "Send"]
+},
+{
+    "id": "sending-send-lightning-address",
+    "title": "Send, Lightning address",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "The user has entered a Lightning address.",
+    "page": "2",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Send bitcoin", "Recipient", "bob@lightning.address", "Amount", "200 sats", "Description", "What is this transaction for...", "Label", "~1  sat", "Send payment"]
+},
+{
+    "id": "sending-send-bitcoin-address",
+    "title": "Send, Bitcoin address",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "The user has entered an on-chain address.",
+    "page": "4",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Send bitcoin", "Recipient", "14svUvG3emDZLc2L65iRwPYy1hw74SRQzi", "Label", "Amount", "21 700 sats", "Description", "What is this transaction for...", "On-chain fee", "~2 000  sats", "Send payment"]
+},
+{
+    "id": "sending-confirmation",
+    "title": "Confirmation",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "An on-chain transaction has been sent.",
+    "page": "6",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Transaction sent", "It usually takes about 30 minutes for a transaction to be finalized.", "View transaction", "Done"]
+},
+{
+    "id": "sending-share-invoice",
+    "title": "Share invoice",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "QR codes are efffective for sharing payment information in-person. Copy and other native share options are also available.",
+    "page": "7",
+    "pagemax": "7",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "Share invoice", "View as text", "Share", "Copy", "Details & settings"]
+},
+{
+    "id": "receiving-recipient",
+    "title": "Recipient",
+    "links": [
+    {
+        "title": "Receiving bitcoin",
+        "url": "https://bitcoin.design/guide/payments/receive/"
+    }],
+    "flow": "Receiving",
+    "description": "Organizing payment requests by recipient helps users stay organized and allows the app to make intelligent recommendations.",
+    "page": "3",
+    "pagemax": "5",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "Who is this payment \nrequest for?", "Filter", "Search...", "New contact", "Beatrice Phillips", "Family · 3 transactions", "Thomas Ray", "Friend · 1 transaction", "ACME Pizza Parlor", "Business · 563 transactions", "Mount Socks", "Exchange · 1 transaction", "SuperExchange", "Home", "Send", "Receive", "Settings"]
+},
+{
+    "id": "receiving-purpose",
+    "title": "Purpose",
+    "links": [
+    {
+        "title": "Receiving bitcoin",
+        "url": "https://bitcoin.design/guide/payments/receive/"
+    }],
+    "flow": "Receiving",
+    "description": "Notes and tags helps both the recipient and the user understand the purpose of the payment in the future.",
+    "page": "4",
+    "pagemax": "5",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "What is this payment for?", "Enter description...", "Home", "Business", "Good life", "Allowance", "Lunch", "New tag", "Send", "Receive", "Settings"]
+},
+{
+    "id": "receiving-amount",
+    "title": "Amount",
+    "links": [
+    {
+        "title": "Receiving bitcoin",
+        "url": "https://bitcoin.design/guide/payments/receive/"
+    }],
+    "flow": "Receiving",
+    "description": "Basic amount input with the option of entering via the local currency. This requires the application to know the current exchange rate.",
+    "page": "1",
+    "pagemax": "5",
+    "width": 375,
+    "height": 812,
+    "text": ["Skip", "What is the amount?", "Bitcoin", "0.00", "Euro", "PQRS", "WXYZ", "Continue", "Home", "Send", "Receive", "Settings"]
+},
+{
+    "id": "receiving-share",
+    "title": "Share",
+    "links": [
+    {
+        "title": "Receiving bitcoin",
+        "url": "https://bitcoin.design/guide/payments/receive/"
+    }],
+    "flow": "Receiving",
+    "description": "A series of options to share the payment request. Technical details to review and verify are collapsed, but easily accessible.",
+    "page": "2",
+    "pagemax": "5",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "Share payment request", "Share", "Copy", "Contact", "Note & tags", "Details and settings"]
+},
+{
+    "id": "receiving-invoice-details",
+    "title": "Invoice details",
+    "links": [
+    {
+        "title": "Receiving bitcoin",
+        "url": "https://bitcoin.design/guide/payments/receive/"
+    }],
+    "flow": "Receiving",
+    "description": "Quick access to verify details and access infrequently used options.",
+    "page": "5",
+    "pagemax": "5",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "Share payment request", "Share", "Copy", "Share link", "Copy link", "Copy QR code", "Download QR Code", "Details and settings", "Address", "bc1Q yFGJ 82tf XNdm jL23 \n7J6X dvhx RrNf kY", "Amount", "0.01020884", "Description", "50 pounds of horse meat.", "Use legacy address", "Notify when confirmed"]
+},
+{
+    "id": "checklists-inadequate-security",
+    "title": "Inadequate security",
+    "flow": "Checklists",
+    "description": "A wallet can recommend users to switch to a secure setup if the amount of funds is beyond the applications security model.",
+    "page": "2",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Security checklist", "Improve your security", "The security of this wallet is not adequate for the amount of funds you store. An upgrade to a hardware wallet or multi-key wallet is recommended.", "Learn more", "App settings", "You enabled PIN entry to access the app.", "Security mode", "You are using the default single-key setup.", "Key backup", "Last backup on Jan 31, 2021."]
+}]

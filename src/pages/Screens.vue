@@ -284,7 +284,7 @@ export default {
 
       if(this.activeScreenId && this.activeScreenData) {
         result =  this.activeScreenData.title + ' screen | Bitcoin UI Kit'
-      } else if(this.activeFlowId) {
+      } else if(this.activeFlowId && this.activeFlowId !== 'all') {
         result = this.flowSlugs[this.activeFlowId] + ' flow | Bitcoin UI Kit'
       } else if(this.searchTerm && this.searchTerm.length > 0) {
         result =  'Screen search | Bitcoin UI Kit'
