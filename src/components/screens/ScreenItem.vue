@@ -128,8 +128,9 @@ export default {
   img {
     width: 100%;
     height: auto;
-    box-shadow: 0px 10px 30px 0px #0000000D;
-    border-radius: 16px;
+    box-shadow: 0px 15px 30px -7px rgba(var(--frontRGB), 0.1),
+                0px 4px 8px -2px rgba(var(--frontRGB), 0.1);
+    border-radius: 21px;
     transition: opacity 250ms $ease;
   }
 
