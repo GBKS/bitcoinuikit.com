@@ -1,0 +1,11 @@
+html {
+  font-family: "Inter", "system-ui";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", "system-ui"; 
+  }
+}

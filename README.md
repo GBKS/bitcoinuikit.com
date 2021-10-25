@@ -1,32 +1,29 @@
-# bitcoinuikit.com
+# Nuxt 3 Minimal Starter
 
-This repo holds the soure code for [bitcoinuikit.com](https://bitcoinuikit.com/), the website for the [Bitcoin UI Kit project](https://github.com/GBKS/bitcoin-wallet-ui-kit) by the [Bitcoin Design Community](https://bitcoin.design/).
+We recommend to look at the [documentation](https://v3.nuxtjs.org).
 
-It's currently hosted under my Github profile, but should be moved to the Bitcoin Design Github organization once it's not so rough.
+## Setup
 
-## Local development
+Make sure to install the dependencies
 
-It's possible to use just npm, I prefer using [Vue UI](https://cli.vuejs.org), as it provides a visual interface for local development.
-
-## Project setup
-```
-npm install
+```bash
+yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+## Development
+
+Start the development server on http://localhost:3000
+
+```bash
+yarn dev
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+## Production
+
+Build the application for production:
+
+```bash
+yarn build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
