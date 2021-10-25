@@ -1,6 +1,7 @@
 import { defineNuxtConfig } from 'nuxt3'
 
 export default defineNuxtConfig({
+    buildDir: 'dist',
     css: [
         '~/assets/css/variables.scss',
         '~/assets/css/mixins.scss',
