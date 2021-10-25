@@ -9,6 +9,7 @@
     "nuxt3": "latest"
   },
   "dependencies": {
+    "array-uniq": "^3.0.0",
     "fibers": "^5.0.0",
     "inter-ui": "^3.19.3",
     "node-sass": "^6.0.1",
