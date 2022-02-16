@@ -149,8 +149,8 @@ export default {
         }
       }
 
-      let item
-      for(let i=0; i<this.screenData.length; i++) {
+      let item, i
+      for(i=0; i<this.screenData.length; i++) {
         item = this.screenData[i]
 
         if(item.flow) {
@@ -163,7 +163,14 @@ export default {
         }
       }
 
-      return result
+      let keys = Object.keys(result)
+      keys.sort()
+      const sortedResult = {}
+      for(i=0; i<keys.length; i++) {
+        sortedResult[keys[i]] = result[keys[i]]
+      }
+
+      return sortedResult
     },
 
     visibleScreens() {

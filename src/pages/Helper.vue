@@ -72,11 +72,14 @@ export default {
             if(newScreenId == oldScreenId) {
               this.content[oldIndex] = newData[newIndex]
 
+              console.log('Updated', newData[newIndex])
+
               replaced = true
             }
           }
 
           if(!replaced) {
+            console.log('Added', newData[newIndex])
             this.content.push(newData[newIndex])
           }
         }
