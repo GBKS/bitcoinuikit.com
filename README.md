@@ -8,6 +8,8 @@ It's currently hosted under my Github profile, but should be moved to the Bitcoi
 
 It's possible to use just npm, I prefer using [Vue UI](https://cli.vuejs.org), as it provides a visual interface for local development.
 
+Use node 16.13.0
+
 ## Project setup
 ```
 npm install
