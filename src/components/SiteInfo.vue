@@ -17,6 +17,22 @@
       >
     </a>
 
+    <p>Looking for an Android version? There's one created and maintained by <a href="https://twitter.com/thelendu1/status/1553083783351508992" target="_blank" rel="noreferrer notarget">Wisdom</a>:</p>
+
+    <a
+      class="button"
+      :href="androidLink.url"
+      target="_blank"
+      rel="noreferrer noopener"
+    >{{ androidLink.name }}
+      <img
+        src="/assets/arrow-right.svg"
+        width="24"
+        height="24"
+        alt="Arrow right"
+      >
+    </a>
+
     <p>Some use case ideas:</p>
 
     <ul>
@@ -61,7 +77,8 @@ export default {
   name: 'SiteInfo',
 
   props: {
-    figmaLink: Object
+    figmaLink: Object,
+    androidLink: Object
   }
 }
 </script>

@@ -1,6 +1,9 @@
 <template>
   <div class="info-page">
-    <SiteInfo :figmaLink="figmaLink" />
+    <SiteInfo 
+      :figmaLink="figmaLink" 
+      :androidLink="androidLink"
+    />
   </div>
 </template>
 
@@ -27,6 +30,10 @@ export default {
       figmaLink: {
         name: 'Duplicate on Figma',
         url: 'https://www.figma.com/community/file/916680391812923706/Bitcoin-Wallet-UI-Kit-(work-in-progress)'
+      },
+      androidLink: {
+        name: 'Get it for Android',
+        url: 'https://www.figma.com/community/file/1134903010470945356'
       }
     }
   }
