@@ -43,6 +43,25 @@
       <li>Developers can pick elements from the UI kit to include in their&nbsp;applications</li>
     </ul>
 
+    <h2 id="workshop">Watch the workshop</h2>
+    <p>It's a 1-hour introduction and how-to that covers the basics as well as putting together a simple user flow.</p>
+
+    <a class="video" href="https://www.youtube.com/watch?v=wGQS4JMYLZM" target="_blank" rel="noreferrer notarget" title="View workshop video">
+      <img
+        src="/assets/workshop-cover.jpg"
+        srcset="/assets/workshop-cover.jpg 1x, /assets/workshop-cover@2x.jpg 2x"
+        width="900"
+        height="506"
+        alt="YouTube video cover of the UI Kit workshop"
+      >
+      <span>
+        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg" alt="">
+          <circle cx="31" cy="31" r="29" fill="black" fill-opacity="0.2" stroke="white" stroke-width="2"/>
+          <path d="M24 40.4951V21.5049C24 19.9563 25.6842 18.9952 27.0175 19.783L43.0861 29.2781C44.3962 30.0523 44.3962 31.9477 43.0861 32.7219L27.0175 42.217C25.6842 43.0048 24 42.0437 24 40.4951Z" fill="white"/>
+        </svg>
+      </span>
+    </a>
+
     <h2 id="contribute">How to contribute</h2>
 
     <p>The kit is a big work-in-progress and you are welcome to chip in. It is primarily maintained by <a href="https://twitter.com/gbks" target="_blank" rel="nofollow noreferrer notarget">GBKS</a>. If you have feedback, leave a comment directly in the Figma file or <a href="https://github.com/GBKS/bitcoin-wallet-ui-kit" target="_blank" rel="me">Github repo</a>.</p>
@@ -100,8 +119,51 @@ export default {
     @include r('letter-spacing', -0.5, -3);
   }
 
-  a.button {
+  a.button,
+  a.video {
     @include r('margin-top', 20, 20);
+  }
+
+  a.video {
+    display: block;
+    position: relative;
+    line-height: 0;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    span {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 150ms linear;
+      background-color: rgba(0, 0, 0, 0.1);
+
+      svg {
+        transition: all 150ms linear;
+      }
+    }
+
+    &:hover {
+      span {
+        background-color: rgba(0, 0, 0, 0.25);
+
+        svg {
+          transform: scale(1.1, 1.1);
+        }
+      }
+    }
+
+    & + h2 {
+      margin-top: 60px;
+    }
   }
 
   p {
