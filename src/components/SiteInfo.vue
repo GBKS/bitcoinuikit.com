@@ -89,7 +89,7 @@
       alt="Three screen mock-ups of the Bitcoin Core App application"
     >
 
-    <p>The design of this new version of the <a href="http://bitcoincore.org" target="_blank" rel="noreferrer notarget">Bitcoin Core</a> QT wallet application by  is based on the UI Kit, with support for both desktop and mobile. See the Figma <a href="https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?node-id=616%3A0&t=ug64haRxRHCKLjH3-1" target="_blank" rel="noreferrer notarget">project</a> and <a href="https://www.figma.com/community/file/1185218794459295422" target="_blank" rel="noreferrer notarget">community</a> files, and <a href="http://bitcoincore.app" target="_blank" rel="noreferrer notarget">design documentation</a>.</p>
+    <p>The design of this new version of the <a href="http://bitcoincore.org" target="_blank" rel="noreferrer notarget">Bitcoin Core</a> QT wallet application is based on the UI Kit, with support for both desktop and mobile. See the Figma <a href="https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?node-id=616%3A0&t=ug64haRxRHCKLjH3-1" target="_blank" rel="noreferrer notarget">project</a> and <a href="https://www.figma.com/community/file/1185218794459295422" target="_blank" rel="noreferrer notarget">community</a> files, and <a href="http://bitcoincore.app" target="_blank" rel="noreferrer notarget">design documentation</a>.</p>
 
     <h3><a href="https://jamapp.org" target="_blank" rel="noreferrer notarget">JAM</a></h3>    
     <img
