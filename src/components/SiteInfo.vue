@@ -44,6 +44,7 @@
     </ul>
 
     <h2 id="workshop">Watch the workshop</h2>
+    
     <p>It's a 1-hour introduction and how-to that covers the basics as well as putting together a simple user flow.</p>
 
     <a class="video" href="https://www.youtube.com/watch?v=wGQS4JMYLZM" target="_blank" rel="noreferrer notarget" title="View workshop video">
@@ -62,9 +63,48 @@
       </span>
     </a>
 
+    <h2 id="case-studies">The UI Kit in use</h2>
+
+    <p>These are some examples where the UI Kit was used as a foundation to create a design system for specific projects. Got one to add? Post an issue on <a href="https://github.com/GBKS/bitcoin-wallet-ui-kit" target="_blank" rel="me">GitHub</a>.</p>
+
+    <h3><a href="https://bitcoin.design/guide/" target="_blank" rel="noreferrer notarget">Bitcoin Design Guide</a></h3>
+
+    <img
+      src="/assets/design-guide-case-study.jpg"
+      srcset="/assets/design-guide-case-study.jpg 1x, /assets/design-guide-case-study@2x.jpg 2x"
+      width="900"
+      height="476"
+      alt="Three screen mock-ups of the Daily spending wallet reference design"
+    >
+
+    <p>This project by the <a href="https://bitcoin.design" target="_blank" rel="noreferrer notarget">Bitcoin Design Community</a> gathers resources and best practices for designer and design-contributors to open-source bitcoin projects. The UI Kit is used to streamline screen mock-ups in various pages and sections, like the <a href="https://bitcoin.design/guide/daily-spending-wallet/" target="_blank" rel="noreferrer notarget">Daily spending wallet reference design</a> (see the <a href="https://www.figma.com/file/lf2Xyw2I2OXPsHiFQVQdiG/Daily-spending-wallet-prototype?node-id=4167%3A92515&t=s1jkePkgn1J0eaXQ-1" target="_blank" rel="noreferrer notarget">Figma file</a>).</p>
+
+    <h3><a href="http://bitcoincore.app" target="_blank" rel="noreferrer notarget">Bitcoin Core App</a></h3>
+
+    <img
+      src="/assets/core-app-case-study.jpg"
+      srcset="/assets/core-app-case-study.jpg 1x, /assets/core-app-case-study@2x.jpg 2x"
+      width="900"
+      height="476"
+      alt="Three screen mock-ups of the Bitcoin Core App application"
+    >
+
+    <p>The design of this new version of the <a href="http://bitcoincore.org" target="_blank" rel="noreferrer notarget">Bitcoin Core</a> QT wallet application by  is based on the UI Kit, with support for both desktop and mobile. See the Figma <a href="https://www.figma.com/file/ek8w3n3upbluw5UL2lGhRx/Bitcoin-Core-App-Design?node-id=616%3A0&t=ug64haRxRHCKLjH3-1" target="_blank" rel="noreferrer notarget">project</a> and <a href="https://www.figma.com/community/file/1185218794459295422" target="_blank" rel="noreferrer notarget">community</a> files, and <a href="http://bitcoincore.app" target="_blank" rel="noreferrer notarget">design documentation</a>.</p>
+
+    <h3><a href="https://jamapp.org" target="_blank" rel="noreferrer notarget">JAM</a></h3>    
+    <img
+      src="/assets/jam-case-study.jpg"
+      srcset="/assets/jam-case-study.jpg 1x, /assets/jam-case-study@2x.jpg 2x"
+      width="900"
+      height="476"
+      alt="Two screen mock-ups of the Jam web application"
+    >
+
+    <p>This web UI for <a href="https://github.com/JoinMarket-Org/joinmarket-clientserver/" target="_blank" rel="noreferrer notarget">JoinMarket</a> makes <a href="https://bitcoin.design/guide/glossary/#coinjoin" target="_blank" rel="noreferrer notarget">CoinJoins</a> simple and convenient. The UI design started by duplicating the UI Kit and adjusting it to project needs over time. It is implemented using <a href="https://getbootstrap.com" target="_blank" rel="noreferrer notarget">Bootstrap</a>. See the <a href="https://www.figma.com/file/kfejZJFlwBywvLEnPEmJo1/JoinMarket-UI?node-id=2850%3A67638&t=fOSAHpYyKIetgykb-1" target="_blank" rel="noreferrer notarget">project Figma file</a>.</p>
+
     <h2 id="contribute">How to contribute</h2>
 
-    <p>The kit is a big work-in-progress and you are welcome to chip in. It is primarily maintained by <a href="https://twitter.com/gbks" target="_blank" rel="nofollow noreferrer notarget">GBKS</a>. If you have feedback, leave a comment directly in the Figma file or <a href="https://github.com/GBKS/bitcoin-wallet-ui-kit" target="_blank" rel="me">Github repo</a>.</p>
+    <p>The kit is a big work-in-progress and you are welcome to chip in. It is primarily maintained by <a href="https://twitter.com/gbks" target="_blank" rel="nofollow noreferrer notarget">GBKS</a>. If you have feedback, leave a comment directly in the Figma file or <a href="https://github.com/GBKS/bitcoin-wallet-ui-kit" target="_blank" rel="me">GitHub repo</a>.</p>
 
     <p>What's helpful:</p>
     
@@ -117,6 +157,55 @@ export default {
     font-weight: 300;
     @include r('font-size', 24, 48);
     @include r('letter-spacing', -0.5, -3);
+
+    & + h3 {
+      margin-top: 20px;
+    }
+  }
+
+  h3 {
+    margin: 0;
+    font-weight: 300;
+    @include r('font-size', 20, 30);
+    @include r('letter-spacing', -0.5, -1);
+
+    a {
+      color: var(--front);
+      transition: all 100ms $ease;
+
+      &:hover {
+        color: var(--primary);
+      }
+    }
+    
+    & + img {
+      margin-top: 20px;
+    }
+  }
+
+  a:not(.button, .video) {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 2px;
+      width: 100%;
+      height: 1px;
+      transition: all 100ms $ease;
+      background-color: rgba(var(--frontRGB), 0.15);
+      pointer-events: none;
+    }
+
+    &:hover {
+      &:before {
+        background-color: var(--primary);
+      }
+    }
   }
 
   a.button,
@@ -170,7 +259,11 @@ export default {
     margin: 20px 0 0 0;
 
     & + h2 {
-      margin-top: 60px;
+      @include r('margin-top', 40, 60);
+    }
+
+    & + h3 {
+      @include r('margin-top', 20, 30);
     }
   }
 
@@ -188,6 +281,11 @@ export default {
         color: $primary;
       }
     }
+  }
+
+  > img {
+    width: 100%;
+    height: auto;
   }
 
   ul {
