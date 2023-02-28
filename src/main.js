@@ -5,6 +5,7 @@ import App from './App.vue'
 import HomePage from './pages/Home.vue'
 import InfoPage from './pages/Info.vue'
 import FoundationPage from './pages/Foundation.vue'
+import WorkshopPage from './pages/Workshop.vue'
 import ScreensPage from './pages/Screens.vue'
 import HelperPage from './pages/Helper.vue'
 
@@ -27,6 +28,7 @@ const routes = [
   { path: '/', component: HomePage },
   { path: '/info', component: InfoPage },
   { path: '/foundation', component: FoundationPage },
+  { path: '/workshop', component: WorkshopPage },
   { 
     path: '/screens', 
     component: { render: () => h(RouterView ) },

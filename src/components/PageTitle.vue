@@ -61,7 +61,8 @@ export default {
       const items = {
         'screens': Content.screens.title,
         'foundation': Content.foundation.title,
-        'info': Content.info.title
+        'info': Content.info.title,
+        'workshop': Content.workshop.title
       }
 
       let result = Content.home.title
@@ -80,7 +81,8 @@ export default {
       const items = {
         'screens': Content.screens.description,
         'foundation': Content.foundation.description,
-        'info': Content.info.description
+        'info': Content.info.description,
+        'workshop': Content.workshop.description
       }
 
       let result = Content.home.description
