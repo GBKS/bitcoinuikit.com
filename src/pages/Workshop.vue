@@ -19,7 +19,7 @@
 
       <a
         class="button"
-        href="https://www.figma.com/community/file/916680391812923706"
+        href="https://www.figma.com/file/6aBjRUYQQlfai3PbIHPjPc/Advancing-Bitcoin-Workshop-file?node-id=4349%3A64998&t=jpnipTVDVMcTZPRZ-1"
         target="_blank"
         rel="noreferrer noopener"
       >Christoph's live file
@@ -35,11 +35,20 @@
       <br />
 
       <ul>
-        <li>"<a href="https://chaincase.app/words/payjoin-design-flow" target="_blank" rel="noreferrer notarget">A Better PayJoin Design Flow</a>" by Dan Gould</li>
         <li><a href="https://bitcoin.design/guide/resources/design-challenges/#challenge-6-private-purchase" target="_blank" rel="noreferrer notarget">Private purchase design challenge</a></li>
+        <li><a href="https://chaincase.app/words/payjoin-design-flow" target="_blank" rel="noreferrer notarget">A Better PayJoin Design Flow</a></li>
         <li><a href="https://docs.google.com/document/d/1BN77GXs4VUOZISYK7QlyKvvFPqE7MzjOY1MHE_Qioeo/edit?usp=sharing" target="_blank" rel="noreferrer notarget">Work-in-progress case study draft</a></li>
         <li><a href="https://github.com/BitcoinDesign/Guide/issues/969#issuecomment-1447297652" target="_blank" rel="noreferrer notarget">Case study GitHub issue</a></li>
       </ul>
+
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <h3>Christoph</h3>
+
+      <p class="perso"><a href="https://nosta.me/gbks@nosta.me?t=bubbles" target="_blank" rel="noreferrer notarget">Nostr</a> <a href="https://twitter.com/gbks" target="_blank" rel="noreferrer notarget">Twitter</a> <a href="http://gbks.substack.com" target="_blank" rel="noreferrer notarget">Blog</a></p>
 
       <br />
       <br />
@@ -225,12 +234,21 @@ export default {
       height: auto;
     }
 
-    ul {
+    p.perso {
+      justify-content: center;
+      display: flex;
+      gap: 25px;
+    }
+
+    ul,
+    ol {
       margin: 20px 0 0 0;
+      padding: 0;
       list-style-type: none;
 
       li {
-
+        margin: 0;
+        padding: 0;
       }
 
       & + h2 {
