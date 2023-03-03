@@ -19,7 +19,7 @@
 
       <a
         class="button"
-        href="https://www.figma.com/file/6aBjRUYQQlfai3PbIHPjPc/Advancing-Bitcoin-Workshop-file?node-id=4349%3A64998&t=jpnipTVDVMcTZPRZ-1"
+        href="https://www.figma.com/file/6aBjRUYQQlfai3PbIHPjPc/Advancing-Bitcoin-Workshop-file?node-id=4542%3A29518&t=jpnipTVDVMcTZPRZ-1"
         target="_blank"
         rel="noreferrer noopener"
       >Christoph's live file

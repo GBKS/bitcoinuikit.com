@@ -1,5 +1,5 @@
 <template>
-  <div class="page-title">
+  <div :class="classObject">
     <router-link v-if="false" class="logo" to="/">Bitcoin UI Kit</router-link>
     <h1>{{ title }}</h1>
     <nav v-if="false">
@@ -99,6 +99,25 @@ export default {
 
     showFigmalink() {
       return this.$route.fullPath == '/'
+    },
+
+    classObject() {
+      const c = ['page-title']
+
+      const items = {
+        'screens': "",
+        'foundation': "",
+        'info': "",
+        'workshop': ""
+      }
+      for(let key in items) {
+        if(this.$route.fullPath.indexOf(key) === 1) {
+          c.push('-'+key)
+          break
+        }
+      }
+
+      return c.join(' ')
     }
   }
 }
@@ -181,6 +200,12 @@ export default {
 
   a.button {
     @include r('margin-top', 25, 30);
+  }
+
+  &.-workshop {
+    h1 {
+      // max-width: 1000px;
+    }
   }
 }
 

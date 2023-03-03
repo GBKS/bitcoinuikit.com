@@ -16,7 +16,7 @@
 		"description": "Browse some of the screens and user flows included in the kit."
 	},
   "workshop": {
-    "title": "Advancing Bitcoin Workshop",
+    "title": "Designing a PayJoin user flow",
     "description": "Thanks for joining. Today we'll use the UI Kit to build a simple PayJoin send flow."
   },
 	"figma": {
