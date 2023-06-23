@@ -25,8 +25,10 @@
     >{{ noResultsMessage }}</p>
     <ScreensOverlay
       :screenData="activeScreenData"
+      :nextScreenData="nextScreenData"
+      :previousScreenData="previousScreenData"
       :activeFlowId="activeFlowId"
-      :searchTerm="searchTerm" 
+      :searchTerm="searchTerm"
       @hide="hideOverlay"
     />
   </div>
@@ -73,6 +75,7 @@ export default {
 
       if(screenData[i].page) {
         screenData[i].page = parseInt(screenData[i].page)
+        screenData[i].pagemax = parseInt(screenData[i].pagemax)
       }
     }
 
@@ -94,6 +97,9 @@ export default {
       }
     }
 
+    const nextScreenData = this.getNextScreenData(screenData, activeScreenData)
+    const previousScreenData = this.getPreviousScreenData(screenData, activeScreenData)
+
     let searchTerm;
     if(this.$route.query.search) {
       searchTerm = this.$route.query.search
@@ -101,6 +107,8 @@ export default {
 
     return {
       activeScreenData,
+      nextScreenData,
+      previousScreenData,
       searchTerm,
       screenData,
       activeScreenId,
@@ -125,6 +133,9 @@ export default {
       } else {
         this.activeScreenData = null
       }
+
+      this.previousScreenData = this.getPreviousScreenData(this.screenData, this.activeScreenData)
+      this.nextScreenData = this.getNextScreenData(this.screenData, this.activeScreenData)
 
       this.updateTitle()
     }
@@ -254,6 +265,50 @@ export default {
           break;
         }
       }
+    },
+
+    getNextScreenData(screens, activeScreen) {
+      let result = null
+
+      if(activeScreen) {
+        if(activeScreen.page !== undefined && activeScreen.pagemax !== undefined) {
+          let nextPage = activeScreen.page + 1
+          if(nextPage > activeScreen.pagemax) nextPage = 1
+
+          let i=0, screen
+          for(; i<screens.length; i++) {
+            screen = screens[i]
+            if(screen.flowSlug == activeScreen.flowSlug &&screen.page == nextPage) {
+              result = screen
+              break
+            }
+          }
+        }
+      }
+
+      return result
+    },
+
+    getPreviousScreenData(screens, activeScreen) {
+      let result = null
+
+      if(activeScreen) {
+        if(activeScreen.page !== undefined && activeScreen.pagemax !== undefined) {
+          let nextPage = activeScreen.page - 1
+          if(nextPage < 1) nextPage = activeScreen.pagemax
+
+          let i=0, screen
+          for(; i<screens.length; i++) {
+            screen = screens[i]
+            if(screen.flowSlug == activeScreen.flowSlug &&screen.page == nextPage) {
+              result = screen
+              break
+            }
+          }
+        }
+      }
+
+      return result
     },
 
     setSearchTerm(value) {

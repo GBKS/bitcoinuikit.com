@@ -12,33 +12,76 @@
           <router-link :to="closeLink">Close</router-link>
           <h3>{{ screenData.title }}</h3>
           <p v-if="screenData.description">{{ screenData.description }}</p>
-          <p 
+          
+          <div 
             v-if="flowText"
             class="-flow" 
           >
-            <b>Flow</b><br/>
-            <router-link :to="flowLink">{{ screenData.flow }}</router-link>, screen {{ flowText }}
-          </p>
-          <p 
+            <h4>User flow</h4>
+            <router-link :to="flowLink">{{ screenData.flow }}</router-link>
+            <div class="-screen">
+              <p>Screen {{ flowText }}</p>
+              <router-link
+                v-if="previousScreenData"
+                class="-previous"
+                aria-label="Previous screen"
+                :to="previousLink"
+              >
+                <img
+                  src="/assets/caret-down.svg"
+                  alt="Arrow right"
+                >
+              </router-link>
+              <router-link
+                v-if="nextScreenData"
+                class="-next"
+                aria-label="Next screen"
+                :to="nextLink"
+              >
+                <img
+                  src="/assets/caret-down.svg"
+                  alt="Arrow right"
+                >
+              </router-link>
+            </div>
+          </div>
+
+          <div 
             v-if="screenData.links"
             class="-links" 
           >
-            <b>Links</b><br/>
+            <h4>Links</h4>
             <a
               v-for="(item, index) in screenData.links"
               :key="index"
               :href="item.url"
               target="_blank"
             >{{ item.title }}</a>
-        </p>
+          </div>
         </div>
-        <img
-          :src="imageFile"
-          :srcset="imageSourceSet"
-          width="375"
-          height="812"
-          :alt="screenData.title"
-        >
+        <div class="screen">
+          <router-link
+            v-if="nextScreenData"
+            aria-label="View next screen"
+            :to="nextLink"
+          >
+            <img
+              :src="imageFile"
+              :srcset="imageSourceSet"
+              width="375"
+              height="812"
+              :alt="screenData.title"
+            >
+          </router-link>
+          <img
+            v-if="!nextScreenData"
+            :src="imageFile"
+            :srcset="imageSourceSet"
+            width="375"
+            height="812"
+            :alt="screenData.title"
+          >
+        </div>
       </div>
     </div>  
   </div>
@@ -51,6 +94,8 @@ export default {
 
   props: [
     'screenData',
+    'nextScreenData',
+    'previousScreenData',
     'activeFlowId',
     'searchTerm'
   ],
@@ -99,6 +144,38 @@ export default {
 
       if(this.activeFlowId && this.activeFlowId != 'all') {
         result = '/screens/flow/' + this.activeFlowId
+      }
+
+      if(this.searchTerm) {
+        result += '?search='+this.searchTerm
+      }
+
+      return result
+    },
+
+    nextLink() {
+      const slug = this.slugify(this.nextScreenData.id)
+
+      let result = '/screens/screen/' + slug
+
+      if(this.activeFlowId && this.activeFlowId !== 'all') {
+        result = '/screens/flow/' + this.activeFlowId + '/' + slug
+      }
+
+      if(this.searchTerm) {
+        result += '?search='+this.searchTerm
+      }
+
+      return result
+    },
+
+    previousLink() {
+      const slug = this.slugify(this.previousScreenData.id)
+
+      let result = '/screens/screen/' + slug
+
+      if(this.activeFlowId && this.activeFlowId !== 'all') {
+        result = '/screens/flow/' + this.activeFlowId + '/' + slug
       }
 
       if(this.searchTerm) {
@@ -158,13 +235,16 @@ export default {
       padding: 40px;
       background-color: #f4f4f4;
 
-      img {
+      .screen {
         flex-basis: 300px;
-        width: auto;
-        height: auto;
-        max-width: 300px;
-        box-shadow: 0px 10px 30px 0px #0000000D;
-        border-radius: 40px;
+
+        img {
+          width: auto;
+          height: auto;
+          max-width: 300px;
+          box-shadow: 0px 10px 30px 0px #0000000D;
+          border-radius: 40px;
+        }
       }
 
       .copy {
@@ -175,32 +255,89 @@ export default {
           margin: 30px 0 0 0;
           @include r('font-size', 21, 24);
           font-weight: normal;
+
+          & + p {
+            // margin-top: 10px; 
+          }
         }
 
-        p {
-          margin: 10px 0 0 0;
+        p,
+        .-flow a,
+        .-links a {
+          margin: 0;
           @include r('font-size', 15, 18);
           line-height: 1.4;
           color: #606060;
 
-          &.-flow,
-          &.-links {
-            line-height: 1.4;
+          b {
+            color: var(--neutral-6);
+            font-weight: 400;
+          }
+        }
 
-            b {
-              color: var(--neutral-6);
-              font-weight: 400;
+        .-flow,
+        .-links {
+          a {
+            color: var(--front);
+            text-decoration: none;
+            border-bottom: 1px dashed transparent;
+
+            &:hover {
+              color: var(--primary);
+              border-color: var(--primary);
+            }
+          }
+        }
+
+        h4 {
+          margin: 15px 0 0 0;
+          @include r('font-size', 17, 19);
+          color: var(--neutral-6);
+          font-weight: 400;
+        }
+
+        .-screen {
+          margin-top: 3px;
+          display: flex;
+          align-items: center;
+
+          p {
+            @include r('font-size', 13, 15);
+            margin-top: 0;
+            margin-right: 5px;
+          }
+
+          a {
+            appearance: none;
+            border-width: 0;
+            line-height: 0;
+            padding: 3px;
+            background-color: transparent;
+            opacity: 0.5;
+            border-radius: 2px;
+            transition: all 100ms $ease;
+            cursor: pointer;
+
+            img {
+              width: 18px;
+              height: 18px;
             }
 
-            a {
-              color: var(--front);
-              text-decoration: none;
-              border-bottom: 1px dashed transparent;
-
-              &:hover {
-                color: var(--primary);
-                border-color: var(--primary);
+            &.-previous {
+              img {
+                transform: rotate(90deg);
               }
+            }
+
+            &.-next {
+              img {
+                transform: rotate(-90deg);
+              }
+            }
+
+            &:hover {
+              opacity: 1;
+              background-color: rgba(black, 0.1);
             }
           }
         }
@@ -237,14 +374,16 @@ export default {
       -webkit-overflow-scrolling: touch;
 
       .content {
-        img {
-          display: block;
+        .screen {
           margin-top: 30px;
+          
+          img {
+            display: block;
+          }
         }
 
-        img,
-        .copy h3,
-        .copy p {
+        .screen,
+        .copy {
           width: 100%;
           max-width: 300px;
           margin-left: auto;
