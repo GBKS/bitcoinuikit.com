@@ -40,22 +40,7 @@ export default {
   },
 
   data() {
-    const content = Screens.reverse()
-
-    // Remove duplicates
-    const ids = []
-    let id
-    for(let i=0; i<content.length; i++) {
-      id = content[i].id
-
-      if(ids.indexOf(id) !== -1) {
-        content.splice(i, 1)
-        i--
-        console.log('Deleted duplicate:', id)
-      } else {
-        ids.push(id)
-      }
-    }
+    const content = this.removeDuplicates(Screens.reverse())
 
     return {
       inputModel: '',
@@ -114,6 +99,24 @@ export default {
   },
 
   methods: {
+    removeDuplicates(content) {
+      const ids = []
+      let id
+      for(let i=0; i<content.length; i++) {
+        id = content[i].id
+
+        if(ids.indexOf(id) !== -1) {
+          content.splice(i, 1)
+          i--
+          console.log('Deleted duplicate:', id)
+        } else {
+          ids.push(id)
+        }
+      }
+
+      return content
+    },
+
     changeInput() {
       try {
         const newData = JSON.parse(this.inputModel);
@@ -140,6 +143,8 @@ export default {
             this.content.push(newData[newIndex])
           }
         }
+
+        this.content = this.removeDuplicates(this.content);
 
         this.outputModel = JSON.stringify(this.content)
       } catch(error) {
