@@ -336,102 +336,6 @@
     "text": ["Skip", "Keep your wallet and bitcoin secure", "Enable face detection or set a \npin for extra security."]
 },
 {
-    "id": "cloud-backup-confirmation",
-    "title": "Confirmation",
-    "links": [
-    {
-        "title": "Automatic cloud backup",
-        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
-    }],
-    "flow": "Cloud backup",
-    "description": "Final confirmation that the backup was successful.",
-    "page": "5",
-    "pagemax": "6",
-    "width": 375,
-    "height": 812,
-    "text": ["Your wallet is backed up", "If you lose this device, you can recover your encrypted wallet backup from iCloud.", "Continue"]
-},
-{
-    "id": "cloud-backup-cloud-service-provider-login",
-    "title": "Cloud service provider login",
-    "links": [
-    {
-        "title": "Automatic cloud backup",
-        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
-    }],
-    "flow": "Cloud backup",
-    "description": "Cloud storage often have custom login and permission flows to allow the app to read and store data.",
-    "page": "4",
-    "pagemax": "6",
-    "width": 375,
-    "height": 812,
-    "text": ["Cloud provider UI for accepting required permissions."]
-},
-{
-    "id": "cloud-backup-service",
-    "title": "Service",
-    "links": [
-    {
-        "title": "Automatic cloud backup",
-        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
-    }],
-    "flow": "Cloud backup",
-    "description": "Platform-specific options for cloud storage.",
-    "page": "3",
-    "pagemax": "6",
-    "width": 375,
-    "height": 812,
-    "text": ["Which service do you want to use for a cloud backup?", "This will back up your seed phrase with your preferred cloud storage provider.", "Apple iCloud", "Google Drive", "Learn more"]
-},
-{
-    "id": "cloud-backup-information",
-    "title": "Information",
-    "links": [
-    {
-        "title": "Automatic cloud backup",
-        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
-    }],
-    "flow": "Cloud backup",
-    "description": "Provide users with background information on how their data is stored.",
-    "page": "4",
-    "pagemax": "6",
-    "width": 375,
-    "height": 812,
-    "text": ["Done", "Automatic Cloud Backup", "This security model is great for storing small amounts for daily spending. It provides a high level of convenience with appropriate security.", "How it works", "The keys to your wallet are encrypted and store with your cloud storage provider (Apple iCloud or Google Drive).", "Encryption prevents your storage provider from accessing your keys.", "Encryption requires you to create a 6-digit PIN. You have to remember this in order to access your keys.", "This security model is appropriate for amounts similar to what you are comfortable carrying with you in cash."]
-},
-{
-    "id": "cloud-backup-pin-entry",
-    "title": "PIN entry",
-    "links": [
-    {
-        "title": "Automatic cloud backup",
-        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
-    }],
-    "flow": "Cloud backup",
-    "description": "A PIN is required for encrypting the stored data to prevent third-party access.",
-    "page": "2",
-    "pagemax": "6",
-    "width": 375,
-    "height": 812,
-    "text": ["Choose a 4-digit PIN", "Use a PIN you will remember.\nIt cannot be recovered.", "Enter password", "Confirm password", "Continue", "This is used to encrypt your wallet, which prevents your cloud service provider from accessing it.", "PQRS", "WXYZ"]
-},
-{
-    "id": "cloud-backup-intro",
-    "title": "Intro",
-    "links": [
-    {
-        "title": "Automatic cloud backup",
-        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
-    }],
-    "flow": "Cloud backup",
-    "description": "Explains the purpose and benefit of cloud backups.",
-    "page": "1",
-    "pagemax": "6",
-    "width": 375,
-    "height": 812,
-    "text": ["Back up your wallet to iCloud or Google Drive", "Don’t lose your wallet. Save an encrypted copy to your cloud service.", "Continue"]
-},
-{
     "id": "sending-send",
     "title": "Send",
     "links": [
@@ -1221,4 +1125,132 @@
     "width": 375,
     "height": 812,
     "text": ["Enter your PIN to log in", "Log in"]
+},
+{
+    "id": "cloud-backup-confirmation",
+    "title": "Confirmation",
+    "links": [
+    {
+        "title": "Automatic cloud backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
+    }],
+    "flow": "Cloud backup",
+    "description": "Final confirmation that the backup was successful.",
+    "page": "8",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Your wallet is backed up", "If you lose this device, you can recover your encrypted wallet backup from iCloud.", "Continue"]
+},
+{
+    "id": "cloud-backup-cloud-service-provider-login",
+    "title": "Cloud service provider login",
+    "links": [
+    {
+        "title": "Automatic cloud backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
+    }],
+    "flow": "Cloud backup",
+    "description": "Cloud storage often have custom login and permission flows to allow the app to read and store data.",
+    "page": "7",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Cloud provider UI for accepting required permissions."]
+},
+{
+    "id": "cloud-backup-service",
+    "title": "Service",
+    "links": [
+    {
+        "title": "Automatic cloud backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
+    }],
+    "flow": "Cloud backup",
+    "description": "Platform-specific options for cloud storage.",
+    "page": "5",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Which service do you want to use for a cloud backup?", "This will back up your seed phrase with your preferred cloud storage provider.", "Continue", "Apple iCloud", "Google Drive", "Learn more"]
+},
+{
+    "id": "cloud-backup-pin-entry",
+    "title": "PIN entry",
+    "links": [
+    {
+        "title": "Automatic cloud backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
+    }],
+    "flow": "Cloud backup",
+    "description": "A PIN is required for encrypting the stored data to prevent third-party access.",
+    "page": "2",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Choose a 4-digit PIN", "Use a PIN you will remember. It cannot be recovered.", "Continue", "This is used to encrypt your wallet, which prevents your cloud service provider from accessing it.", "PQRS", "WXYZ"]
+},
+{
+    "id": "cloud-backup-intro",
+    "title": "Intro",
+    "links": [
+    {
+        "title": "Automatic cloud backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
+    }],
+    "flow": "Cloud backup",
+    "description": "Explains the purpose and benefit of cloud backups.",
+    "page": "1",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Back up your wallet to iCloud or Google Drive", "Don’t lose your wallet. Save an encrypted copy to your cloud service.", "Continue"]
+},
+{
+    "id": "cloud-backup-information",
+    "title": "Information",
+    "links": [
+    {
+        "title": "Automatic cloud backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
+    }],
+    "flow": "Cloud backup",
+    "description": "Provide users with background information on how their data is stored.",
+    "page": "6",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "Automatic Cloud Backup", "This security model is great for storing small amounts for daily spending. It provides a high level of convenience with appropriate security.", "Continue", "How it works", "The keys to your wallet are encrypted and store with your cloud storage provider (Apple iCloud or Google Drive).", "Encryption prevents your storage provider from accessing your keys.", "Encryption requires you to create a 4-digit PIN. You have to remember this in order to access your keys.", "This security model is appropriate for amounts similar to what you are comfortable carrying with you in cash."]
+},
+{
+    "id": "cloud-backup-password-entry",
+    "title": "Password entry",
+    "links": [
+    {
+        "title": "Automatic cloud backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
+    }],
+    "flow": "Cloud backup",
+    "description": "As an alternative to a PIN, you may also require users to enter a password.",
+    "page": "3",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Choose a password", "Please use a password you will remember. It cannot be recovered.", "Continue", "Enter password", "Confirm password", "This is used to encrypt your wallet. This prevents your cloud service provider from accessing it."]
+},
+{
+    "id": "cloud-backup-password-manager",
+    "title": "Password manager",
+    "links": [
+    {
+        "title": "Automatic cloud backup",
+        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/automatic-cloud-backup/"
+    }],
+    "flow": "Cloud backup",
+    "description": "PIN and passwords could be saved to a local password manager.",
+    "page": "4",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Choose a password", "Please use a password you will remember. It cannot be recovered.", "Continue", "Enter password", "Confirm password", "This is used to encrypt your wallet. This prevents your cloud service provider from accessing it.", "Would you like to save this password in your iCloud Keychain to use with apps and websites on all your devices?", "You can view and remove saved passwords in Passwords & Accounts settings.", "Don’t Allow", "Save Password"]
 }]
