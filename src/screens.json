@@ -336,22 +336,6 @@
     "text": ["Skip", "Keep your wallet and bitcoin secure", "Enable face detection or set a \npin for extra security."]
 },
 {
-    "id": "sending-send",
-    "title": "Send",
-    "links": [
-    {
-        "title": "Sending bitcoin",
-        "url": "https://bitcoin.design/guide/payments/send/"
-    }],
-    "flow": "Sending",
-    "description": "The default send form is empty. The user has the option to share a zero amount invoice.",
-    "page": "1",
-    "pagemax": "7",
-    "width": 375,
-    "height": 812,
-    "text": ["Send bitcoin", "Recipient", "Enter address...", "Amount", "Enter amount...", "Description", "What is this transaction for...", "Label", "Share invoice"]
-},
-{
     "id": "errors-routing-error",
     "title": "Routing error",
     "flow": "Errors",
@@ -383,102 +367,6 @@
     "width": 375,
     "height": 812,
     "text": ["Done", "Error details", "If you are stuck with this error, the information below is safe to share \nin our Telegram channel.", "Error code", "ErrNoRouteFound", "{ \"code\" : 205, \"message\" : \"Could not find a route\", \"data\" : {\"getroute_tries\": 1, \"sendpay_tries\": 0, \"failures\": []} }", "Download", "Copy", "Share"]
-},
-{
-    "id": "sending-send-node",
-    "title": "Send, node",
-    "links": [
-    {
-        "title": "Sending bitcoin",
-        "url": "https://bitcoin.design/guide/payments/send/"
-    }],
-    "flow": "Sending",
-    "description": "The user has entered a Lightning node ID. In this case, a new channel needs to be opened for a higher fee.",
-    "page": "3",
-    "pagemax": "7",
-    "width": 375,
-    "height": 812,
-    "text": ["Send bitcoin", "Recipient", "02a6f31cc788036bd5f6e93dab24fd79127d99e0edf29d7f82a4e22bc9f18cec2f@tljpfqnx33h2ucq4anmq5hdzhcnplvkonm2fflb6wfdgt37j2mjmg6ad.onion:9735", "Amount", "19 800 sats", "Description", "What is this transaction for...", "Label", "~2 000  sats", "A payment channel will be opened for this transaction, for a minimum fee of 2 000 sats.", "Send payment"]
-},
-{
-    "id": "sending-review",
-    "title": "Review",
-    "links": [
-    {
-        "title": "Sending bitcoin",
-        "url": "https://bitcoin.design/guide/payments/send/"
-    }],
-    "flow": "Sending",
-    "description": "Explain the main purpose of the application.",
-    "page": "5",
-    "pagemax": "7",
-    "width": 375,
-    "height": 812,
-    "text": ["Ready to send?", "3LaQ yFGJ 82tf XNdm jL23 \n7J6X dvhx RrNf kY", "Amount", "₿0.35651816", "₿0.00000987", "Time", "Aug 12, 2021 at 4:35pm", "Send"]
-},
-{
-    "id": "sending-send-lightning-address",
-    "title": "Send, Lightning address",
-    "links": [
-    {
-        "title": "Sending bitcoin",
-        "url": "https://bitcoin.design/guide/payments/send/"
-    }],
-    "flow": "Sending",
-    "description": "The user has entered a Lightning address.",
-    "page": "2",
-    "pagemax": "7",
-    "width": 375,
-    "height": 812,
-    "text": ["Send bitcoin", "Recipient", "bob@lightning.address", "Amount", "200 sats", "Description", "What is this transaction for...", "Label", "~1  sat", "Send payment"]
-},
-{
-    "id": "sending-send-bitcoin-address",
-    "title": "Send, Bitcoin address",
-    "links": [
-    {
-        "title": "Sending bitcoin",
-        "url": "https://bitcoin.design/guide/payments/send/"
-    }],
-    "flow": "Sending",
-    "description": "The user has entered an on-chain address.",
-    "page": "4",
-    "pagemax": "7",
-    "width": 375,
-    "height": 812,
-    "text": ["Send bitcoin", "Recipient", "14svUvG3emDZLc2L65iRwPYy1hw74SRQzi", "Label", "Amount", "21 700 sats", "Description", "What is this transaction for...", "On-chain fee", "~2 000  sats", "Send payment"]
-},
-{
-    "id": "sending-confirmation",
-    "title": "Confirmation",
-    "links": [
-    {
-        "title": "Sending bitcoin",
-        "url": "https://bitcoin.design/guide/payments/send/"
-    }],
-    "flow": "Sending",
-    "description": "An on-chain transaction has been sent.",
-    "page": "6",
-    "pagemax": "7",
-    "width": 375,
-    "height": 812,
-    "text": ["Transaction sent", "It usually takes about 30 minutes for a transaction to be finalized.", "View transaction", "Done"]
-},
-{
-    "id": "sending-share-invoice",
-    "title": "Share invoice",
-    "links": [
-    {
-        "title": "Sending bitcoin",
-        "url": "https://bitcoin.design/guide/payments/send/"
-    }],
-    "flow": "Sending",
-    "description": "QR codes are efffective for sharing payment information in-person. Copy and other native share options are also available.",
-    "page": "7",
-    "pagemax": "7",
-    "width": 375,
-    "height": 812,
-    "text": ["Done", "Share invoice", "View as text", "Share", "Copy", "Details & settings"]
 },
 {
     "id": "home-empty-wallet",
@@ -1253,4 +1141,212 @@
     "width": 375,
     "height": 812,
     "text": ["Choose a password", "Please use a password you will remember. It cannot be recovered.", "Continue", "Enter password", "Confirm password", "This is used to encrypt your wallet. This prevents your cloud service provider from accessing it.", "Would you like to save this password in your iCloud Keychain to use with apps and websites on all your devices?", "You can view and remove saved passwords in Passwords & Accounts settings.", "Don’t Allow", "Save Password"]
+},
+{
+    "id": "sending-home-screen",
+    "title": "Home screen",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "Payment flows can be entered from the home screen in multiple ways - entering an amount, contacts, and scanning a QR code.",
+    "page": "1",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["sats", "Enter amount", "Request", "Activity", "Contacts", "Settings"]
+},
+{
+    "id": "sending-home-screen-input",
+    "title": "Home screen input",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "In this scenario, the user enters an amount and hits pay. Next, they will choose a recipient from contacts or enter an address.",
+    "page": "2",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["25,000", "sats", "Request", "Activity", "Contacts", "Settings"]
+},
+{
+    "id": "sending-empty-send-screen",
+    "title": "Empty send screen",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "If the user has not entered an amount on the home screen, tapping “Pay” leads them to a blank send form.",
+    "page": "3",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Cancel", "Send bitcoin", "Amount", "Enter amount...", "Pick contact or enter address...", "Add contact", "Add note", "Add tags", "Note", "Tags", "Scan", "Send"]
+},
+{
+    "id": "sending-contacts",
+    "title": "Contacts",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "The contact list to choose a recipient from for initiating a transaction.",
+    "page": "4",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Cancel", "Pick a contact", "Continue", "Filter", "Search...", "Jane Richardson", "jane@domain.com", "Thomas Ray", "02b...bd9@lua...qid.onion:9735", "ACME Pizza Parlor", "3 addresses", "Mount Socks", "1Gka...hYCG", "SuperExchange", "lightning:LNURL1...NUPH"]
+},
+{
+    "id": "sending-partially-filled-send-screen",
+    "title": "Partially filled send screen",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "The use has entered an amount and chosen a recipient to make a lightning payment to.",
+    "page": "5",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Cancel", "Send bitcoin", "Continue", "Amount", "2,000 sats", "0.91 €", "Jane Richardson", "~3  sats", "Add note", "Add tags", "Add contact", "Note", "Tags", "Send payment", "Send"]
+},
+{
+    "id": "sending-completed-send-screen",
+    "title": "Completed send screen",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "In addition to the basic information, the user has also entered a description and added tags.",
+    "page": "6",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Cancel", "Send bitcoin", "Continue", "Amount", "2,000 sats", "0.91 €", "Jane Richardson", "~1  sat", "Description", "12 delicious waffles.", "Business", "Design", "Invoice", "Send payment"]
+},
+{
+    "id": "sending-confirm-send",
+    "title": "Confirm send",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "Before sending, the user confirms the payment one more time.",
+    "page": "7",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Cancel", "Ready to send?", "Continue", "Amount", "2,000 sats", "0.91 €", "Jane Richardson", "~1  sat", "Add note", "Add tags", "Send"]
+},
+{
+    "id": "sending-confirm-fees",
+    "title": "Confirm fees",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "For onchain transactions, users can also choose the urgency. The less urgent, the lower the fee.",
+    "page": "8",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Cancel", "Ready to send?", "Continue", "Amount", "2,000 sats", "0.91 €", "Jane Richardson", "~1  sat", "Add note", "Add tags", "Send", "How f", "Priority & arrival time", "Fast", "~10 - 20 minutes", "~3,000 sats", "~0.40 €", "Normal", "~20 - 60 minutes", "~2,000 sats", "~0.30 €", "Slow", "~1 - 2 hours", "~1,000 sats", "~0.20 €", "Custom"]
+},
+{
+    "id": "sending-processing",
+    "title": "Processing",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "The transaction is being sent. For lightning, this should be a very short time until completion.",
+    "page": "9",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "Sending...", "Continue", "Amount", "2,000 sats", "0.91 €", "Jane Richardson", "~1  sat", "Add note", "Add tags", "Details"]
+},
+{
+    "id": "sending-processing-delay",
+    "title": "Processing delay",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "The interface updates users if transaction processing takes longer than expected.",
+    "page": "10",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "This is taking a little longer...", "Continue", "Amount", "2,000 sats", "0.91 €", "jane@domain.com", "~3  sats", "Add note", "Add tags", "Details", "You will receive a notification when \nthe transaction is complete."]
+},
+{
+    "id": "sending-onchain-processing",
+    "title": "Onchain processing",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "An onchain transaction takes ~10 minutes to receive a first confirmation.",
+    "page": "11",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "Confirming...", "Amount", "2,000 sats", "0.91 €", "Jane Richardson", "~3  sats", "Add note", "Add tags", "Details", "Speed up", "Cancel"]
+},
+{
+    "id": "sending-activity-status",
+    "title": "Activity status",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "Status is also indicated in the activity screen. Users are not stuck on the transaction details screen while sending.",
+    "page": "12",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Transactions", "Jane Richardson", "Sending...", "-2,000 sats", "-0.91 €", "Paula Ceruzzi", "April 11, 2021", "+139,969 sat", "+82,00 €", "Motor City", "April 4, 2021", "-50,000 sat", "-26,00 €", "Tire rotation and oil change.", "Expenses", "Private", "Winston Park", "Failed", "-73,398 sat", "-43,00 €", "Yum\nYum", "Yum Yum Foods", "Yesterday", "-21,763 sat", "-12.75 €"]
+},
+{
+    "id": "sending-send-confirmation",
+    "title": "Send confirmation",
+    "links": [
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/payments/send/"
+    }],
+    "flow": "Sending",
+    "description": "Once complete, the user sees a send confirmation and any details relevant to the transaction (like a payment receipt).",
+    "page": "13",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "Sent!", "Continue", "Amount", "2,000 sats", "0.91 €", "Jane Richardson", "~3  sats", "Add note", "Add tags", "Details", "Share receipt"]
 }]
