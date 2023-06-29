@@ -192,102 +192,6 @@
     "text": ["First, let's create your \nrecovery phrase", "A recovery phrase is a series of 12 words in a specific order. This word combination is unique to your wallet. Make sure to have pen and paper ready so you can write it down.", "Continue"]
 },
 {
-    "id": "receiving-invoice-address-type",
-    "title": "Invoice address type",
-    "links": [
-    {
-        "title": "Receiving bitcoin",
-        "url": "https://bitcoin.design/guide/payments/receive/"
-    }],
-    "flow": "Receiving",
-    "description": "Quick access to verify details and access infrequently used options.",
-    "page": "6",
-    "pagemax": "6",
-    "width": 375,
-    "height": 812,
-    "text": ["Done", "Share payment request", "Share", "Copy", "Share link", "Copy link", "Copy QR code", "Download QR Code", "Details and settings", "Choose address type", "Different address types can help you work around compatibility issues with other wallets.", "SegWit", "Recommended", "Taproot", "Not widely supported. More private with lower fees.", "Label", "Legacy", "Most widely supported. Higher fees."]
-},
-{
-    "id": "receiving-invoice-details",
-    "title": "Invoice details",
-    "links": [
-    {
-        "title": "Receiving bitcoin",
-        "url": "https://bitcoin.design/guide/payments/receive/"
-    }],
-    "flow": "Receiving",
-    "description": "Quick access to verify details and access infrequently used options.",
-    "page": "5",
-    "pagemax": "6",
-    "width": 375,
-    "height": 812,
-    "text": ["Done", "Share payment request", "Share", "Copy", "Share link", "Copy link", "Copy QR code", "Download QR Code", "Details and settings", "Amount", "1,000 sats", "Description", "50 pounds of broccoli.", "24 hours", "Expires in", "Address", "bc1Q yFGJ 82tf XNdm jL23 \n7J6X dvhx RrNf kY"]
-},
-{
-    "id": "receiving-share",
-    "title": "Share",
-    "links": [
-    {
-        "title": "Receiving bitcoin",
-        "url": "https://bitcoin.design/guide/payments/receive/"
-    }],
-    "flow": "Receiving",
-    "description": "A series of options to share the payment request. Technical details to review and verify are collapsed, but easily accessible.",
-    "page": "2",
-    "pagemax": "6",
-    "width": 375,
-    "height": 812,
-    "text": ["Done", "Share payment request", "1,000 sats", "Details & settings", "Share", "Copy"]
-},
-{
-    "id": "receiving-amount",
-    "title": "Amount",
-    "links": [
-    {
-        "title": "Receiving bitcoin",
-        "url": "https://bitcoin.design/guide/payments/request/"
-    }],
-    "flow": "Receiving",
-    "description": "Basic amount input with the option of entering via the local currency. This requires the application to know the current exchange rate.",
-    "page": "1",
-    "pagemax": "6",
-    "width": 375,
-    "height": 812,
-    "text": ["Skip", "What is the amount?", "Bitcoin", "0.00", "Euro", "PQRS", "WXYZ", "Continue", "Home", "Send", "Receive", "Settings"]
-},
-{
-    "id": "receiving-purpose",
-    "title": "Purpose",
-    "links": [
-    {
-        "title": "Receiving bitcoin",
-        "url": "https://bitcoin.design/guide/payments/receive/"
-    }],
-    "flow": "Receiving",
-    "description": "Notes and tags helps both the recipient and the user understand the purpose of the payment in the future.",
-    "page": "4",
-    "pagemax": "6",
-    "width": 375,
-    "height": 812,
-    "text": ["Done", "What is this payment for?", "Enter description...", "Home", "Business", "Good life", "Allowance", "Lunch", "New tag", "Send", "Receive", "Settings"]
-},
-{
-    "id": "receiving-recipient",
-    "title": "Recipient",
-    "links": [
-    {
-        "title": "Receiving bitcoin",
-        "url": "https://bitcoin.design/guide/payments/receive/"
-    }],
-    "flow": "Receiving",
-    "description": "Organizing payment requests by recipient helps users stay organized and allows the app to make intelligent recommendations.",
-    "page": "3",
-    "pagemax": "6",
-    "width": 375,
-    "height": 812,
-    "text": ["Done", "Who is this payment \nrequest for?", "Filter", "Search...", "New contact", "Beatrice Phillips", "Family · 3 transactions", "Thomas Ray", "Friend · 1 transaction", "ACME Pizza Parlor", "Business · 563 transactions", "Mount Socks", "Exchange · 1 transaction", "SuperExchange", "Home", "Send", "Receive", "Settings"]
-},
-{
     "id": "onboarding-product-benefits",
     "title": "Product benefits",
     "links": [
@@ -1349,4 +1253,132 @@
     "width": 375,
     "height": 812,
     "text": ["Done", "Sent!", "Continue", "Amount", "2,000 sats", "0.91 €", "Jane Richardson", "~3  sats", "Add note", "Add tags", "Details", "Share receipt"]
+},
+{
+    "id": "receiving-home-amount-input",
+    "title": "Home amount input",
+    "links": [
+    {
+        "title": "Receiving bitcoin",
+        "url": "https://bitcoin.design/guide/payments/request/"
+    }],
+    "flow": "Receiving",
+    "description": "Basic amount input with the option of entering via the local currency. This requires the application to know the current exchange rate.",
+    "page": "1",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Back up your wallet in case \nyou lose access.", "Receiving 10,000,000 sats", "250,000", "sats", "100 €", "Request", "Transact", "Activity", "Contacts", "Settings"]
+},
+{
+    "id": "receiving-combined-payment-request",
+    "title": "Combined payment request ",
+    "links": [
+    {
+        "title": "Receiving bitcoin",
+        "url": "https://bitcoin.design/guide/payments/request/"
+    }],
+    "flow": "Receiving",
+    "description": "The QR code includes both an onchain address and a lighting invoice. Users can swipe left and right to navigate the details and options screens (indicated by the dots).",
+    "page": "2",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "Details", "Share payment request", "Add payment details", "Share", "Copy"]
+},
+{
+    "id": "receiving-lightning-payment-request",
+    "title": "Lightning payment request",
+    "links": [
+    {
+        "title": "Receiving bitcoin",
+        "url": "https://bitcoin.design/guide/payments/request/"
+    }],
+    "flow": "Receiving",
+    "description": "A lightning payment request with an amount that requires a new channel to be opened.",
+    "page": "3",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "Details", "Share payment request", "Keep the app open until the \npayment is received.", "250,000 sats", "~2,000 sats fee will be charged", "Share", "Copy"]
+},
+{
+    "id": "receiving-payment-request-details",
+    "title": "Payment request details",
+    "links": [
+    {
+        "title": "Receiving bitcoin",
+        "url": "https://bitcoin.design/guide/payments/request/"
+    }],
+    "flow": "Receiving",
+    "description": "Users can configure basic payment request details here.",
+    "page": "5",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Share", "Options", "Add payment details", "Amount", "Enter amount...", "Pick contact or enter address..."]
+},
+{
+    "id": "receiving-payment-request-detail-variation",
+    "title": "Payment request detail variation",
+    "links": [
+    {
+        "title": "Receiving bitcoin",
+        "url": "https://bitcoin.design/guide/payments/request/"
+    }],
+    "flow": "Receiving",
+    "description": "A completed detail screen for a lightning transaction that requires a new channel to be opened.",
+    "page": "6",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Share", "Options", "Add payment details", "Amount", "2,000,000 sats", "212 €", "Pick contact or enter address...", "The amount exceeds your receive limit. A fee of ~2,000 sats fee will be charged to increase this limit."]
+},
+{
+    "id": "receiving-payment-request-options",
+    "title": "Payment request options",
+    "links": [
+    {
+        "title": "Receiving bitcoin",
+        "url": "https://bitcoin.design/guide/payments/request/"
+    }],
+    "flow": "Receiving",
+    "description": "Additional options for payment requests for specific scenarios.",
+    "page": "7",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Details", "Options", "Notify on payment", "Include on-chain fallback", "Pick contact or enter address...", "Amount"]
+},
+{
+    "id": "receiving-payment-info-copy-feedback",
+    "title": "Payment info copy feedback",
+    "links": [
+    {
+        "title": "Receiving bitcoin",
+        "url": "https://bitcoin.design/guide/payments/request/"
+    }],
+    "flow": "Receiving",
+    "description": "Visual feedback is provided (also for screen readers for improved accessibility) when copying the payment information.",
+    "page": "4",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "Details", "Share payment request", "Share", "Copy", "Payment request copied"]
+},
+{
+    "id": "receiving-on-chain-payment-request-options",
+    "title": "On-chain payment request options",
+    "links": [
+    {
+        "title": "Receiving bitcoin",
+        "url": "https://bitcoin.design/guide/payments/request/"
+    }],
+    "flow": "Receiving",
+    "description": "For on-chain requests, it may be helpful to allow users to choose an address type, especially during standards transition periods.",
+    "page": "8",
+    "pagemax": "8",
+    "width": 375,
+    "height": 812,
+    "text": ["Details", "Options", "Notify on payment", "Address type", "Taproot", "Include on-chain fallback", "Pick contact or enter address...", "Amount", "Choose address type", "Different address types can help you work around compatibility issues with other wallets.", "SegWit", "Recommended", "Not widely supported. More private with lower fees.", "Label", "Legacy", "Most widely supported. Higher fees."]
 }]
