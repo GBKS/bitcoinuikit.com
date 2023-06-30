@@ -273,83 +273,6 @@
     "text": ["Done", "Error details", "If you are stuck with this error, the information below is safe to share \nin our Telegram channel.", "Error code", "ErrNoRouteFound", "{ \"code\" : 205, \"message\" : \"Could not find a route\", \"data\" : {\"getroute_tries\": 1, \"sendpay_tries\": 0, \"failures\": []} }", "Download", "Copy", "Share"]
 },
 {
-    "id": "home-empty-wallet",
-    "title": "Empty wallet",
-    "flow": "Home",
-    "description": "If the user has no funds, a custom message can inform them how to get started.",
-    "page": "0",
-    "pagemax": "7",
-    "width": 375,
-    "height": 812,
-    "text": ["Send", "Receive", "You are all set \nto receive Bitcoin", "Ask others to send you Bitcoin, \nor top up the wallet yourself.", "View address"]
-},
-{
-    "id": "home-funded-wallet",
-    "title": "Funded wallet",
-    "flow": "Home",
-    "description": "Minimal home screen focusing on balance display. Swiping up or tapping the button at the bottom reveals transactions.",
-    "page": "2",
-    "pagemax": "7",
-    "width": 375,
-    "height": 812,
-    "text": ["Savings", "1.6240 2785", "€ 41,328.91", "1 transaction today", "Send", "Scan", "Receive"]
-},
-{
-    "id": "home-hidden-balance",
-    "title": "Hidden balance",
-    "flow": "Home",
-    "description": "Tapping the balance switches between bitcoin, satoshi, and hidden display (*****).",
-    "page": "3",
-    "pagemax": "7",
-    "width": 375,
-    "height": 812,
-    "text": ["Savings", "*****", "1 transaction today", "Send", "Scan", "Receive"]
-},
-{
-    "id": "home-security-reminder",
-    "title": "Security reminder",
-    "flow": "Home",
-    "description": "Important messages around security, privacy or errors can be easily seen with a minimal design.",
-    "page": "4",
-    "pagemax": "7",
-    "width": 375,
-    "height": 812,
-    "text": ["Savings", "93,500", "sats", "€ 18.70", "Security checklist", "Make sure the privacy and security features are set up the way you want them.", "Review", "1 transaction today", "Send", "Scan", "Receive"]
-},
-{
-    "id": "home-account-switcher",
-    "title": "Account switcher",
-    "flow": "Home",
-    "description": "Wallet switching and adding happens in an overlay accessed by tapping the wallet name.",
-    "page": "5",
-    "pagemax": "7",
-    "width": 375,
-    "height": 812,
-    "text": ["Savings", "93,500", "sats", "€ 18.70", "1 transaction today", "Send", "Scan", "Receive", "Accounts", "Spending", "₿ 0.0352", "₿ 1.3567", "Add wallet"]
-},
-{
-    "id": "home-unit-display-options",
-    "title": "Unit display options",
-    "flow": "Home",
-    "description": "Tap and hold the balance to see unit options.",
-    "page": "6",
-    "pagemax": "7",
-    "width": 375,
-    "height": 812,
-    "text": ["Savings", "93,500", "sats", "€ 18.70", "1 transaction today", "Send", "Scan", "Receive", "Bitcoin unit", "Automatic", "Bitcoin (BTC, ₿)", "Label", "Bit (μBTC, μ₿)", "Millibit (mBTC, m₿)", "Satoshi (SAT)", "Hide balance"]
-},
-{
-    "id": "home-clipboard",
-    "title": "Clipboard",
-    "flow": "Home",
-    "description": "If the user has no funds, a custom message can inform them how to get started.",
-    "page": "7",
-    "pagemax": "7",
-    "width": 375,
-    "height": 812,
-    "text": ["Savings", "93,500", "sats", "€ 18.70", "1 transaction today", "Send", "Scan", "Receive", "You have a Lightning invoice on your clipboard.", "Would you like to use this invoice for a transaction?", "Amount requested", "25,000 sats", "Cancel", "Approve"]
-},
-{
     "id": "contacts-list",
     "title": "List",
     "flow": "Contacts",
@@ -1381,4 +1304,70 @@
     "width": 375,
     "height": 812,
     "text": ["Details", "Options", "Notify on payment", "Address type", "Taproot", "Include on-chain fallback", "Pick contact or enter address...", "Amount", "Choose address type", "Different address types can help you work around compatibility issues with other wallets.", "SegWit", "Recommended", "Not widely supported. More private with lower fees.", "Label", "Legacy", "Most widely supported. Higher fees."]
+},
+{
+    "id": "home-home",
+    "title": "Home",
+    "flow": "Home",
+    "description": "If the user has no funds, a custom message can inform them how to get started.",
+    "page": "1",
+    "pagemax": "6",
+    "width": 375,
+    "height": 812,
+    "text": ["sats", "Back up your wallet in case \nyou lose access.", "Receiving 10,000,000 sats", "Request", "Transact", "Activity", "Contacts", "Settings"]
+},
+{
+    "id": "home-backup-reminder",
+    "title": "Backup reminder",
+    "flow": "Home",
+    "description": "Backup, security and privacy reminders can be shown on the home screen as appropriate.",
+    "page": "1",
+    "pagemax": "6",
+    "width": 375,
+    "height": 812,
+    "text": ["25,000", "sats", "10 €", "Back up your wallet in case \nyou lose access.", "Receiving 10,000,000 sats", "Request", "Transact", "Activity", "Contacts", "Settings"]
+},
+{
+    "id": "home-transaction-notification",
+    "title": "Transaction notification",
+    "flow": "Home",
+    "description": "Pending incoming transactions are indicated via a small element above the amount input.",
+    "page": "1",
+    "pagemax": "6",
+    "width": 375,
+    "height": 812,
+    "text": ["0.00 025 000", "10 €", "Back up your wallet in case \nyou lose access.", "Receiving 10,000,000 sats", "Request", "Transact", "Activity", "Contacts", "Settings"]
+},
+{
+    "id": "home-local-currency-display",
+    "title": "Local currency display",
+    "flow": "Home",
+    "description": "Users can tap the amounts to toggle between bitcoin and fiat units.",
+    "page": "1",
+    "pagemax": "6",
+    "width": 375,
+    "height": 812,
+    "text": ["10 €", "25,000", "sats", "Back up your wallet in case \nyou lose access.", "Receiving 10,000,000 sats", "Request", "Transact", "Activity", "Contacts", "Settings"]
+},
+{
+    "id": "home-clipboard-modal",
+    "title": "Clipboard modal",
+    "flow": "Home",
+    "description": "When the user opens the application and has data on the clipboard, it is evaluated and appropriate options are shown.",
+    "page": "1",
+    "pagemax": "6",
+    "width": 375,
+    "height": 812,
+    "text": ["sats", "Back up your wallet in case \nyou lose access.", "Receiving 10,000,000 sats", "Request", "Transact", "Activity", "Contacts", "Settings", "You have a Lightning address \non your clipboard.", "jane@domain.com", "Continue", "Send to this address", "New contact", "Add to contact", "Cancel"]
+},
+{
+    "id": "home-wallet-switcher",
+    "title": "Wallet switcher",
+    "flow": "Home",
+    "description": "If the application supports multiple wallets, a switcher could be introduced via a modal, accessed via a button in the top-left corner.",
+    "page": "1",
+    "pagemax": "6",
+    "width": 375,
+    "height": 812,
+    "text": ["sats", "Back up your wallet in case \nyou lose access.", "Receiving 10,000,000 sats", "Request", "Transact", "Activity", "Contacts", "Settings", "Your wallets", "Continue", "Spending", "₿ 0.0352", "Savings", "₿ 1.3567", "Add wallet"]
 }]
