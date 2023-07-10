@@ -273,39 +273,6 @@
     "text": ["Done", "Error details", "If you are stuck with this error, the information below is safe to share \nin our Telegram channel.", "Error code", "ErrNoRouteFound", "{ \"code\" : 205, \"message\" : \"Could not find a route\", \"data\" : {\"getroute_tries\": 1, \"sendpay_tries\": 0, \"failures\": []} }", "Download", "Copy", "Share"]
 },
 {
-    "id": "contacts-list",
-    "title": "List",
-    "flow": "Contacts",
-    "description": "Well-organized contact lists provide useful overviews and simplify sending and receiving flows.",
-    "page": "1",
-    "pagemax": "3",
-    "width": 375,
-    "height": 812,
-    "text": ["New contact", "Contacts", "Filter", "Search...", "Priya Lee", "Family · 3 transactions", "Thomas Ray", "Friend · 1 transaction", "ACME Pizza Parlor", "Business · 563 transactions", "Mount Socks", "12 transactions", "SuperExchange", "Exchange · 1 transaction", "Home", "Send", "Receive", "Settings"]
-},
-{
-    "id": "contacts-personal-contact",
-    "title": "Personal contact",
-    "flow": "Contacts",
-    "description": "Personal contacts can gather transaction and address information.",
-    "page": "2",
-    "pagemax": "3",
-    "width": 375,
-    "height": 812,
-    "text": ["Contacts", "Priya Lee", "Note", "Family", "Add tag", "Email", "priya.lee@bitcoin.design", "Lightning address", "pl@bitcoin.design", "12 Transactions", "Last one 3 days ago", "2 Scheduled payments", "Next in 6 days", "3 Addresses", "Home", "Send", "Receive", "Settings"]
-},
-{
-    "id": "contacts-company-contact",
-    "title": "Company contact",
-    "flow": "Contacts",
-    "description": "Company contacts can be emphasize options like scheduled payments and invoice generation.",
-    "page": "3",
-    "pagemax": "3",
-    "width": 375,
-    "height": 812,
-    "text": ["Contacts", "Mount Socks", "Note", "Tags", "Website", "mtgox.com", "12 Transactions", "3d ago", "Add a scheduled payment...", "4 Addresses", "Home", "Send", "Receive", "Settings"]
-},
-{
     "id": "checklists-security-checklist",
     "title": "Security checklist",
     "flow": "Checklists",
@@ -1370,4 +1337,212 @@
     "width": 375,
     "height": 812,
     "text": ["sats", "Back up your wallet in case \nyou lose access.", "Receiving 10,000,000 sats", "Request", "Transact", "Activity", "Contacts", "Settings", "Your wallets", "Continue", "Spending", "₿ 0.0352", "Savings", "₿ 1.3567", "Add wallet"]
+},
+{
+    "id": "contacts-list",
+    "title": "List",
+    "links": [
+    {
+        "title": "Contacts",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/contacts/"
+    }],
+    "flow": "Contacts",
+    "description": "Well-organized contact lists provide useful overviews and simplify sending and receiving flows.",
+    "page": "1",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["New contact", "Contacts", "Continue", "Filter", "Search...", "Priya Lee", "Family · 3 transactions", "Thomas Ray", "Friend · 1 transaction", "ACME Pizza Parlor", "Business · 563 transactions", "Mount Socks", "12 transactions", "SuperExchange", "Exchange · 1 transaction", "Home", "Send", "Receive", "Settings"]
+},
+{
+    "id": "contacts-personal-contact",
+    "title": "Personal contact",
+    "links": [
+    {
+        "title": "Contacts",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/contacts/"
+    }],
+    "flow": "Contacts",
+    "description": "Personal contacts can gather transaction and address information.",
+    "page": "2",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Contacts", "Priya Lee", "Note", "Family", "Add tag", "Email", "priya.lee@bitcoin.design", "Lightning address", "pl@bitcoin.design", "12 Transactions", "Last one 3 days ago", "2 Scheduled payments", "Next in 6 days", "3 Addresses", "Home", "Send", "Receive", "Settings"]
+},
+{
+    "id": "contacts-company-contact",
+    "title": "Company contact",
+    "links": [
+    {
+        "title": "Contacts",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/contacts/"
+    }],
+    "flow": "Contacts",
+    "description": "Company contacts can be emphasize options like scheduled payments and invoice generation.",
+    "page": "3",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Contacts", "Mount Socks", "Note", "Tags", "Website", "mtgox.com", "12 Transactions", "3d ago", "Add a scheduled payment...", "4 Addresses", "Home", "Send", "Receive", "Settings"]
+},
+{
+    "id": "contacts-empty-contact-list",
+    "title": "Empty contact list",
+    "links": [
+    {
+        "title": "Contacts",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/contacts/"
+    }],
+    "flow": "Contacts",
+    "description": "Initially, the users contact list is empty and it should be easy to start populating it.",
+    "page": "4",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Cancel", "Pick a contact", "Add your first contact", "Send and receive more easily, and keep your payments organized. ", "Add contact", "Import from device"]
+},
+{
+    "id": "contacts-adding-a-contact-by-name",
+    "title": "Adding a contact by name",
+    "links": [
+    {
+        "title": "Contacts",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/contacts/"
+    }],
+    "flow": "Contacts",
+    "description": "The minimum information about a contact is their name.",
+    "page": "5",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Cancel", "Pick a contact", "Add your first contact", "Send and receive more easily, and keep your payments organized. ", "Add contact", "Import from device", "Enter name"]
+},
+{
+    "id": "contacts-newly-created-contact",
+    "title": "Newly created contact",
+    "links": [
+    {
+        "title": "Contacts",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/contacts/"
+    }],
+    "flow": "Contacts",
+    "description": "A contact with minimal information.",
+    "page": "6",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Contacts", "Priya Lee", "Add a note", "Request", "To send payments to Priya, you \nneed to add an address.", "Add address"]
+},
+{
+    "id": "contacts-address-explainer",
+    "title": "Address explainer",
+    "links": [
+    {
+        "title": "Contacts",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/contacts/"
+    }],
+    "flow": "Contacts",
+    "description": "There are many address types and associated interoperability issues. It should be possible for users to learn about these, so they can efficiently navigate problem cases.",
+    "page": "7",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["What’s an address?", "There are several different address types in bitcoin. Some of them can only receive bitcoin once, others multiple times.\n\nEnter the information you have, and we will let you know how it works.\n\nView supported address types", "Add contact", "Got it"]
+},
+{
+    "id": "contacts-address-input",
+    "title": "Address input",
+    "links": [
+    {
+        "title": "Contacts",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/contacts/"
+    }],
+    "flow": "Contacts",
+    "description": "A simple form to enter an address. Good validation is a necessity, since addresses are hard to parse and manually copy.",
+    "page": "8",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Cancel", "Save", "Pick a contact", "Add address", "|Enter address...", "View supported addresses"]
+},
+{
+    "id": "contacts-address-input-details",
+    "title": "Address input details",
+    "links": [
+    {
+        "title": "Contacts",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/contacts/"
+    }],
+    "flow": "Contacts",
+    "description": "In some cases, uses may run into interoperability problems and need to look up supported address types.",
+    "page": "9",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Cancel", "Save", "Add address", "Enter address...", "Hide supported addresses", "The following addresses, or payment request formats, are supported:", "Lightning", "Node ID\nBOLT 12 offer code\nBOLT 12 address\nLNURL-Pay request\nLightning address", "On-chain", "Bitcoin address\nExtended public key"]
+},
+{
+    "id": "contacts-address-input-evaluation",
+    "title": "Address input evaluation",
+    "links": [
+    {
+        "title": "Contacts",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/contacts/"
+    }],
+    "flow": "Contacts",
+    "description": "In addition to validation, it is a good idea to highlight unique address type properties.",
+    "page": "10",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Cancel", "Save", "Add address", "pl@bitcoin.design|", "This is a valid address you can make repeated payments to.", "View supported addresses"]
+},
+{
+    "id": "contacts-address-details",
+    "title": "Address details",
+    "links": [
+    {
+        "title": "Contacts",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/contacts/"
+    }],
+    "flow": "Contacts",
+    "description": "It should be possible to pull up address details for validation purposes, and for transparency.",
+    "page": "11",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Contacts", "Priya Lee", "Add a note", "Send", "Request", "Activity", "12 Transactions", "3 days ago", "Addresses", "LNO1PG ... ZYJCZS", "pl@bitcoin.design", "03c32643 .. a2c2cbe2", "Address", "You can send multiple payments \nto this address.", "Continue", "LNURL1DP68GURN8GHJ7MRWW4EXCTT5DAHKCCN00QHXGET8WFJK2UM0VEAX2UN09E3K7MF0W5LHZ0F489JXXWFKXVMKGWPEXG6NVDRRXV6KVD3KXUMN2WPHX56RXCEKXYUNGWFNXVCXYEFJ8PNRYCF3VGMKZDPHVFNRZERPVGCKYE3HXPJXZCHMZ5K", "Copy to clipboard", "Address type", "LNURL-Pay"]
+},
+{
+    "id": "contacts-clipboard-options",
+    "title": "Clipboard options",
+    "links": [
+    {
+        "title": "Contacts",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/contacts/"
+    }],
+    "flow": "Contacts",
+    "description": "Clipboard data should be automatically evaluated and appropriate options shown, such as creating a contact from an address.",
+    "page": "12",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["sats", "Back up your wallet in case \nyou lose access.", "Receiving 10,000,000 sats", "Request", "Transact", "Activity", "Contacts", "Settings", "Cancel", "You have a lightning address \non your clipboard.", "pl@bitcoin.design", "Continue", "Create contact", "Add to contact"]
+},
+{
+    "id": "contacts-contact-in-payment-details",
+    "title": "Contact in payment details",
+    "links": [
+    {
+        "title": "Contacts",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/contacts/"
+    }],
+    "flow": "Contacts",
+    "description": "Consistently associating payments with people makes it much easier for users to understand wallet activity.",
+    "page": "13",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["You received", "+5,651,816 sats", "Contact", "Note", "Tags", "From", "Priya Lee", "From node", "03c32643 .. a2c2cbe2", "+2 sats", "When", "Aug 12, 2021 at 4:35pm", "Details"]
 }]
