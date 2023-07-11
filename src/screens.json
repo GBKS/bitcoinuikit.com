@@ -436,138 +436,6 @@
     "text": ["Privacy checklist", "Change mode", "App settings", "Balances and transactions are visible by default.", "Validation", "Transactions are validated with your own Bitcoin node.", "Connection", "Data is anonymized via Tor.", "Learn more"]
 },
 {
-    "id": "transactions-receive-transaction-id-details",
-    "title": "Receive transaction, ID details",
-    "flow": "Transactions",
-    "description": "Even more details and options to interact with each piece of information can be accessed by tapping each row.",
-    "page": "10",
-    "pagemax": "12",
-    "width": 375,
-    "height": 812,
-    "text": ["Money bag", "1.6240 2785", "$ 41,328.91", "You received", "+5 651 816 sats", "Contact", "Note", "Tags", "From address", "3LaQ ... NfkY", "Amount", "5 651 816 sats", "2 987 sats", "When", "Aug 12, 2021 at 4:35pm", "Confirmations", "Received in address", "bc1k ... dz73", "Transaction ID", "4367 ... 846a", "Details", "ba6f fe4f ac2b 9651 6738 73ef ab13 04cb 74d3 7ed8 851d e49b d974 ce1e 02a1 4ec7", "Copy to clipboard", "View in explorer", "Wallet", "Send", "Receive", "Settings"]
-},
-{
-    "id": "transactions-send-transaction-expanded",
-    "title": "Send transaction, expanded",
-    "flow": "Transactions",
-    "description": "The same Lightning payment with expanded details.",
-    "page": "12",
-    "pagemax": "12",
-    "width": 375,
-    "height": 812,
-    "text": ["Money bag", "1.6240 2785", "$ 41,328.91", "You sent", "-50 sats", "Contact", "Note", "Tags", "To node", "0356 ... 3cab", "Amount", "-1 sat", "When", "2 minutes ago", "Lightning invoice", "lnbc ... 7d56", "Payment preimage", "76fg ... 9r37", "Details", "Wallet", "Send", "Receive", "Settings"]
-},
-{
-    "id": "transactions-receive-transaction-expanded",
-    "title": "Receive transaction, expanded",
-    "flow": "Transactions",
-    "description": "Details can be expanded for extra information. Also shown here is a status display.",
-    "page": "9",
-    "pagemax": "12",
-    "width": 375,
-    "height": 812,
-    "text": ["Money bag", "1.6240 2785", "$ 41,328.91", "You received", "+5 651 816 sats", "Contact", "Note", "Tags", "Business", "Payment pending", "12 minutes", "From address", "3LaQ ... NfkY", "Priya Lee", "Web design work for ACME Inc.\nInvoice BDC01", "Amount", "+2 987 sats", "When", "Aug 12, 2021 at 4:35pm", "Confirmations", "Received in address", "bc1k ... dz73", "Transaction ID", "4367 ... 846a", "Details", "Wallet", "Send", "Receive", "Settings"]
-},
-{
-    "id": "transactions-send-transaction",
-    "title": "Send transaction",
-    "flow": "Transactions",
-    "description": "Variation of the transaction screen showing a Lightning payment.",
-    "page": "11",
-    "pagemax": "12",
-    "width": 375,
-    "height": 812,
-    "text": ["Money bag", "1.6240 2785", "$ 41,328.91", "You sent", "-50 sats", "Contact", "Note", "Tags", "To node", "0356 ... 3cab", "Amount", "-1 sat", "When", "2 minutes ago", "Details", "Wallet", "Send", "Receive", "Settings"]
-},
-{
-    "id": "transactions-budgeting",
-    "title": "Budgeting",
-    "flow": "Transactions",
-    "description": "This overview provides better insight for budgeting and accounting purposes.",
-    "page": "7",
-    "pagemax": "12",
-    "width": 375,
-    "height": 812,
-    "text": ["Overview", "November 2021", "Your balance", "Tags", "Income", "2 transactions", "+ €2,86", "Good life", "35 transactions", "fdsh gdhjgsdj", "- €1,471", "Transportation", "6 transactions", "fsdh fdhsgfjdsgfjdg jfg djgfjds", "- €161", "Home", "12 transactions", "fdjfhjgdsghj", "- €3,436"]
-},
-{
-    "id": "transactions-activity-search-export",
-    "title": "Activity, search & export",
-    "flow": "Transactions",
-    "description": "The search icons lets users access this screen for filtering and exporting activity.",
-    "page": "6",
-    "pagemax": "12",
-    "width": 375,
-    "height": 812,
-    "text": ["Done", "Export", "Search...", "All activity", "Most recent", "Options", "Luigi’s pizza", "2 minutes ago", "-21,763 sats", "€ -12.75", "Yum\nYum", "Yum Yum Foods", "Yesterday", "-128,021 sats", "€ -75.00", "Groceries", "Priya Lee", "April 12, 2021", "+1,706,950 sats", "€ +1000.00", "Web design work for ACME Inc.\nInvoice BDC01", "Business", "Winston Park", "April 9, 2021", "+73,398 sats", "€ +43,00", "Reimbursement for party expenses.", "Motor City", "April 4, 2021", "-139,969 sats", "€ -82,00", "Tire rotation and oil change."]
-},
-{
-    "id": "transactions-activity-tips",
-    "title": "Activity, tips",
-    "flow": "Transactions",
-    "description": "Pinned entries can be used for various purposes, like incentivizing users to organize their activity.",
-    "page": "5",
-    "pagemax": "12",
-    "width": 375,
-    "height": 812,
-    "text": ["Activity", "Categorize 5 new transactions", "17pY ... 6jHb", "2 minutes ago", "₿-0,00021763", "14NX ... MzMx", "Yesterday", "₿ -0,00128021", "1A3Y ... DDPE", "April 12, 2021", "₿+0,01706950", "1Kth ... fXXf", "April 9, 2021", "₿+0,00073398", "1Bvb ... RDW7", "April 4, 2021", "₿-0,00139969"]
-},
-{
-    "id": "transactions-micropayments-grouped",
-    "title": "Micropayments, grouped",
-    "flow": "Transactions",
-    "description": "Micropayments can be grouped together to clean up the list. ",
-    "page": "4",
-    "pagemax": "12",
-    "width": 375,
-    "height": 812,
-    "text": ["Activity", "Lightning fun games", "Sending...", "-100 sats", "€1,27", "September 21, 2021", "-1 000 sats", "€12,75", " +0.00001000", "4 hours ago", "Sent to", "Timothy Miller", "April 4, 2021", "-57 sat", " -0,63 €", "17 transactions", "Business", "Exchange", "Invoice", "Priya Lee", "April 12, 2021", "+1,706,950 sats", "€ +1000.00", "Web design work for ACME Inc.\nInvoice BDC01"]
-},
-{
-    "id": "transactions-activity",
-    "title": "Activity",
-    "flow": "Transactions",
-    "description": "Default transaction information is not helpful in understanding the payment purpose.",
-    "page": "1",
-    "pagemax": "12",
-    "width": 375,
-    "height": 812,
-    "text": ["Activity", "Sending...", "₿-0,00021763", "Yesterday", "₿ -0,00128021", "April 12, 2021", "₿+0,01706950", "April 9, 2021", "₿+0,00073398", "April 4, 2021", "₿-0,00139969"]
-},
-{
-    "id": "transactions-non-payment-activity",
-    "title": "Non-payment activity",
-    "flow": "Transactions",
-    "description": "Activity can also include user actions related to unique features of the wallet.",
-    "page": "3",
-    "pagemax": "12",
-    "width": 375,
-    "height": 812,
-    "text": ["Activity", "Luigi’s pizza", "Sending...", "-21,763 sats", "€ -12.75", "The Bitcoin Chat", "New podcast episode", "Yum\nYum", "Yum Yum Foods", "Yesterday", "-128,021 sats", "€ -75.00", "Groceries", "Allowance added", "somelightningapp.com ", "10,000 sats", "€ 50,00", "Web design work for ACME Inc.\nInvoice BDC01", "Business", "Winston Park", "April 9, 2021", "+73,398 sats", "€ +43,00", "Reimbursement for party expenses.", "Wallet created", "April 4, 2021", "-139,969 sats", "€ -82,00"]
-},
-{
-    "id": "transactions-annotated-activity",
-    "title": "Annotated activity",
-    "flow": "Transactions",
-    "description": "Users should be able to enrich transactions with userful information like sender/receiver, purpose and categories/tags.",
-    "page": "2",
-    "pagemax": "12",
-    "width": 375,
-    "height": 812,
-    "text": ["Activity", "Luigi’s pizza", "Sending...", "-21,763 sats", "€ -12.75", "Yum\nYum", "Yum Yum Foods", "Yesterday", "-128,021 sats", "€ -75.00", "Groceries", "Priya Lee", "April 12, 2021", "+1,706,950 sats", "€ +1000.00", "Web design work for ACME Inc.\nInvoice BDC01", "Business", "Winston Park", "April 9, 2021", "+73,398 sats", "€ +43,00", "Reimbursement for party expenses.", "Motor City", "April 4, 2021", "-139,969 sats", "€ -82,00", "Tire rotation and oil change."]
-},
-{
-    "id": "transactions-receive-transaction",
-    "title": "Receive transaction",
-    "flow": "Transactions",
-    "description": "The transaction screen should focus on highlighting the most relevant information and options to the user. Adding Contact info, notes and tags are easily accessible.",
-    "page": "8",
-    "pagemax": "12",
-    "width": 375,
-    "height": 812,
-    "text": ["Money bag", "1.6240 2785", "$ 41,328.91", "You received", "+5 651 816 sats", "Contact", "Note", "Tags", "From address", "3LaQ ... NfkY", "Amount", "+2 987 sats", "When", "Aug 12, 2021 at 4:35pm", "Details", "Wallet", "Send", "Receive", "Settings"]
-},
-{
     "id": "first-use-responsibility-disclaimer",
     "title": "Responsibility disclaimer",
     "links": [
@@ -1545,4 +1413,212 @@
     "width": 375,
     "height": 812,
     "text": ["You received", "+5,651,816 sats", "Contact", "Note", "Tags", "From", "Priya Lee", "From node", "03c32643 .. a2c2cbe2", "+2 sats", "When", "Aug 12, 2021 at 4:35pm", "Details"]
+},
+{
+    "id": "activity-annotated-activity",
+    "title": "Annotated activity",
+    "links": [
+    {
+        "title": "Activity",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/activity/"
+    }],
+    "flow": "Activity",
+    "description": "Users should be able to enrich transactions with userful information like sender/receiver, purpose and categories/tags.",
+    "page": "2",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Your balance", "25,000 sats", "11,48 €", "Activity", "Luigi’s pizza", "Sending...", "-21,763 sats", "-12.75 €", "Yum\nYum", "Yum Yum Foods", "Yesterday", "-128,021 sats", "-75.00 €", "Groceries", "Priya Lee", "April 12, 2021", "+1,706,950 sats", "+1000.00 €", "Web design work for ACME Inc.\nInvoice BDC01", "Business", "Winston Park", "April 9, 2021", "+73,398 sats", "+43,00 €", "Reimbursement for party expenses.", "Motor City", "April 4, 2021", "-139,969 sats", "-82,00 €", "Tire rotation and oil change.", "Payments", "Contacts", "Settings"]
+},
+{
+    "id": "activity-non-payment-activity",
+    "title": "Non-payment activity",
+    "links": [
+    {
+        "title": "Activity",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/activity/"
+    }],
+    "flow": "Activity",
+    "description": "Activity can also include user actions related to unique features of the wallet.",
+    "page": "3",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Your balance", "25,000 sats", "11,48 €", "Activity", "Luigi’s pizza", "Sending...", "-21,763 sats", "-12.75 €", "The Bitcoin Chat", "New podcast episode", "Yum\nYum", "Yum Yum Foods", "Yesterday", "-128,021 sats", "-75.00 €", "Groceries", "Allowance added", "somelightningapp.com ", "10,000 sats", "50,00 €", "Web design work for ACME Inc.\nInvoice BDC01", "Business", "Winston Park", "April 9, 2021", "+73,398 sats", "+43,00 €", "Reimbursement for party expenses.", "Wallet created", "April 4, 2021", "-139,969 sats", "€ -82,00", "Payments", "Contacts", "Settings"]
+},
+{
+    "id": "activity-activity",
+    "title": "Activity",
+    "links": [
+    {
+        "title": "Activity",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/activity/"
+    }],
+    "flow": "Activity",
+    "description": "Default transaction information is not helpful in understanding the payment purpose.",
+    "page": "1",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Your balance", "25,000 sats", "11,48 €", "Activity", "Sending...", "₿-0,00021763", "Yesterday", "₿ -0,00128021", "April 12, 2022", "₿+0,01706950", "April 9, 2022", "₿+0,00073398", "April 4, 2022", "₿-0,00139969", "Payments", "Contacts", "Settings"]
+},
+{
+    "id": "activity-micropayments-grouped",
+    "title": "Micropayments, grouped",
+    "links": [
+    {
+        "title": "Activity",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/activity/"
+    }],
+    "flow": "Activity",
+    "description": "Micropayments can be grouped together to clean up the list. ",
+    "page": "4",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Your balance", "25,000 sats", "11,48 €", "Activity", "Lightning fun games", "Sending...", "-100 sats", "1,27 €", "September 21, 2021", "-1,000 sats", "12,75 €", " +0.00001000", "4 hours ago", "Sent to", "Timothy Miller", "April 4, 2021", "-57 sat", " -0,63 €", "7 transactions", "Business", "Exchange", "Invoice", "Priya Lee", "April 12, 2021", "+1,706,950 sats", "+1000.00 €", "Web design work for ACME Inc.\nInvoice BDC01", "Payments", "Contacts", "Settings"]
+},
+{
+    "id": "activity-activity-tips",
+    "title": "Activity, tips",
+    "links": [
+    {
+        "title": "Activity",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/activity/"
+    }],
+    "flow": "Activity",
+    "description": "Pinned entries can be used for various purposes, like incentivizing users to organize their activity.",
+    "page": "6",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Your balance", "25,000 sats", "11,48 €", "Activity", "Categorize 5 new transactions", "17pY ... 6jHb", "2 minutes ago", "₿-0,00021763", "14NX ... MzMx", "Yesterday", "₿ -0,00128021", "1A3Y ... DDPE", "April 12, 2021", "₿+0,01706950", "1Kth ... fXXf", "April 9, 2021", "₿+0,00073398", "1Bvb ... RDW7", "April 4, 2021", "₿-0,00139969", "Payments", "Contacts", "Settings"]
+},
+{
+    "id": "activity-activity-search-export",
+    "title": "Activity, search & export",
+    "links": [
+    {
+        "title": "Activity",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/activity/"
+    }],
+    "flow": "Activity",
+    "description": "The search icons lets users access this screen for filtering and exporting activity.",
+    "page": "7",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Done", "Export", "Search...", "All activity", "Most recent", "Options", "Luigi’s pizza", "2 minutes ago", "-21,763 sats", "-12.75 €", "Yum\nYum", "Yum Yum Foods", "Yesterday", "-128,021 sats", "-75.00 €", "Groceries", "Priya Lee", "April 12, 2021", "+1,706,950 sats", "+1000.00 €", "Web design work for ACME Inc.\nInvoice BDC01", "Business", "Winston Park", "April 9, 2021", "+73,398 sats", "+43,00 €", "Reimbursement for party expenses.", "Motor City", "April 4, 2021", "-139,969 sats", "-82,00 €", "Tire rotation and oil change."]
+},
+{
+    "id": "activity-budgeting",
+    "title": "Budgeting",
+    "links": [
+    {
+        "title": "Activity",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/activity/"
+    }],
+    "flow": "Activity",
+    "description": "This overview provides better insight for budgeting and accounting purposes.",
+    "page": "8",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Overview", "November 2021", "Your balance", "Tags", "Income", "2 transactions", "+ 2,86 €", "Good life", "35 transactions", "fdsh gdhjgsdj", "- 1,471 €", "Transportation", "6 transactions", "fsdh fdhsgfjdsgfjdg jfg djgfjds", "- 161 €", "Home", "12 transactions", "fdjfhjgdsghj", "- 3,436 €"]
+},
+{
+    "id": "activity-receive-transaction",
+    "title": "Receive transaction",
+    "links": [
+    {
+        "title": "Activity",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/activity/"
+    }],
+    "flow": "Activity",
+    "description": "The transaction screen should focus on highlighting the most relevant information and options to the user. Adding Contact info, notes and tags are easily accessible.",
+    "page": "9",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["You received", "+5,651,816 sats", "Contact", "Note", "Tags", "From address", "3LaQ ... NfkY", "+2,987 sats", "When", "Aug 12, 2021 at 4:35pm", "Details"]
+},
+{
+    "id": "activity-send-transaction",
+    "title": "Send transaction",
+    "links": [
+    {
+        "title": "Activity",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/activity/"
+    }],
+    "flow": "Activity",
+    "description": "Variation of the transaction screen showing a Lightning payment.",
+    "page": "12",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["You sent", "-50 sats", "Contact", "Note", "Tags", "To node", "0356 ... 3cab", "-1 sat", "When", "2 minutes ago", "Details"]
+},
+{
+    "id": "activity-receive-transaction-expanded",
+    "title": "Receive transaction, expanded",
+    "links": [
+    {
+        "title": "Activity",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/activity/"
+    }],
+    "flow": "Activity",
+    "description": "Details can be expanded for extra information. Also shown here is a status display.",
+    "page": "10",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["You received", "+5,651,816 sats", "Contact", "Note", "Tags", "Business", "Payment pending", "12 minutes", "From address", "3LaQ ... NfkY", "Priya Lee", "Web design work for ACME Inc.\nInvoice BDC01", "Amount", "+2,987 sats", "When", "Aug 12, 2021 at 4:35pm", "Confirmations", "Received in address", "bc1k ... dz73", "Transaction ID", "4367 ... 846a", "Details"]
+},
+{
+    "id": "activity-send-transaction-expanded",
+    "title": "Send transaction, expanded",
+    "links": [
+    {
+        "title": "Activity",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/activity/"
+    }],
+    "flow": "Activity",
+    "description": "The same Lightning payment with expanded details.",
+    "page": "13",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["You sent", "-50 sats", "Contact", "Note", "Tags", "To node", "0356 ... 3cab", "Amount", "-1 sat", "When", "2 minutes ago", "Lightning invoice", "lnbc ... 7d56", "Payment preimage", "76fg ... 9r37", "Details"]
+},
+{
+    "id": "activity-receive-transaction-id-details",
+    "title": "Receive transaction, ID details",
+    "links": [
+    {
+        "title": "Activity",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/activity/"
+    }],
+    "flow": "Activity",
+    "description": "Even more details and options to interact with each piece of information can be accessed by tapping each row.",
+    "page": "11",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["You received", "+5,651,816 sats", "Contact", "Note", "Tags", "From address", "3LaQ ... NfkY", "Amount", "5 651 816 sats", "2,987 sats", "When", "Aug 12, 2021 at 4:35pm", "Confirmations", "Received in address", "bc1k ... dz73", "Transaction ID", "4367 ... 846a", "Details", "Continue", "ba6f fe4f ac2b 9651 6738 73ef ab13 04cb 74d3 7ed8 851d e49b d974 ce1e 02a1 4ec7", "Copy to clipboard", "View in explorer"]
+},
+{
+    "id": "activity-micropayments-expanded",
+    "title": "Micropayments, expanded",
+    "links": [
+    {
+        "title": "Activity",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/activity/"
+    }],
+    "flow": "Activity",
+    "description": "Micropayments can be grouped together to clean up the list. ",
+    "page": "5",
+    "pagemax": "13",
+    "width": 375,
+    "height": 812,
+    "text": ["Your balance", "25,000 sats", "11,48 €", "Activity", "Lightning fun games", "Sending...", "-100 sats", "1,27 €", "September 21, 2021", "-1,000 sats", "12,75 €", " +0.00001000", "4 hours ago", "Sent to", "Timothy Miller", "April 4, 2021", "-57 sat", " -0,63 €", "2:54pm", "-12 sat", "Description", "Error", "Groceries", "Exchange", "Private", "2:53pm", "-10 sat", "2:52pm", "-9 sat", "2:50pm", "-7 sat", "2:45pm", "2:43pm", "2:42pm", "-8 sat", "7 transactions", "Business", "Invoice", "Payments", "Contacts", "Settings"]
 }]
