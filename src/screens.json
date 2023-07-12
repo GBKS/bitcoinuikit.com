@@ -273,169 +273,6 @@
     "text": ["Done", "Error details", "If you are stuck with this error, the information below is safe to share \nin our Telegram channel.", "Error code", "ErrNoRouteFound", "{ \"code\" : 205, \"message\" : \"Could not find a route\", \"data\" : {\"getroute_tries\": 1, \"sendpay_tries\": 0, \"failures\": []} }", "Download", "Copy", "Share"]
 },
 {
-    "id": "checklists-security-checklist",
-    "title": "Security checklist",
-    "flow": "Checklists",
-    "description": "A quick, actionable summary of how well the wallet is secured. Covers app security, key scheme, and backup.",
-    "page": "1",
-    "pagemax": "2",
-    "width": 375,
-    "height": 812,
-    "text": ["Security checklist", "App settings", "You enabled PIN entry to access the app.", "Security mode", "You are using a 2-2 multi-key configuration for storing medium amounts of bitcoin.", "Key backup", "Last backup on Jan 31, 2021.", "Learn more"]
-},
-{
-    "id": "checklists-inadequate-security",
-    "title": "Inadequate security",
-    "flow": "Checklists",
-    "description": "A wallet can recommend users to switch to a secure setup if the amount of funds is beyond the applications security model.",
-    "page": "2",
-    "pagemax": "3",
-    "width": 375,
-    "height": 812,
-    "text": ["Security checklist", "Improve your security", "The security of this wallet is not adequate for the amount of funds you store. An upgrade is recommended.\nLearn more", "App settings", "You enabled PIN entry to access the app.", "Security mode", "You are using the default single-key setup.", "Key backup", "Last backup on Jan 31, 2021.", "Learn more"]
-},
-{
-    "id": "settings-face-id",
-    "title": "Face ID",
-    "links": [
-    {
-        "title": "Protecting a wallet",
-        "url": "https://bitcoin.design/guide/onboarding/protecting-a-wallet/"
-    }],
-    "flow": "Settings",
-    "description": "Enabling face detection could be offered during onboarding, and accessed later in settings.",
-    "page": "10",
-    "pagemax": "10",
-    "width": 375,
-    "height": 812,
-    "text": ["Skip", "Enable face detection for extra security", "Allows you to quickly access your wallet with a quick glance at your phone. Also used as an additional security check for approving transactions.", "Enable"]
-},
-{
-    "id": "settings-settings",
-    "title": "Settings",
-    "flow": "Settings",
-    "description": "Settings are logically grouped to provide easy entry points.",
-    "page": "1",
-    "pagemax": "10",
-    "width": 375,
-    "height": 812,
-    "text": ["Settings", "General", "Privacy & security", "Wallet backup", "Help & support", "Advanced"]
-},
-{
-    "id": "settings-general",
-    "title": "General",
-    "flow": "Settings",
-    "description": "Basic settings for localization and notifications.",
-    "page": "2",
-    "pagemax": "10",
-    "width": 375,
-    "height": 812,
-    "text": ["General", "Language", "English", "Local currency", "Bitcoin unit", "Notifications", "Incoming transactions"]
-},
-{
-    "id": "settings-privacy-security",
-    "title": "Privacy & security",
-    "links": [
-    {
-        "title": "Protecting a wallet",
-        "url": "https://bitcoin.design/guide/onboarding/protecting-a-wallet/"
-    }],
-    "flow": "Settings",
-    "description": "PIN, FaceID, an option to hide sensitive data from display, and wallet limits.",
-    "page": "3",
-    "pagemax": "10",
-    "width": 375,
-    "height": 812,
-    "text": ["Privacy & security", "Choose a PIN to access the app and protect your data.", "FaceID", "Use FaceID to perform spending actions securely.", "Hide sensitive data", "Hides balance and transaction amounts from display.", "Wallet limits", "Enable wallet limits", "Transaction limit", "The maximum size of a single transaction.", "45,000 sats", "Daily spending limit", "The total amount that can be spent per day.", "1,000,000 sats"]
-},
-{
-    "id": "settings-wallet-backup",
-    "title": "Wallet backup",
-    "links": [
-    {
-        "title": "Backing up a recovery phrase",
-        "url": "https://bitcoin.design/guide/onboarding/backing-up-a-recovery-phrase/"
-    }],
-    "flow": "Settings",
-    "description": "Automatic and manual backup options.",
-    "page": "4",
-    "pagemax": "10",
-    "width": 375,
-    "height": 812,
-    "text": ["Wallet backup", "Automatic cloud backup", "Store backup data in", "Apple iCloud", "Encrypt cloud backup", "Backup channels", "Backup transactions", "Manual backup", "View recovery phrase"]
-},
-{
-    "id": "settings-local-currency",
-    "title": "Local currency",
-    "flow": "Settings",
-    "description": "The local currency should be automatically identified, with an option to change it.",
-    "page": "7",
-    "pagemax": "10",
-    "width": 375,
-    "height": 812,
-    "text": ["Local currency", "Commonly used", "Eurozone Euro (EUR, €)", "US Dollar (USD, $)", "None", "All options", "Alabian Lek (ALL, L) ", "Argentine Peso, (ARS, $)", "Australian Dollar (AUD, $)", "Arubian Florin (AWG, ƒ)", "Brasilian Real (BRL, R$)", "Canadian Dollar (CAD, $)", "Swiss Franc (CHF)", "Chilean Peso (LP, $)", "COP ($)", "CZK (Kč)", "CNY (¥)"]
-},
-{
-    "id": "settings-help-support",
-    "title": "Help & support",
-    "flow": "Settings",
-    "description": "Various ways for users to learn about the application and find support information.",
-    "page": "5",
-    "pagemax": "10",
-    "width": 375,
-    "height": 812,
-    "text": ["Help & support", "About", "FAQs", "Feature requests", "Community", "License", "App information"]
-},
-{
-    "id": "settings-bitcoin-unit",
-    "title": "Bitcoin unit",
-    "links": [
-    {
-        "title": "Units and symbols",
-        "url": "https://bitcoin.design/guide/payments/units-and-symbols/"
-    }],
-    "flow": "Settings",
-    "description": "Unit settings are kept to the two most common options, bitcoin and satoshis.",
-    "page": "8",
-    "pagemax": "10",
-    "width": 375,
-    "height": 812,
-    "text": ["Bitcoin unit", "Automatic", "Bitcoin (BTC, ₿)", "Satoshi (SAT)", "Toggle between units on the home screen by tapping your balance."]
-},
-{
-    "id": "settings-advanced",
-    "title": "Advanced",
-    "flow": "Settings",
-    "description": "Connection settings for both the Bitcoin and Network settings, as well as overall data exchange.",
-    "page": "6",
-    "pagemax": "10",
-    "width": 375,
-    "height": 812,
-    "text": ["Advanced", "Bitcoin network", "Lightning network"]
-},
-{
-    "id": "settings-bitcoin-network",
-    "title": "Bitcoin network",
-    "flow": "Settings",
-    "description": "Configuration options to connect via a personal node.",
-    "page": "9",
-    "pagemax": "10",
-    "width": 375,
-    "height": 812,
-    "text": ["Bitcoin network", "Node", "My Raspberry pi", "Pruning", "Sync when not on WiFi", "Network", "Mainnet"]
-},
-{
-    "id": "checklists-privacy-checklist",
-    "title": "Privacy checklist",
-    "flow": "Checklists",
-    "description": "A quick, actionable summary of how the wallet privacy. Covers app privacy, data privacy",
-    "page": "3",
-    "pagemax": "3",
-    "width": 375,
-    "height": 812,
-    "text": ["Privacy checklist", "Change mode", "App settings", "Balances and transactions are visible by default.", "Validation", "Transactions are validated with your own Bitcoin node.", "Connection", "Data is anonymized via Tor.", "Learn more"]
-},
-{
     "id": "first-use-responsibility-disclaimer",
     "title": "Responsibility disclaimer",
     "links": [
@@ -1621,4 +1458,299 @@
     "width": 375,
     "height": 812,
     "text": ["Your balance", "25,000 sats", "11,48 €", "Activity", "Lightning fun games", "Sending...", "-100 sats", "1,27 €", "September 21, 2021", "-1,000 sats", "12,75 €", " +0.00001000", "4 hours ago", "Sent to", "Timothy Miller", "April 4, 2021", "-57 sat", " -0,63 €", "2:54pm", "-12 sat", "Description", "Error", "Groceries", "Exchange", "Private", "2:53pm", "-10 sat", "2:52pm", "-9 sat", "2:50pm", "-7 sat", "2:45pm", "2:43pm", "2:42pm", "-8 sat", "7 transactions", "Business", "Invoice", "Payments", "Contacts", "Settings"]
+},
+{
+    "id": "checklists-inadequate-security",
+    "title": "Inadequate security",
+    "links": [
+    {
+        "title": "Security",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/security/#security-checklist"
+    }],
+    "flow": "Checklists",
+    "description": "A wallet can recommend users to switch to a secure setup if the amount of funds is beyond the applications security model.",
+    "page": "2",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Security checklist", "Continue", "Improve your security", "The security of this wallet is not adequate for the amount of funds you store. An upgrade is recommended.\nLearn more", "Access", "You enabled PIN entry to access the app.", "Cloud backup", "Your recovery phrase and other data are regularly and automatically backed up.", "Manual backup", "Not performed yet.", "Learn more"]
+},
+{
+    "id": "checklists-security-checklist-lightning",
+    "title": "Security checklist, lightning",
+    "links": [
+    {
+        "title": "Security",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/security/#security-checklist"
+    }],
+    "flow": "Checklists",
+    "description": "A quick, actionable summary of how well the wallet is secured. Covers app security, key scheme, and backup.",
+    "page": "1",
+    "pagemax": "2",
+    "width": 375,
+    "height": 812,
+    "text": ["Security checklist", "Continue", "Access", "You enabled PIN entry to access the app.", "Cloud backup", "Your recovery phrase and other data are regularly and automatically backed up.", "Wallet limits", "Prevent unwanted, large transactions.", "Manual backup", "Write down the information to recover your wallet.", "Learn more"]
+},
+{
+    "id": "checklists-privacy-checklist-on-chain",
+    "title": "Privacy checklist, on-chain",
+    "flow": "Checklists",
+    "description": "A quick, actionable summary of how the wallet privacy. Covers app privacy, data privacy",
+    "page": "3",
+    "pagemax": "3",
+    "width": 375,
+    "height": 812,
+    "text": ["Privacy checklist", "Continue", "Access", "Balances and transactions are visible by default.", "Read clipboard", "Show appropriate options if an address or invoices is found on the clipboard.", "Validation", "Transactions are validated with your own Bitcoin node.", "Connection", "Data is anonymized via Tor.", "Learn more"]
+},
+{
+    "id": "settings-settings",
+    "title": "Settings",
+    "links": [
+    {
+        "title": "Settings",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/settings/"
+    }],
+    "flow": "Settings",
+    "description": "Settings are logically grouped to provide easy entry points.",
+    "page": "1",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["Settings", "General", "Fees", "Privacy", "Security", "Wallet backup", "Help & support", "Advanced"]
+},
+{
+    "id": "settings-general",
+    "title": "General",
+    "links": [
+    {
+        "title": "Settings",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/settings/"
+    }],
+    "flow": "Settings",
+    "description": "Basic settings for localization and notifications.",
+    "page": "2",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["General", "Language", "English", "Local currency", "Bitcoin unit", "Notifications", "Incoming transactions"]
+},
+{
+    "id": "settings-privacy",
+    "title": "Privacy",
+    "links": [
+    {
+        "title": "Privacy",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/privacy/"
+    }],
+    "flow": "Settings",
+    "description": "Provides an option to hide sensitive data from display.",
+    "page": "3",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["Privacy", "Hide sensitive data", "Hides balance and transaction amounts from display.", "Require PIN entry to unhide"]
+},
+{
+    "id": "settings-wallet-backup",
+    "title": "Wallet backup",
+    "links": [
+    {
+        "title": "Backup & recovery",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/backup-and-recovery/landing-page/"
+    },
+    {
+        "title": "Settings",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/settings/"
+    }],
+    "flow": "Settings",
+    "description": "Automatic and manual backup options.",
+    "page": "6",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["Wallet backup", "Automatic cloud backup", "Store backup data in", "Apple iCloud", "Encrypt cloud backup", "Backup channels", "Backup transactions", "Manual backup", "View recovery phrase", "Delete recovery phrase", "You will no longer be able to see your recovery phrase. This does not affect cloud backup."]
+},
+{
+    "id": "settings-help-support",
+    "title": "Help & support",
+    "links": [
+    {
+        "title": "Settings",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/settings/"
+    }],
+    "flow": "Settings",
+    "description": "Various ways for users to learn about the application and find support information.",
+    "page": "8",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["Help & support", "About", "FAQs", "Feature requests", "Community", "License", "App information"]
+},
+{
+    "id": "settings-advanced",
+    "title": "Advanced",
+    "links": [
+    {
+        "title": "Settings",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/settings/"
+    }],
+    "flow": "Settings",
+    "description": "Connection settings for both the Bitcoin and Network settings, as well as overall data exchange.",
+    "page": "9",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["Advanced", "Bitcoin network", "Lightning network", "Connect via Tor", "Private, but less stable connection."]
+},
+{
+    "id": "settings-local-currency",
+    "title": "Local currency",
+    "links": [
+    {
+        "title": "Settings",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/settings/"
+    }],
+    "flow": "Settings",
+    "description": "The local currency should be automatically identified, with an option to change it.",
+    "page": "10",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["Local currency", "Commonly used", "Eurozone Euro (EUR, €)", "US Dollar (USD, $)", "None", "All options", "Alabian Lek (ALL, L) ", "Argentine Peso, (ARS, $)", "Australian Dollar (AUD, $)", "Arubian Florin (AWG, ƒ)", "Brasilian Real (BRL, R$)", "Canadian Dollar (CAD, $)", "Swiss Franc (CHF)", "Chilean Peso (LP, $)", "COP ($)", "CZK (Kč)", "CNY (¥)"]
+},
+{
+    "id": "settings-bitcoin-unit",
+    "title": "Bitcoin unit",
+    "links": [
+    {
+        "title": "Units and symbols",
+        "url": "https://bitcoin.design/guide/payments/units-and-symbols/"
+    },
+    {
+        "title": "Settings",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/settings/"
+    }],
+    "flow": "Settings",
+    "description": "Unit settings are kept to the two most common options, bitcoin and satoshis.",
+    "page": "11",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["Bitcoin unit", "Automatic", "Bitcoin (BTC, ₿)", "Satoshi (SAT)", "Toggle between units on the home screen by tapping your balance."]
+},
+{
+    "id": "settings-bitcoin-network",
+    "title": "Bitcoin network",
+    "links": [
+    {
+        "title": "Settings",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/settings/"
+    }],
+    "flow": "Settings",
+    "description": "Configuration options to connect via a personal node.",
+    "page": "12",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["Bitcoin network", "Use default", "Connects to the bitcoin.design node.", "Bitcoin node (BIP 157)", "bitcoin.design", "03a6 ... 9736", "Only sync on wi-fi"]
+},
+{
+    "id": "settings-fees",
+    "title": "Fees",
+    "links": [
+    {
+        "title": "Settings",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/settings/"
+    },
+    {
+        "title": "Sending bitcoin",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/sending/"
+    }],
+    "flow": "Settings",
+    "description": "Basic settings for localization and notifications.",
+    "page": "7",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["Fees", "Maximum fee for outgoing payments", "12 sat + 0.05%", "On-the-fly channel creation", "1% (3,000 sat minimum)", "Channel creation fees apply when you receive a payment over lightning and a new channel needs to be created.\n\nFees are dynamic and change depending the conditions of the bitcoin and lightning networks."]
+},
+{
+    "id": "settings-lightning-network",
+    "title": "Lightning network",
+    "links": [
+    {
+        "title": "Settings",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/settings/"
+    }],
+    "flow": "Settings",
+    "description": "Settings for customizing lightning network options.",
+    "page": "13",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["Lightning network", "Sync notifications", "Reminds you to open this app when it has not synced for an extended period of time.", "Node Id", "03a6 ... 9736", "Watchtower", "Connected"]
+},
+{
+    "id": "settings-watchtower",
+    "title": "Watchtower",
+    "links": [
+    {
+        "title": "Settings",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/settings/"
+    }],
+    "flow": "Settings",
+    "description": "Detail settings for the watchtower.",
+    "page": "14",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["Watchtower", "Enable", "Use default settings", "Watchtower service provided by Bitcoin Design.", "Watchtowers provide additional security to your funds. They observe your payment channels when your node is offline and securely act on your behalf if a malicious situation occurs."]
+},
+{
+    "id": "settings-watchtower-enabled",
+    "title": "Watchtower, enabled",
+    "links": [
+    {
+        "title": "Settings",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/settings/"
+    }],
+    "flow": "Settings",
+    "description": "The user has selected a custom watchtower.",
+    "page": "15",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["Watchtower", "Enable", "Use default settings", "Address", "03a6680e79e30f050d4f32f1fb9d046cc6efb5ed4cc99eeedba6b2e89cbf838691@z4hqwq2bzs55odfo5ni52trfflg5ux2waxl73cw7tvmzwgxxr2dwcvyd.onion:9736", "Watchtowers provide additional security to your funds. They observe your payment channels when your node is offline and securely act on your behalf if a malicious situation occurs."]
+},
+{
+    "id": "settings-delete-wallet-confirmation",
+    "title": "Delete wallet confirmation",
+    "links": [
+    {
+        "title": "Security",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/security/#deleting-wallet-data"
+    }],
+    "flow": "Settings",
+    "description": "After clicking “Continue”, another confirmation should be required.",
+    "page": "5",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["Delete wallet from \nthis device", "This cannot be undone. Your recovery phrase and all other wallet data will be erased from this device.\n\nInformation stored in your cloud backup will not be erased.", "Continue"]
+},
+{
+    "id": "settings-security",
+    "title": "Security",
+    "links": [
+    {
+        "title": "Security",
+        "url": "https://bitcoin.design/guide/daily-spending-wallet/security/"
+    }],
+    "flow": "Settings",
+    "description": "PIN, FaceID, and wallet limits.",
+    "page": "4",
+    "pagemax": "15",
+    "width": 375,
+    "height": 812,
+    "text": ["Security", "Choose a PIN to access the app and protect your data.", "FaceID", "Use FaceID to perform spending actions securely.", "Delete wallet", "Wallet limits", "Enable wallet limits", "Transaction limit", "The maximum size of a single transaction.", "45,000 sats", "Daily spending limit", "The total amount that can be spent per day.", "1,000,000 sats"]
 }]
