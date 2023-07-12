@@ -289,6 +289,12 @@ export default {
           }
         }
 
+        .-links {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
         h4 {
           margin: 15px 0 0 0;
           @include r('font-size', 17, 19);
