@@ -58,6 +58,7 @@ export default {
       font-weight: 300;
       @include r('font-size', 40, 64);
       @include r('letter-spacing', -2, -3);
+      text-wrap: balance;
 
       a {
         color: var(--primary);
@@ -72,6 +73,7 @@ export default {
     p {
       margin: 0;
       @include r('margin-top', 10, 20);
+      text-wrap: balance;
     }
   }
 

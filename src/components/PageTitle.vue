@@ -11,6 +11,7 @@
       >{{ item.label }}</router-link>
     </nav>
     <p v-html="description" />
+    <p class="penpot" v-if="isHomePage">For the HRF bounty and effort on porting this project to Penpot, <a href="https://github.com/GBKS/bitcoin-wallet-ui-kit/issues/27" target="_blank">find more information here</a>.</p>
     <a
       v-if="showFigmalink"
       class="button"
@@ -75,6 +76,10 @@ export default {
       }
 
       return result
+    },
+
+    isHomePage() {
+      return this.$route.path === '/'
     },
 
     description() {
@@ -151,6 +156,7 @@ export default {
     font-weight: 300;
     color: var(--front);
     transition: color 250ms $ease;
+    text-wrap: balance;
   }
 
   p {
@@ -162,6 +168,7 @@ export default {
     @include r('font-size', 15, 21);
     color: var(--neutral-7);
     line-height: 1.6;
+    text-wrap: balance;
 
     a {
       color: var(--front);
