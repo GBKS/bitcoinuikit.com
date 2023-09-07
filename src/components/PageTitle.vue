@@ -11,7 +11,6 @@
       >{{ item.label }}</router-link>
     </nav>
     <p v-html="description" />
-    <p class="penpot" v-if="isHomePage">For the HRF bounty and effort on porting this project to Penpot, <a href="https://github.com/GBKS/bitcoin-wallet-ui-kit/issues/27" target="_blank">find more information here</a>.</p>
     <a
       v-if="showFigmalink"
       class="button"

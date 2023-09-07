@@ -1,7 +1,7 @@
 <template>
   <div class="site-header">
     <h1>Bitcoin UI Kit</h1>
-    <p>This design system and UI kit provides a design foundation for prototypes, concept explorations and open-source projects to kickstart the design process. So you can focus on what makes your Bitcoin product&nbsp;unique.</p>
+    <p>This design system and UI kit provides a design foundation for prototypes, concept explorations and open-source projects to kickstart the design process. So you can focus on what makes your bitcoin product&nbsp;unique.</p>
     <div class="links">
       <template
         v-for="(item, index) in links"
