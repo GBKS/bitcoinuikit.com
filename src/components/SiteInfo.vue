@@ -138,7 +138,7 @@
     <p>You can also help out with code implementations:</p>
     
     <ul>
-      <li><a href="https://github.com/reez/BitcoinUI" target="_blank" rel="nofollow noreferrer notarget">Bitcoin UI Swift</a> by <a href="https://github.com/reez" target="_blank" rel="nofollow noreferrer notarget">reez</a></li>
+      <li><a href="https://github.com/reez/BitcoinUI" target="_blank" rel="nofollow noreferrer notarget">Bitcoin UI Swift</a> by <a href="https://github.com/reez" target="_blank" rel="nofollow noreferrer notarget">Matthew</a></li>
       <li><a href="https://github.com/bdgwallet/bitcoinui-flutter" target="_blank" rel="nofollow noreferrer notarget">Bitcoin UI Flutter</a> by <a href="https://github.com/danielnordh" target="_blank" rel="nofollow noreferrer notarget">Daniel</a></li>
       <li><a href="https://github.com/EttaWallet/etta-ui" target="_blank" rel="nofollow noreferrer notarget">Etta UI</a> for React Native by <a href="https://github.com/crukundo" target="_blank" rel="nofollow noreferrer notarget">Collin</a></li>
       <li><a href="https://github.com/Aman035/wallet-ui-react" target="_blank" rel="nofollow noreferrer notarget">Wallet UI</a> for React Native by <a href="https://github.com/Aman035" target="_blank" rel="nofollow noreferrer notarget">Aman035</a> (currently unmaintained)</li>
