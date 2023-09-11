@@ -36,7 +36,7 @@ export default {
   data() {
     return {
       title: 'Bitcoin UI Kit',
-      description: 'This design system and UI kit provides a design foundation for prototypes, concept explorations and open-source projects to kickstart the design process. So you can focus on what makes your Bitcoin product&nbsp;unique.',
+      description: 'This design system and UI kit provides a design foundation for prototypes, concept explorations and open-source projects to kickstart the design process. So you can focus on what makes your bitcoin product&nbsp;unique.',
       figmaLink: {
         label: 'Duplicate on Figma',
         url: 'https://www.figma.com/community/file/916680391812923706/Bitcoin-Wallet-UI-Kit-(work-in-progress)'

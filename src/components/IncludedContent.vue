@@ -42,7 +42,7 @@ export default {
         },
         {
           title: 'Components',
-          description: 'The kit includes plenty of building blocks, from general UI components like buttons and inputs, to Bitcoin-specific ones like balance display and address&nbsp;input.',
+          description: 'The kit includes plenty of building blocks, from general UI components like buttons and inputs, to bitcoin-specific ones like balance display and address&nbsp;input.',
           image: {
             url: '/assets/components.png',
             retina: '/assets/components@2x.png',
