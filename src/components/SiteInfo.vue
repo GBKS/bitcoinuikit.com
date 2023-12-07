@@ -17,7 +17,23 @@
       >
     </a>
 
-    <p>Looking for an Android version? There's one created and maintained by <a href="https://twitter.com/thelendu1/status/1553083783351508992" target="_blank" rel="nofollow noreferrer notarget">Wisdom</a>:</p>
+    <p>There's also a companion plugin to quickly switch themes and keep the design system organized.</p>
+
+    <a
+      class="button"
+      href="https://www.figma.com/community/plugin/1254869452790045259/bitcoin-ui-kit"
+      target="_blank"
+      rel="noreferrer noopener"
+    >Get the Figma plugin
+      <img
+        src="/assets/arrow-right.svg"
+        width="24"
+        height="24"
+        alt="Arrow right"
+      >
+    </a>
+
+    <p>Looking for an Android version of the design? There's one created and maintained by <a href="https://twitter.com/thelendu1/status/1553083783351508992" target="_blank" rel="nofollow noreferrer notarget">Wisdom</a>:</p>
 
     <a
       class="button"
@@ -70,6 +86,26 @@
         width="900"
         height="506"
         alt="YouTube video cover of the UI Kit workshop"
+      >
+      <span>
+        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg" alt="">
+          <circle cx="31" cy="31" r="29" fill="black" fill-opacity="0.2" stroke="white" stroke-width="2"/>
+          <path d="M24 40.4951V21.5049C24 19.9563 25.6842 18.9952 27.0175 19.783L43.0861 29.2781C44.3962 30.0523 44.3962 31.9477 43.0861 32.7219L27.0175 42.217C25.6842 43.0048 24 42.0437 24 40.4951Z" fill="white"/>
+        </svg>
+      </span>
+    </a>
+
+    <h2 id="plugin">Using the plugin</h2>
+    
+    <p>How to use the <a href="https://www.figma.com/community/plugin/1254869452790045259/bitcoin-ui-kit" target="_blank" rel="nofollow noreferrer notarget">Bitcoin UI Kit Figma plugin</a> for switching themes and keeping the design system organized.</p>
+
+    <a class="video" href="https://www.youtube.com/watch?v=jiNFsR9aGlw" target="_blank" rel="nofollow noreferrer notarget" title="View workshop video">
+      <img
+        src="/assets/plugin-cover.jpg"
+        srcset="/assets/plugin-cover.jpg 1x, /assets/plugin-cover@2x.jpg 2x"
+        width="900"
+        height="506"
+        alt="YouTube video cover of the UI Kit plugin intro video"
       >
       <span>
         <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg" alt="">
