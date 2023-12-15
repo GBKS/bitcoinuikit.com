@@ -2,7 +2,7 @@
   <section class="home-themes">
     <div class="header-copy">
       <h3>Themes</h3>
-      <p>The kit comes with a flexible theming system that quickly allows you to pick from several color palettes and type styles and then customize them to your needs. Try some of the options below to preview.</p>
+      <p>The kit comes with a flexible theming system that quickly allows you to pick from several color palettes and type styles and then customize them to your needs (via the <a href="https://www.figma.com/community/plugin/1254869452790045259/bitcoin-ui-kit" target="_blank">UI Kit plugin</a>). Try some of the options below to preview.</p>
     </div>
     <div class="content-wrap">
       <div class="content">
