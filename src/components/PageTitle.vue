@@ -18,18 +18,14 @@
       target="_blank"
       rel="noreferrer noopener"
     >{{ figmaLink.label }}
-      <img
-        src="/assets/arrow-right.svg"
-        width="24"
-        height="24"
-        alt="Arrow right"
-      >
+      <div class="icon" v-html="arrowRight" />
     </a>
   </div>
 </template>
 
 <script>
 import Content from '@/content.json'
+import Icons from '@/icons.js'
 
 export default {
   name: 'PageTitle',
@@ -40,7 +36,8 @@ export default {
       figmaLink: {
         label: Content.figma.button,
         url: Content.figma.url
-      }
+      },
+      arrowRight: Icons.arrowRight
     }
   },
 
@@ -60,7 +57,7 @@ export default {
     title() {
       const items = {
         'screens': Content.screens.title,
-        'foundation': Content.foundation.title,
+        'Guide': Content.guide.title,
         'info': Content.info.title,
         'workshop': Content.workshop.title
       }
@@ -84,7 +81,7 @@ export default {
     description() {
       const items = {
         'screens': Content.screens.description,
-        'foundation': Content.foundation.description,
+        'Guide': Content.guide.description,
         'info': Content.info.description,
         'workshop': Content.workshop.description
       }
@@ -110,7 +107,7 @@ export default {
 
       const items = {
         'screens': "",
-        'foundation': "",
+        'guide': "",
         'info': "",
         'workshop': ""
       }
@@ -138,7 +135,7 @@ export default {
 
   a.logo {
     text-decoration: none;
-    color: var(--front);
+    color: var(--foreground);
     transition: all 400ms $ease;
 
     &.router-link-exact-active {
@@ -153,7 +150,7 @@ export default {
     @include r('letter-spacing', -1.5, -3);
     line-height: 1.2;
     font-weight: 300;
-    color: var(--front);
+    color: var(--foreground);
     transition: color 250ms $ease;
     text-wrap: balance;
   }
@@ -170,7 +167,7 @@ export default {
     text-wrap: balance;
 
     a {
-      color: var(--front);
+      color: var(--foreground);
       text-decoration: none;
       transition: all 100ms $ease;
 
@@ -188,7 +185,7 @@ export default {
 
     a {
       @include r('font-size', 14, 20);
-      color: var(--front);
+      color: var(--foreground);
       text-decoration: none;
       border-bottom: 1px dashed transparent;
 

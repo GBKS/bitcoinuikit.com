@@ -2,11 +2,19 @@
   <div class="home-page">
     <div class="wrap">
       <Intro />
-      <IncludedContent :screenSize="screenSize" />
-      <Tabs
-        v-if="false"
-        :items="links"
+      <Elements />
+      <Themes 
+        :color="color"
+        :mode="mode"
+        :type="type"
+        @setColor="setColor" 
+        @setMode="setMode" 
+        @setType="setType" 
       />
+      <Components />
+      <Screens />
+      <UserFlows />
+      <IncludedContent v-if="false" :screenSize="screenSize" />
     </div>
   </div>
 </template>
@@ -14,7 +22,11 @@
 <script>
 import Intro from '@/components/Intro.vue'
 import IncludedContent from '@/components/IncludedContent.vue'
-import Tabs from '@/components/Tabs.vue'
+import Elements from '@/components/home/Elements.vue'
+import Components from '@/components/home/Components.vue'
+import Screens from '@/components/home/Screens.vue'
+import UserFlows from '@/components/home/UserFlows.vue'
+import Themes from '@/components/home/Themes.vue'
 
 export default {
   name: 'HomePage',
@@ -22,11 +34,18 @@ export default {
   components: {
     Intro,
     IncludedContent,
-    Tabs
+    Elements,
+    Components,
+    Screens,
+    UserFlows,
+    Themes
   },
 
   props: [
-    'screenSize'
+    'screenSize',
+    'color',
+    'mode',
+    'type'
   ],
 
   beforeMount() {
@@ -47,14 +66,28 @@ export default {
           to: '/info'
         },
         {
-          label: 'Foundation',
-          to: '/foundation'
+          label: 'Guide',
+          to: '/guide'
         },
         {
           label: 'Screens',
           to: '/screens'
         }
       ]
+    }
+  },
+
+  methods: {
+    setColor(value) {
+      this.$emit('setColor', value)
+    },
+
+    setMode(value) {
+      this.$emit('setMode', value)
+    },
+
+    setType(value) {
+      this.$emit('setType', value)
     }
   }
 }
@@ -63,7 +96,6 @@ export default {
 <style lang="scss">
 
 .home-page {
-  background-color: #F4F4F4;
   transition: background-color 250ms $ease;
 
   > .wrap {
@@ -75,21 +107,56 @@ export default {
     margin-left: auto;
     margin-right: auto;
 
-    p,
-    ul li {
-      @include r('font-size', 16, 22);
-      color: var(--neutral-7);
-      line-height: 1.6;
+    section {
+      @include r('margin-top', 40, 60);
+      
+      .header-copy {
+        max-width: 900px;
 
-      a {
-        color: var(--primary);
-        text-decoration: none;
-        transition: all 100ms $ease;
+        h3 {
+          margin: 0;
+          font-weight: 300;
+          @include r('font-size', 32, 48);
+          @include r('letter-spacing', -0.5, -1);
+          text-wrap: balance;
+          text-align: center;
+          color: var(--foreground);
 
-        &:hover {
-          border-bottom: 1px dashed var(--primary);
+          a {
+            color: var(--primary);
+            text-decoration: none;
+
+            &:hover {
+              border-bottom: 1px dashed var(--primary);
+            }
+          }
+        }
+        
+        p {
+          margin: 0;
+          @include r('margin-top', 10, 20);
+          text-wrap: balance;
+          text-align: center;
+          color: var(--neutral-7);
+          @include r('font-size', 16, 22);
+          line-height: 1.6;
+          text-align: center;
+
+          a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: all 100ms $ease;
+
+            &:hover {
+              border-bottom: 1px dashed var(--primary);
+            }
+          }
         }
       }
+
+      // & + section {
+      //   @include r('margin-top', 25, 50);
+      // }
     }
   }
 }

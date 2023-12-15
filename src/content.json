@@ -1,19 +1,19 @@
 {
 	"home": {
 		"title": "Bitcoin UI Kit",
-		"description": "This design system and UI kit provides a design foundation for prototypes, concept explorations and open-source projects to kickstart the design process. So you can focus on what makes your Bitcoin product&nbsp;unique."
+		"description": "This design system and UI kit provides a design foundation for prototypes, concept explorations and open-source projects to kickstart the design process. So you can focus on what makes your bitcoin product&nbsp;unique. <a href=\"/info\">Learn more</a>."
 	},
 	"info": {
 		"title": "Info",
 		"description": "Design often starts with establishing foundations. The goal of this project is to provide a ready-to-use foundation for bitcoin applications."
 	},
-	"foundation": {
-		"title": "Foundation",
+	"guide": {
+		"title": "Guide",
 		"description": "These are the colors and type styles used in the kit. Icons and illustrations are from <a href=\"https://bitcoinicons.com/\" target=\"_blank\" rel=\"nofollow noreferrer notarget\">Bitcoin&nbsp;Icons</a> and <a href=\"https://github.com/GBKS/bitcoin-hardware-illustrations\" target=\"_blank\" rel=\"nofollow noreferrer notarget\">Bitcoin&nbsp;hardware&nbsp;illustrations</a>."
 	},
 	"screens": {
 		"title": "Screens",
-		"description": "Browse some of the screens and user flows included in the kit."
+		"description": "Browse some of the 250+ screens and user flows included in the kit."
 	},
   "workshop": {
     "title": "Designing a PayJoin user flow",
@@ -33,8 +33,8 @@
       "to": "/info"
     },
     {
-      "label": "Foundation",
-      "to": "/foundation"
+      "label": "Guide",
+      "to": "/guide"
     },
     {
       "label": "Screens",

@@ -21,10 +21,10 @@ export default {
         label: 'Info',
         to: '/info'
       },
-      {
-        label: 'Foundation',
-        to: '/foundation'
-      },
+      // {
+      //   label: 'Guide',
+      //   to: '/guide'
+      // },
       {
         label: 'Screens',
         to: '/screens'
@@ -53,9 +53,10 @@ export default {
     padding: 0;
     line-height: 1.4;
     @include r('font-size', 14, 22);
+    letter-spacing: -0.05rem;
 
     a {
-      color: var(--front);
+      color: var(--foreground);
       text-decoration: none;
       font-weight: 400;
 
@@ -72,7 +73,7 @@ export default {
     a {
       @include r('font-size', 14, 22);
       line-height: 1.4;
-      color: var(--front);
+      color: var(--foreground);
       text-decoration: none;
 
       &:hover,

@@ -53,7 +53,7 @@ export default {
     border-width: 0;
     padding: 0;
     background-color: transparent;
-    color: var(--front);
+    color: var(--foreground);
     @include r('font-size', 14, 16);
     text-decoration: none;
     border-bottom: 1px dashed transparent;

@@ -8,13 +8,9 @@
       :href="figmaLink.url"
       target="_blank"
       rel="noreferrer noopener"
-    >{{ figmaLink.name }}
-      <img
-        src="/assets/arrow-right.svg"
-        width="24"
-        height="24"
-        alt="Arrow right"
-      >
+    >
+      {{ figmaLink.name }}
+      <div class="icon" v-html="arrowRight" />
     </a>
 
     <p>There's also a companion plugin to quickly switch themes and keep the design system organized.</p>
@@ -24,13 +20,9 @@
       href="https://www.figma.com/community/plugin/1254869452790045259/bitcoin-ui-kit"
       target="_blank"
       rel="noreferrer noopener"
-    >Get the Figma plugin
-      <img
-        src="/assets/arrow-right.svg"
-        width="24"
-        height="24"
-        alt="Arrow right"
-      >
+    >
+      Get the Figma plugin
+      <div class="icon" v-html="arrowRight" />
     </a>
 
     <p>Looking for an Android version of the design? There's one created and maintained by <a href="https://twitter.com/thelendu1/status/1553083783351508992" target="_blank" rel="nofollow noreferrer notarget">Wisdom</a>:</p>
@@ -40,13 +32,9 @@
       :href="androidLink.url"
       target="_blank"
       rel="noreferrer noopener"
-    >{{ androidLink.name }}
-      <img
-        src="/assets/arrow-right.svg"
-        width="24"
-        height="24"
-        alt="Arrow right"
-      >
+    >
+      {{ androidLink.name }}
+      <div class="icon" v-html="arrowRight" />
     </a>
 
     <h2 id="penpot">Penpot</h2>
@@ -187,12 +175,20 @@
 </template>
 
 <script>
+import Icons from '@/icons.js'
+
 export default {
   name: 'SiteInfo',
 
   props: {
     figmaLink: Object,
     androidLink: Object
+  },
+
+  data() {
+    return {
+      arrowRight: Icons.arrowRight
+    }
   }
 }
 </script>
@@ -206,12 +202,15 @@ export default {
   @include r('margin-top', 40, 80);
   padding-left: 10px;
   padding-right: 10px;
+  display: flex;
+  flex-direction: column;
 
   h2 {
     margin: 0;
     font-weight: 300;
     @include r('font-size', 24, 48);
     @include r('letter-spacing', -0.5, -3);
+    color: var(--foreground);
 
     & + h3 {
       margin-top: 20px;
@@ -223,9 +222,10 @@ export default {
     font-weight: 300;
     @include r('font-size', 20, 30);
     @include r('letter-spacing', -0.5, -1);
+    color: var(--foreground);
 
     a {
-      color: var(--front);
+      color: var(--foreground);
       transition: all 100ms $ease;
 
       &:hover {
@@ -252,15 +252,22 @@ export default {
       width: 100%;
       height: 1px;
       transition: all 100ms $ease;
-      background-color: rgba(var(--frontRGB), 0.15);
+      background-color: var(--primary);
       pointer-events: none;
+      opacity: 0.25;
     }
 
     &:hover {
+      color: var(--primary);
+      
       &:before {
-        background-color: var(--primary);
+        opacity: 1;
       }
     }
+  }
+
+  a.button {
+    align-self: flex-start;
   }
 
   a.button,
@@ -329,12 +336,12 @@ export default {
   p,
   ul li {
     @include r('font-size', 15, 21);
-    color: rgba(var(--frontRGB), 0.55);
+    color: var(--neutral-7);
     line-height: 1.6;
     text-wrap: balance;
 
     a {
-      color: rgba(var(--frontRGB), 1);
+      color: var(--primary);
       transition: all 100ms $ease;
 
       &:hover {

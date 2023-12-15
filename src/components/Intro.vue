@@ -15,18 +15,21 @@
         >
     </picture>
     <h2 id="whats-included">See what's included</h2>
-    <img
-      src="/assets/caret-down.svg"
-      width="24"
-      height="24"
-      alt="Arrow down"
-    >
+    <div class="icon" v-html="caretDown" />
   </div>
 </template>
 
 <script>
+import Icons from '@/icons.js'
+
 export default {
-  name: 'Intro'
+  name: 'Intro',
+
+  data() {
+    return {
+      caretDown: Icons.caretDown
+    }
+  }
 }
 </script>
 
@@ -41,6 +44,7 @@ export default {
     margin: 0;
     @include r('margin-top', 40, 50);
     font-weight: 300;
+    color: var(--foreground);
   }
 
   p {
@@ -48,7 +52,16 @@ export default {
     text-align: center;
     @include r('font-size', 18, 22);
     line-height: 1.6;
-    color: #777777;
+    color: var(--neutral-7);
+  }
+
+  .icon {
+    color: var(--neutral-5);
+    
+    ::v-deep(svg) {
+      width: 20px;
+      height: 20px;
+    }
   }
 
   @include media-query(small) {

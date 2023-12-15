@@ -140,12 +140,12 @@ export default {
     @include r('font-size', 16, 16);
     line-height: 1.4;
     font-weight: normal;
-    color: var(--front);
+    color: var(--foreground);
     transition: all 100ms $ease;
 
     a {
       text-decoration: none;
-      color: var(--front);
+      color: var(--foreground);
       border-bottom: 1px dashed transparent;
 
       &:hover {

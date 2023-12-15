@@ -278,7 +278,7 @@ export default {
         .-flow,
         .-links {
           a {
-            color: var(--front);
+            color: var(--foreground);
             text-decoration: none;
             border-bottom: 1px dashed transparent;
 
@@ -355,7 +355,7 @@ export default {
           appearance: none;
           border-width: 0;
           background-color: transparent;
-          color: var(--front);
+          color: var(--foreground);
           text-decoration: none;
           border-bottom: 1px dashed transparent;
 
