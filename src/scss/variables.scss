@@ -35,18 +35,76 @@ $borderWidth: 4px;
 	--neutral-8: #404040;
 
 	--backDimmed: #F4F4F4;
+
+	// New
+	--background: #ffffff;
+	--foreground: #000000;
+
+	--pink: #EE4162;
+	--red: #EB5757;
+	--orange: #F7931A;
+	--yellow: #F9CD21;
+	--green: #34C571;
+	--mint: #16CAC2;
+	--teal: #08B6DD;
+	--cyan: #2D9CDB;
+	--blue: #4A6FF5;
+	--indigo: #7A60E5;
+	--purple: #B85FDA;
+	--brown: #A68151;
+
+	--corner-radius: 5px;
+	--screen-padding-bottom: 50px;
+	--screen-side-padding: 20px;
+
+	.-title-1,
+	.-title-2,
+	.-title-3,
+	.-title-4,
+	.-title-5,
+	.-title-6,
+	.-title-7 {
+		font-family: 'Inter';
+		font-weight: 500;
+		line-height: 1.4;
+	}
+
+	.-title-1 { font-size: 36px; }
+	.-title-2 { font-size: 28px; }
+	.-title-3 { font-size: 24px; }
+	.-title-4 { font-size: 21px; }
+	.-title-5 { font-size: 18px; }
+	.-title-6 { font-size: 15px; }
+	.-title-7 { font-size: 12px; }
+
+	.-body-1,
+	.-body-2,
+	.-body-3,
+	.-body-4,
+	.-body-5,
+	.-body-6,
+	.-body-7,
+	.-body-8 {
+		font-family: 'Inter';
+		font-weight: 400;
+		line-height: 1.4;
+		font-variant-numeric: slashed-zero;
+	}
+
+	.-body-1 { font-size: 36px; }
+	.-body-2 { font-size: 27px; }
+	.-body-3 { font-size: 24px; }
+	.-body-4 { font-size: 21px; }
+	.-body-5 { font-size: 18px; }
+	.-body-6 { font-size: 15px; }
+	.-body-7 { font-size: 13px; }
+	.-body-8 { font-size: 12px; }
 }
 
-.--theme-dark {
-	--back: #000000;
-	--front: #ffffff;
+.--theme-default-dark {
 	--primary: #F7931A;
-	
-	--backRGB: 0, 0, 0;
-	--frontRGB: 255, 255, 255;
 
-	--borderOpacity: 0.14;
-
+	--background: #000000;
 	--neutral-1: #1A1A1A;
 	--neutral-2: #2D2D2D;
 	--neutral-3: #444444;
@@ -55,6 +113,162 @@ $borderWidth: 4px;
 	--neutral-6: #949494;
 	--neutral-7: #B0B0B0;
 	--neutral-8: #CCCCCC;
+	--foreground: #ffffff;
 
+	--pink: #EE4162;
+	--red: #EC6363;
+	--orange: #F89B2A;
+	--yellow: #F9CD21;
+	--green: #36B46B;
+	--mint: #16CAC2;
+	--teal: #08B6DD;
+	--cyan: #3CA3DE;
+	--blue: #6877FD;
+	--indigo: #7A60E5;
+	--purple: #C075DC;
+	--brown: #A68151;
+
+	--backRGB: 0, 0, 0;
+	--frontRGB: 255, 255, 255;
+	--borderOpacity: 0.14;
 	--backDimmed: #080808;
+}
+
+.--theme-gold-light {
+	--primary: #C7A974;
+
+	--background: #FFFFFF;
+	--neutral-1: #F6F5F4;
+	--neutral-2: #F4F4F4;
+	--neutral-3: #F0EEED;
+	--neutral-4: #E3E1DD;
+	--neutral-5: #C5C1B9;
+	--neutral-6: #A7A197;
+	--neutral-7: #888174;
+	--neutral-8: #49453F;
+	--foreground: #312E45;
+
+	--pink: #CF4F68;
+	--red: #D46161;
+	--orange: #DD9845;
+	--yellow: #EACB54;
+	--green: #48BA78;
+	--mint: #38BBB5;
+	--teal: #2EA7C2;
+	--cyan: #4395C4;
+	--blue: #6E79E2;
+	--indigo: #7964D0;
+	--purple: #B066CD;
+	--brown: #A68152;
+}
+
+.--theme-gold-dark {
+	--primary: #C7A974;
+
+	--background: #000000;
+	--neutral-1: #1E1C19;
+	--neutral-2: #33312C;
+	--neutral-3: #4E4A42;
+	--neutral-4: #69635A;
+	--neutral-5: #898275;
+	--neutral-6: #A39D92;
+	--neutral-7: #BBB6AE;
+	--neutral-8: #D3D0CB;
+	--foreground: #FFFFFF;
+
+	--pink: #C0576B;
+	--red: #D06F6F;
+	--orange: #D5A264;
+	--yellow: #E2CA6E;
+	--green: #4BA872;
+	--mint: #49B4AF;
+	--teal: #42A0B5;
+	--cyan: #599ABF;
+	--blue: #707AD4;
+	--indigo: #7966C6;
+	--purple: #BA7AD2;
+	--brown: #A58152;
+}
+
+.--theme-purple-light {
+	--primary: #D42EE3;
+
+	--background: #F5F4F8;
+	--neutral-1: #F0EEF4;
+	--neutral-2: #EDEBF2;
+	--neutral-3: #E7E5EE;
+	--neutral-4: #DCD8E6;
+	--neutral-5: #C1BAD2;
+	--neutral-6: #A79DBF;
+	--neutral-7: #8C80AC;
+	--neutral-8: #62518E;
+	--foreground: #311A6A;
+
+	--pink: #F42C88;
+	--red: #F23B79;
+	--orange: #FA7024;
+	--yellow: #FBBD2E;
+	--green: #45B29D;
+	--mint: #1DB9DA;
+	--teal: #0B9FEA;
+	--cyan: #3C7CE9;
+	--blue: #8A51FE;
+	--indigo: #A241EF;
+	--purple: #CF40E9;
+	--brown: #C35871;
+}
+
+.--theme-purple-dark {
+	--primary: #D42EE3;
+
+	--background: #311A6A;
+	--neutral-1: #453078;
+	--neutral-2: #544083;
+	--neutral-3: #655490;
+	--neutral-4: #78699D;
+	--neutral-5: #8D81AD;
+	--neutral-6: #A399BC;
+	--neutral-7: #B8B0CC;
+	--neutral-8: #CEC8DC;
+	--foreground: #F5F4F8;
+
+	--pink: #F13775;
+	--red: #EF5376;
+	--orange: #F98B32;
+	--yellow: #FAC527;
+	--green: #3FA880;
+	--mint: #1AC2CE;
+	--teal: #09ABE4;
+	--cyan: #4695E4;
+	--blue: #7964FD;
+	--indigo: #8E51EA;
+	--purple: #CA63E3;
+	--brown: #B56D61;
+}
+
+.--type-titan-one {
+	.-title-1,
+	.-title-2,
+	.-title-3,
+	.-title-4,
+	.-title-5,
+	.-title-6,
+	.-title-7 {
+		font-family: 'Titan One';
+		font-weight: 500;
+		line-height: 1.4;
+	}
+
+	.-body-1,
+	.-body-2,
+	.-body-3,
+	.-body-4,
+	.-body-5,
+	.-body-6,
+	.-body-7,
+	.-body-8 {
+		font-family: 'Nunito Sans';
+		font-weight: 500;
+		line-height: 1.4;
+	}
 }

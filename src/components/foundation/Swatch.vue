@@ -71,7 +71,7 @@ export default {
 
     h4 {
       margin: 0;
-      color: var(--front);
+      color: var(--foreground);
       @include r('font-size', 15, 21);
       font-weight: 400;
     }

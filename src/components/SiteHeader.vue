@@ -61,7 +61,7 @@ export default {
     line-height: 1.2;
     letter-spacing: -3px;
     font-weight: 300;
-    color: var(--front);
+    color: var(--foreground);
     transition: color 250ms $ease;
   }
 
@@ -81,7 +81,7 @@ export default {
     a {
       display: inline-block;
       @include r('font-size', 16, 22);
-      color: var(--front);
+      color: var(--foreground);
       transition: color 250ms $ease;
       text-decoration: none;
 

@@ -1,13 +1,27 @@
 .button {
-  display: inline-block;
-  background-color: var(--front);
-  color: var(--back);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--foreground);
+  color: var(--background);
   text-decoration: none;
   @include r('font-size', 16, 22);
   @include r('line-height', 44, 50);
   padding: 0 20px;
   font-weight: 600;
-  transition: all 100ms $ease;
+  transition: all 150ms $ease;
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transition: all 150ms $ease;
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
 
   img {
     filter: invert(100%);
@@ -18,9 +32,10 @@
   }
 
   &:hover {
-    background-color: $primary;
+    background-color: var(--primary);
+    color: white;
 
-    img {
+    .icon {
       transform: translateX(5px);
     }
   }

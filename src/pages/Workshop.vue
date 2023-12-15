@@ -116,7 +116,7 @@ export default {
       @include r('letter-spacing', -0.5, -1);
 
       a {
-        color: var(--front);
+        color: var(--foreground);
         transition: all 100ms $ease;
 
         &:hover {

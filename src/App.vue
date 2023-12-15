@@ -3,6 +3,12 @@
   <PageTitle />
   <router-view
     :screenSize="screenSize"
+    :color="color"
+    :mode="mode"
+    :type="type"
+    @setColor="setColor"
+    @setMode="setMode"
+    @setType="setType"
   ></router-view>
   <SiteFooter />
 </template>
@@ -23,7 +29,10 @@ export default {
 
   data() {
     return {
-      screenSize: this.getScreenSize()
+      screenSize: this.getScreenSize(),
+      color: 'default',
+      mode: 'light',
+      type: 'inter'
     }
   },
 
@@ -47,6 +56,41 @@ export default {
       }
 
       return screenSize
+    },
+
+    setColor(value) {
+      this.color = value
+      this.updateTheme()
+    },
+
+    setMode(value) {
+      this.mode = value
+      this.updateTheme()
+    },
+
+    setType(value) {
+      this.type = value
+      this.updateType()
+    },
+
+    updateTheme() {
+      if(this.currentTheme) {
+        document.body.classList.remove(this.currentTheme)
+        this.currentTheme = null
+      }
+
+      this.currentTheme = '--theme-'+this.color+'-'+this.mode
+      document.body.classList.add(this.currentTheme)
+    },
+
+    updateType() {
+      if(this.currentType) {
+        document.body.classList.remove(this.currentType)
+        this.currentType = null
+      }
+
+      this.currentType = '--type-'+this.type
+      document.body.classList.add(this.currentType)
     }
   }
 }

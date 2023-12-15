@@ -28,7 +28,7 @@ export default {
       content: [
         {
           title: 'Elements',
-          to: '/foundation',
+          to: '/guide',
           description: 'Colors, icons, text styles and other details make up the smallest parts the UI kit. Customize them and the changes are automatically applied to all the other components. Icons and illustrations via <a href="https://bitcoinicons.com/" target="_blank" rel="nofollow noreferrer notarget">Bitcoin&nbsp;Icons</a> and <a href="https://github.com/GBKS/bitcoin-hardware-illustrations" target="_blank" rel="nofollow noreferrer notarget">Bitcoin&nbsp;hardware&nbsp;illustrations</a>.',
           image: {
             url: '/assets/elements.png',

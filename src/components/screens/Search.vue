@@ -58,8 +58,12 @@ export default {
     background-color: transparent;
     border-width: 0;
     @include r('font-size', 14, 16);
-    color: var(--front);
+    color: var(--foreground);
     border-bottom: 1px dashed var(--neutral-4);
+
+    &::placeholder {
+      color: var(--neutral-4);
+    }
 
     &:focus {
       outline: none;

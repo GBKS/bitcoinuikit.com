@@ -34,7 +34,14 @@ export default {
       androidLink: {
         name: 'Get it for Android',
         url: 'https://www.figma.com/community/file/1134903010470945356'
-      }
+      },
+      toggled: false
+    }
+  },
+
+  methods: {
+    toggle() {
+      this.toggled = !this.toggled
     }
   }
 }

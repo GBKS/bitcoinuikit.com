@@ -69,7 +69,7 @@ export default {
   > p {
     margin: 10px 0 0 0;
     padding: 0;
-    color: var(--front);
+    color: var(--foreground);
   }
 }
 
