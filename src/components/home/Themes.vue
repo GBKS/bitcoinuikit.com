@@ -2,7 +2,7 @@
   <section class="home-themes">
     <div class="header-copy">
       <h3>Themes</h3>
-      <p>The kit comes with a flexible theming system that quickly allows you to pick from several color palettes and type styles and then customize them to your needs. Try some of the options below and see scroll up and down to view the changes.</p>
+      <p>The kit comes with a flexible theming system that quickly allows you to pick from several color palettes and type styles and then customize them to your needs. Try some of the options below to preview.</p>
     </div>
     <div class="content-wrap">
       <div class="content">
