@@ -63,6 +63,28 @@
 
     <p>Did you use the UI Kit? Share in <a href="https://discord.gg/NyFbzEgdjb" target="nofollow noreferrer notarget" rel="me">Discord</a>.</p>
 
+    <h2 id="tutorials">Get an overview</h2>
+    
+    <p><a href="https://x.com/chris_lueders_" target="_blank" rel="nofollow noreferrer notarget">Chris</a> is working on a video series with everything you need to know about the UI Kit, and using it for your projects.</p>
+
+    <a class="video" href="https://www.youtube.com/watch?v=TVGOPssoV_E" target="_blank" rel="nofollow noreferrer notarget" title="View tutorial video">
+      <img
+        src="/assets/tutorial-intro-cover.jpg"
+        srcset="/assets/tutorial-intro-cover.jpg 1x, /assets/tutorial-intro-cover@2x.jpg 2x"
+        width="900"
+        height="506"
+        alt="YouTube video cover of the UI Kit tutorial series"
+      >
+      <span>
+        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg" alt="">
+          <circle cx="31" cy="31" r="29" fill="black" fill-opacity="0.2" stroke="white" stroke-width="2"/>
+          <path d="M24 40.4951V21.5049C24 19.9563 25.6842 18.9952 27.0175 19.783L43.0861 29.2781C44.3962 30.0523 44.3962 31.9477 43.0861 32.7219L27.0175 42.217C25.6842 43.0048 24 42.0437 24 40.4951Z" fill="white"/>
+        </svg>
+      </span>
+    </a>
+
+    <p>Also check out <a href="https://www.youtube.com/watch?v=ArOorMe9GP0" target="_blank" rel="nofollow noreferrer notarget">part two</a>.</p>
+
     <h2 id="workshop">Watch the workshop</h2>
     
     <p>It's a 1-hour introduction and how-to that covers the basics as well as putting together a simple user flow.</p>
