@@ -83,7 +83,7 @@
       </span>
     </a>
 
-    <p>Also check out <a href="https://www.youtube.com/watch?v=ArOorMe9GP0" target="_blank" rel="nofollow noreferrer notarget">part two</a>.</p>
+    <p>Make sure to check out other videos in the <a href="https://www.youtube.com/playlist?list=PLqL_OSkcxdX_NPxsjzasNsjQRFAQJHi6x" target="_blank" rel="nofollow noreferrer notarget">tutorial series</a>.</p>
 
     <h2 id="workshop">Watch the workshop</h2>
     
